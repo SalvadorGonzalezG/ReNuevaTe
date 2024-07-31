@@ -27,14 +27,14 @@ nav {
 
 nav .wrapper {
     position: relative;
-    max-width: 1300px;
+    max-width: 100%;
     padding: 0px 30px;
     height: 70px;
     line-height: 70px;
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .wrapper .logo a {
@@ -72,7 +72,7 @@ nav .wrapper {
 
 .nav-links .drop-menu {
     position: absolute;
-    background: #242526;
+    background: #004465;
     width: 180px;
     line-height: 45px;
     top: 85px;
@@ -108,7 +108,7 @@ nav .wrapper {
 }
 
 .mega-box .content {
-    background: #242526;
+    background: #004465;
     padding: 25px 20px;
     display: flex;
     width: 100%;
@@ -533,4 +533,17 @@ button {
 
 form:valid button {
   display: block;
+}
+
+
+.logocarro img{
+    width: 30px;
+    color: #171E1A;
+
+}
+
+.logopersona img{
+    width: 30px;
+    color: #171E1A;
+
 }
