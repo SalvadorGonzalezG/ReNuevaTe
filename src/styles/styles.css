@@ -1,549 +1,217 @@
-.navbar-expand-lg {
-    color: bisque;
+:root{
+    --theme-color: #ffff;
+    --primary-color: #718427;
+    --secondary-color: #E2793C;
+    --three-color: #9FB48E;
+    --for-color: #171E1A;
+    --five-color: #004465;
+
+    --text-color-inverse: white;
+    --text-color: black;
+    --navbar-shallow-color: #e5e5e5;
+    --menu-mobile-background-color: #3A4460
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--theme-color);
+    color: var(--text-color);
 }
 
-#tamaño{
-    width: 90px;
-    margin-top: 10px;
+a{
+    text-decoration: none;
+    color: var(--text-color);
+
 }
 
-nav {
+.topheader {
+    /* para dejar fija la nav bar */
     position: fixed;
-    z-index: 99;
-    width: 100%;
-    margin-top: revert;
-
-    background: #9FB48E;
-}
-
-nav .wrapper {
-    position: relative;
-    max-width: 100%;
-    padding: 0px 30px;
-    height: 70px;
-    line-height: 70px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.wrapper .logo a {
-    color: #f2f2f2;
-    font-size: 30px;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.wrapper .nav-links {
-    display: inline-flex;
-}
-
-.nav-links li {
-    list-style: none;
-}
-
-.nav-links li a {
-    color: #f2f2f2;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 9px 15px;
-    border-radius: 5px;
-    transition: all 0.3s ease;
-}
-
-.nav-links li a:hover {
-    background: #3A3B3C;
-}
-
-.nav-links .mobile-item {
-    display: none;
-}
-
-.nav-links .drop-menu {
-    position: absolute;
-    background: #004465;
-    width: 180px;
-    line-height: 45px;
-    top: 85px;
-    opacity: 0;
-    visibility: hidden;
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
-}
-
-.nav-links li:hover .drop-menu,
-.nav-links li:hover .mega-box {
-    transition: all 0.3s ease;
-    top: 70px;
-    opacity: 1;
-    visibility: visible;
-}
-
-.drop-menu li a {
-    width: 100%;
-    display: block;
-    padding: 0 0 0 15px;
-    font-weight: 400;
-    border-radius: 0px;
-}
-
-.mega-box {
-    position: absolute;
+    /* background:linear-gradient(225deg, #718427 0%, #E2793C 50%, #004465 100%); */
+    background-color: var(--primary-color);
     left: 0;
-    width: 100%;
-    padding: 0 30px;
-    top: 85px;
-    opacity: 0;
-    visibility: hidden;
-}
-
-.mega-box .content {
-    background: #004465;
-    padding: 25px 20px;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
-}
-
-.mega-box .content .row {
-    width: calc(25% - 30px);
-    line-height: 45px;
-}
-
-.content .row img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.content .row header {
-    color: #f2f2f2;
-    font-size: 20px;
-    font-weight: 500;
-}
-
-.content .row .mega-links {
-    margin-left: -40px;
-    border-left: 1px solid rgba(255, 255, 255, 0.09);
-}
-
-.row .mega-links li {
-    padding: 0 20px;
-}
-
-.row .mega-links li a {
-    padding: 0px;
-    padding: 0 20px;
-    color: #d9d9d9;
-    font-size: 17px;
-    display: block;
-}
-
-.row .mega-links li a:hover {
-    color: #f2f2f2;
-}
-
-.wrapper .btn {
-    color: #fff;
-    font-size: 20px;
-    cursor: pointer;
-    display: none;
-}
-
-.wrapper .btn.close-btn {
-    position: absolute;
-    right: 30px;
-    top: 10px;
-}
-
-@media screen and (max-width: 970px) {
-    .wrapper .btn {
-        display: block;
-    }
-
-    .wrapper .nav-links {
-        position: fixed;
-        height: 100vh;
-        width: 100%;
-        max-width: 350px;
-        top: 0;
-        left: -100%;
-        background: #242526;
-        display: block;
-        padding: 50px 10px;
-        line-height: 50px;
-        overflow-y: auto;
-        box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.18);
-        transition: all 0.3s ease;
-    }
-
-    /* custom scroll bar */
-    ::-webkit-scrollbar {
-        width: 10px;
-    }
-
-    ::-webkit-scrollbar-track {
-        background: #242526;
-    }
-
-    ::-webkit-scrollbar-thumb {
-        background: #3A3B3C;
-    }
-
-    #menu-btn:checked~.nav-links {
-        left: 0%;
-    }
-
-    #menu-btn:checked~.btn.menu-btn {
-        display: none;
-    }
-
-    #close-btn:checked~.btn.menu-btn {
-        display: block;
-    }
-
-    .nav-links li {
-        margin: 15px 10px;
-    }
-
-    .nav-links li a {
-        padding: 0 20px;
-        display: block;
-        font-size: 20px;
-    }
-
-    .nav-links .drop-menu {
-        position: static;
-        opacity: 1;
-        top: 65px;
-        visibility: visible;
-        padding-left: 20px;
-        width: 100%;
-        max-height: 0px;
-        overflow: hidden;
-        box-shadow: none;
-        transition: all 0.3s ease;
-    }
-
-    #showDrop:checked~.drop-menu,
-    #showMega:checked~.mega-box {
-        max-height: 100%;
-    }
-
-    .nav-links .desktop-item {
-        display: none;
-    }
-
-    .nav-links .mobile-item {
-        display: block;
-        color: #f2f2f2;
-        font-size: 20px;
-        font-weight: 500;
-        padding-left: 20px;
-        cursor: pointer;
-        border-radius: 5px;
-        transition: all 0.3s ease;
-    }
-
-    .nav-links .mobile-item:hover {
-        background: #3A3B3C;
-    }
-
-    .drop-menu li {
-        margin: 0;
-    }
-
-    .drop-menu li a {
-        border-radius: 5px;
-        font-size: 18px;
-    }
-
-    .mega-box {
-        position: static;
-        top: 65px;
-        opacity: 1;
-        visibility: visible;
-        padding: 0 20px;
-        max-height: 0px;
-        overflow: hidden;
-        transition: all 0.3s ease;
-    }
-
-    .mega-box .content {
-        box-shadow: none;
-        flex-direction: column;
-        padding: 20px 20px 0 20px;
-    }
-
-    .mega-box .content .row {
-        width: 100%;
-        margin-bottom: 15px;
-        border-top: 1px solid rgba(255, 255, 255, 0.08);
-    }
-
-    .mega-box .content .row:nth-child(1),
-    .mega-box .content .row:nth-child(2) {
-        border-top: 0px;
-    }
-
-    .content .row .mega-links {
-        border-left: 0px;
-        padding-left: 15px;
-    }
-
-    .row .mega-links li {
-        margin: 0;
-    }
-
-    .content .row header {
-        font-size: 19px;
-    }
-}
-
-nav input {
-    display: none;
-}
-
-.body-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    text-align: center;
-    padding: 0 30px;
-}
-
-.body-text div {
-    font-size: 45px;
-    font-weight: 600;
-}
-
-#search-box {
-    position: relative;
-    width: 100%;
-    margin: 0;
-}
-
-#search-form {
-    height: 32px;
-    border: 1px solid #cbf3ee;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 15px;
-    background-color: #fff;
-    overflow: hidden;
-}
-
-#search-text {
-    font-size: 14px;
-    color: #ddd;
-    border-width: 0;
-    background: transparent;
-}
-
-#search-box input[type="text"] {
-    width: 90%;
-    padding: 8px 0 12px 1em;
-    color: #333;
-    outline: none;
-}
-
-#search-button {
-    position: absolute;
     top: 0;
-    right: 0;
-    height: 34px;
-    width: 80px;
-    font-size: 14px;
-    color: #fff;
-    text-align: center;
-    line-height: 4px;
-    border-width: 0;
-    background-color: #feacae;
-    -webkit-border-radius: 0px 5px 5px 0px;
-    -moz-border-radius: 0px 5px 5px 0px;
-    border-radius: 0px 15px 5px 0px;
-    cursor: pointer;
+    /* a todo lo ancho */
+    width: 100%;
+    box-shadow: 0 4px 5px var(--navbar-shallow-color);
 }
-.searchBox {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:  translate(-50%,50%);
-    background: #2f3640;
-    height: 40px;
-    border-radius: 40px;
+
+.topnav {
+    /* los elementos estaran uno alado del otro */
+    display: flex;
+    /* los elemento esten separa de una esquina a otra esquina */
+    justify-content: space-between;
+    /* para que no se pege a los bordes  */
     padding: 10px;
+    /* ancho maximo */
+    max-width: 980px;
+    /* para que este centrado con respecto al header es con el margin */
+    /* arriba y abajo y desrecha e izquierda apara el margin  */
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
 
 }
 
-.searchBox:hover > .searchInput {
-    width: 240px;
-    padding: 0 6px;
-}
-
-.searchBox:hover > .searchButton {
-  background: white;
-  color : #2f3640;
-}
-
-.searchButton {
-    color: white;
-    float: right;
-    width: 40px;
-    height: 40px;
+.logo img {
+    /* redondeamos la imagen  */
     border-radius: 50%;
-    background: #2f3640;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.4s;
 }
 
-.searchInput {
-    border:none;
-    background: none;
-    outline:none;
-    float:left;
+/* Menu */
+.menu {
+    /* Los elemetos estara uno alado del otro */
+    display: flex;
+    /* quitamos las viñetas */
+    list-style: none;
+    /* formateamos el margin y el pading */
+    margin: 0;
     padding: 0;
-    color: white;
-    font-size: 16px;
-    transition: 0.4s;
-    line-height: 40px;
-    width: 0px;
-
 }
 
-@media screen and (max-width: 620px) {
-.searchBox:hover > .searchInput {
-    width: 150px;
-    padding: 0 6px;
-}
+.menu li {
+    padding: 0 15px;
 }
 
-/*------------*/
-.contentSearchBox {
+.menu a {
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 500px;
+    /* centra los textos de manera horizontal */
+    line-height: 50px;
+    /* para que esten en mayusscula */
+    text-transform: uppercase;
     position: relative;
-    max-width: 1300px;
-    padding: 0px 30px;
-    height: 70px;
-    line-height: 70px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}  
-
-form{
-    
-    top: 10%;
-    left: 10%;
-    transform: translate(-50%,-50%);
-    transition: all 1s;
-    width: 40px;
-    height: 40px;
-    background: white;
-    box-sizing: border-box;
-    border-radius: 4px;
-    border: 4px solid white;
-    padding: 1px;
-    margin-top: 40px;
-    margin-left: 200px;
 }
 
-input{
+/* pseudo selector para poder line abajo de la palabrasm del narbar */
+.menu a::after {
+    content: "";
+    background-color: var(--theme-color);
     position: absolute;
-    top: 0;
     left: 0;
-    width: 100%;;
-    height: 33.5px;
-    line-height: 30px;
-    outline: 0;
-    border: 0;
+    top: calc(100% + 4px);
+    width: 100%;
+    height: 4px;
+
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+.menu a.selected::after,
+.menu a:hover::after {
+    opacity: 0.8;
+}
+
+/* para ponerle opacidadd al texto cuanso pasemos el cursor */
+.menu a:hover {
+    color: var(--theme-color);
+}
+
+.open-menu,
+.close-menu {
+    /* para ocultar el menu de hamburgesa  */
     display: none;
-    font-size: 1em;
-    border-radius: 20px;
-    padding: 0 20px;
 }
 
-.fa{
-    box-sizing: border-box;
-    padding: 7px;
-    width: 33.5px;
-    height: 33.5px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-radius: 4px;
-    color: #07051a;
-    text-align: center;
-    font-size: 1.2em;
-    transition: all 1s;
-}
+/* aqui le decimos si nuestro dispositivo tiene un ancho de 0px y ancho maximo de 950px se aplique estos estilos */
+@media (max-width: 950px) {
 
-form:hover,
-form:valid{
-    width: 200px;
-    cursor: pointer;
-}
+    /* Menu */
+    .menu {
+        /* aqui le decimos que los queremos en fila y en una columna */
+        flex-direction: column;
+        /* desacoplamos en todo el ancho y alto */
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* los alineamos en columna */
+        align-items: center;
+        background-color: var(--menu-mobile-background-color);
+        /* ponemos un alto */
+        height: 100%;
+        /* ponemos un scroll */
+        overflow-y: auto;
+        /* para que el menu de pantalla chica no se vea */
+        opacity: 0;
+        /* con pointer event cuando hagamos la pantalla pequeña evita que hacamos falso click  y con esto se elimina hasta que precionemos el menu*/
+        pointer-events: none;
+        /* poner transcicion */
+        transition: opacity 0.3s;
+    }
 
-form:hover input,
-form:valid input{
-    display: block;
-}
+    .menu li {
+        padding: 0;
+    }
 
-form:hover .fa,
-form:valid .fa{
-    background: #07051a;
-    color: white;
-}
+    .menu a {
+        /* color del texto */
+        color: var(--text-color-inverse);
+        line-height: 60px;
+    }
 
+    .open-menu,
+    .close-menu {
+        /* para mostrar el menu de hamburgesa  */
+        display: block;
+    }
 
-button {
-  display: none;
-  position: absolute;
-  top: 70px;
-  bottom:0;
-  left: 0;
-  right: 0;
-  font-size: 20px;
-  color: white;
-  padding: 4px;  
-  min-height: max-content;
-  background:transparent;
-  outline: 0;
-  border: 1px solid #303030;
-  border-radius: 4px;
-  text-align: center; 
-  width: 100%;
-  cursor: pointer;
-}
+    .close-menu {
+        /* se va a alinear al diferente a los demas se aliena en la esquina superior derecha */
+        align-self: flex-end;
+        /* quitamos los estilos al boton */
+        border: none;
+        background: none;
+        cursor: pointer;
+        /* centramos la x */
+        padding: 20px 15px;
+    }
 
-form:valid button {
-  display: block;
-}
+    /* cuando el menuu este abierto el opacity va estar en 1 y ponter eventes lo ponemos de vuelta */
+    .menu_opened {
+        opacity: 1;
+        pointer-events: all;
+    }
 
+    /* para que no me seleccione el elemento si no solo con el tabulador  */
+    .open-menu:focus:not(:focus-visible),
+    .close-menu:focus:not(:focus-visible) {
+        outline: none;
+    }
 
-.logocarro img{
-    width: 30px;
-    color: #171E1A;
+    .menu a::after {
+        content: "";
+        background-color: var(--secondary-color);
+        position: absolute;
+        left: 0;
+        top: calc(100% + 4px);
+        width: 100%;
+        height: 4px;
 
-}
+        opacity: 0;
+        transition: opacity 3s;
+    }
 
-.logopersona img{
-    width: 30px;
-    color: #171E1A;
+    .menu a.selected::after,
+    .menu a:hover::after {
+        opacity: 0.8;
+    }
 
+    /* para ponerle opacidadd al texto cuanso pasemos el cursor */
+    .menu a:hover {
+        color: var(--primary-color);
+    }
+
+    .menu a::after {
+        /* content: none; */
+    }
+
+    .menu a:hover,
+    .menu a.selected {
+        color: var(--primary-color);
+
+    }
 }
