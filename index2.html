@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ropa Renueva2</title>
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+</head>
+<body>
+
+    <div id="navbar-container">
+        
+    </div>
+    
+    <!-- Ej. cont principal de cada pagina -->
+    <div >
+        <h1>Bienvenido a Ropa Renueva2</h1>
+        <p>En nuestro sitio encontrarás una amplia variedad de ropa de moda para todas las ocasiones.</p>
+
+        <div class="product">
+            <h2>Camisa de Algodón</h2>
+            <p>Esta camisa está hecha de algodón 100% y es perfecta para el verano.</p>
+        </div>
+
+        <div class="product">
+            <h2>Pantalones Vaqueros</h2>
+            <p>Pantalones vaqueros cómodos y duraderos, ideales para el uso diario.</p>
+        </div>
+    </div>
+
+<!--Vinculacion del header con Js-->
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        fetch('index.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            })
+            .catch(error => console.error('Error al cargar la barra de navegación:', error));
+    });
+    
+    
+</script>
+    <script src="./src/scripst/scripts.js"></script>
+</body>
+</html>
