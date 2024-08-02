@@ -1,0 +1,45 @@
+<div class="form-container mt-5"> <!-- mt-5 aplica un margen superior de 3rem (48px) -->
+
+    <form action="https://formsubmit.co/a9f362e41d134c83f5e8a0bf9e31aa4a" method="POST" id="contactForm" >
+    <div class="mb-3  text-center">
+        <label class="form-label" id="titulo">Contáctanos</label>
+    </div>
+
+    <div class="mb-3">
+        <!-- Campo para el nombre -->
+        <label for="nameInput" class="form-label" id="datosForm">Nombre:</label>
+        <input type="text" class="form-control" id="nameInput" placeholder="Nombre Completo" required name="nombre">
+        <!-- El atributo placeholder proporciona un texto de guía dentro del campo. required indica que el campo es obligatorio. -->
+    </div>
+
+    <div class="mb-3">
+        <!-- Campo para el correo electrónico -->
+        <label for="emailInput" class="form-label" id="datosForm">Correo:</label>
+        <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp"
+            placeholder="@gmail.com | @hotmail.com" required name="correo">
+
+    </div>
+
+    <div class="mb-3">
+        <!-- Campo para el asunto -->
+        <label for="subjectInput" class="form-label" id="datosForm">Asunto:</label>
+        <input type="text" class="form-control" id="subjectInput" placeholder="¿Cuál es la razón de tu consulta?"
+            required name="asunto">
+    </div>
+
+    <div class="mb-3">
+        <!-- Campo para el mensaje -->
+        <label for="messageInput" class="form-label" id="datosForm">Mensaje:</label>
+        <textarea class="form-control" id="messageInput" rows="4" placeholder="¿Cómo podemos ayudarte?" required
+            name="mensaje"></textarea>
+        <!-- textarea se utiliza para mensajes o comentarios más largos. rows especifica el número de filas visibles. -->
+    </div>
+    <div class="text-center "> <!--centramos el boton-->
+        <button type="submit" class="btn" id="button">Enviar</button>
+    </div>
+
+    <input type="hidden" name="_next" value="http://127.0.0.1:5501/contactanos.html">
+
+    <input type="hidden" name="_capcha" value="false">
+    </form>
+</div>

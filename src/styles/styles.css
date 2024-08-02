@@ -1,39 +1,17 @@
-:root{
-    --theme-color: #ffff;
-    --primary-color: #718427;
-    --secondary-color: #E2793C;
-    --three-color: #9FB48E;
-    --for-color: #171E1A;
-    --five-color: #004465;
-
-    --text-color-inverse: white;
-    --text-color: black;
-    --navbar-shallow-color: #e5e5e5;
-    --menu-mobile-background-color: #3A4460
-}
-
-body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: var(--theme-color);
-    color: var(--text-color);
-}
-
-a{
-    text-decoration: none;
-    color: var(--text-color);
-
-}
 
 .topheader {
     /* para dejar fija la nav bar */
     position: fixed;
     /* background:linear-gradient(225deg, #718427 0%, #E2793C 50%, #004465 100%); */
-    background-color: var(--primary-color);
+    background-color: var( --three-color);
     left: 0;
     top: 0;
     /* a todo lo ancho */
     width: 100%;
     box-shadow: 0 4px 5px var(--navbar-shallow-color);
+     /* sirve para que un elemento de html se sobreponga sobre todos los demas elementos  */
+    z-index: 1;
+   
 }
 
 .topnav {
@@ -43,11 +21,12 @@ a{
     justify-content: space-between;
     /* para que no se pege a los bordes  */
     padding: 10px;
-    /* ancho maximo */
-    max-width: 980px;
+    /* ancho maximo  del navbar*/
+    max-width: auto;
     /* para que este centrado con respecto al header es con el margin */
     /* arriba y abajo y desrecha e izquierda apara el margin  */
     margin: 0 auto;
+   
 }
 
 .logo {
@@ -59,34 +38,45 @@ a{
     /* redondeamos la imagen  */
     border-radius: 50%;
 }
+.link-img{
+    background-image: url(../../public/imagenes/cart.svg);
+}
 
 /* Menu */
+.content-car{
+    height: 25px;
+    width: 25px;
+   
+}
 .menu {
     /* Los elemetos estara uno alado del otro */
     display: flex;
     /* quitamos las viñetas */
     list-style: none;
     /* formateamos el margin y el pading */
+    text-decoration: none;
     margin: 0;
     padding: 0;
 }
 
 .menu li {
-    padding: 0 15px;
+    /* separacion de las letras navbar */
+    padding: 0 10px;
 }
 
 .menu a {
     color: var(--text-color);
     font-size: 18px;
     font-weight: 500px;
-    /* centra los textos de manera horizontal */
+    /* centra los textos de manera horizontal, le pone top textos del navbar */
     line-height: 50px;
     /* para que esten en mayusscula */
     text-transform: uppercase;
     position: relative;
+    text-decoration: none;
 }
 
-/* pseudo selector para poder line abajo de la palabrasm del narbar */
+/* pseudo selector para poder linea abajo de la palabras del navbar */
 .menu a::after {
     content: "";
     background-color: var(--theme-color);
@@ -115,9 +105,27 @@ a{
     /* para ocultar el menu de hamburgesa  */
     display: none;
 }
+/* linea 122 se agrega la clase del inputSearch  */
+.inputSearch {
+    width: 542px;
+    height: 35px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: none;
+    margin-top: 8px;
+}
+/* -------------------- */
+.inputLupa{
+    width: 20px;
+    height: 35px;
+    margin-top: 8px;
+}
 
+
+/*---------------------------------*/
 /* aqui le decimos si nuestro dispositivo tiene un ancho de 0px y ancho maximo de 950px se aplique estos estilos */
-@media (max-width: 950px) {
+@media (max-width: 1300px) {
 
     /* Menu */
     .menu {
@@ -137,6 +145,7 @@ a{
         overflow-y: auto;
         /* para que el menu de pantalla chica no se vea */
         opacity: 0;
+
         /* con pointer event cuando hagamos la pantalla pequeña evita que hacamos falso click  y con esto se elimina hasta que precionemos el menu*/
         pointer-events: none;
         /* poner transcicion */
@@ -214,4 +223,11 @@ a{
         color: var(--primary-color);
 
     }
+
+    .inputLupa{
+        width: 20px;
+        height: 35px;
+        margin-top: 8px;
+    }
+    
 }
