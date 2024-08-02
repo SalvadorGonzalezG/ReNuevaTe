@@ -1,6 +1,6 @@
 :root{
     --theme-color: #ffff;
-    --primary-color: #718427;
+    --primary-color: #9FB48E;
     --secondary-color: #E2793C;
     --three-color: #9FB48E;
     --for-color: #171E1A;
@@ -22,6 +22,11 @@ body{
     margin-top: 5px;
 }
 
+.ropaLogo{
+    display: flex;
+    width: 50px;
+    height:50px;
+}
 a{
     text-decoration: none;
     color: var(--text-color);
@@ -41,6 +46,7 @@ a{
 }
 
 .topnav {
+    
     /* los elementos estaran uno alado del otro */
     display: flex;
     /* los elemento esten separa de una esquina a otra esquina */
@@ -135,7 +141,11 @@ a{
     height: 35px;
     margin-top: 8px;
 }
-@media(max-width: 1190px){
+
+    
+
+/* aqui le decimos si nuestro dispositivo tiene un ancho de 0px y ancho maximo de 950px se aplique estos estilos */
+@media (max-width: 1190px) {
     .inputSearch {
         width: 100px;
         height: 35px;
@@ -144,12 +154,7 @@ a{
         border-radius: 20px;
         border: none;
         margin-top: 8px;
-    }   
-}
-
-/* aqui le decimos si nuestro dispositivo tiene un ancho de 0px y ancho maximo de 950px se aplique estos estilos */
-@media (max-width: 950px) {
-    
+    }  
     /* Menu */
     .menu {
         /* aqui le decimos que los queremos en fila y en una columna */
