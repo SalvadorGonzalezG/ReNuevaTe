@@ -29,12 +29,12 @@ const urlRoutes = {
     },
     "/catalogue": {
         template: "/ReNuevaTe/src/pages/catalogo.html",
-        title: "Contact Us | " + urlPageTitle,
+        title: "Catalogo | " + urlPageTitle,
         description: "This is the contact page",
     },
     "/login": {
         template: "/ReNuevaTe/src/pages/usuario.html",
-        title: "Contact Us | " + urlPageTitle,
+        title: "Pagina Principal | " + urlPageTitle,
         description: "This is the contact page",
     },
     "/shopping-cart": {
