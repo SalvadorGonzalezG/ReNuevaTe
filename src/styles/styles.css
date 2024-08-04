@@ -1,0 +1,233 @@
+
+.topheader {
+    /* para dejar fija la nav bar */
+    position: fixed;
+    /* background:linear-gradient(225deg, #718427 0%, #E2793C 50%, #004465 100%); */
+    background-color: var( --three-color);
+    left: 0;
+    top: 0;
+    /* a todo lo ancho */
+    width: 100%;
+    box-shadow: 0 4px 5px var(--navbar-shallow-color);
+     /* sirve para que un elemento de html se sobreponga sobre todos los demas elementos  */
+    z-index: 1;
+   
+}
+
+.topnav {
+    /* los elementos estaran uno alado del otro */
+    display: flex;
+    /* los elemento esten separa de una esquina a otra esquina */
+    justify-content: space-between;
+    /* para que no se pege a los bordes  */
+    padding: 10px;
+    /* ancho maximo  del navbar*/
+    max-width: auto;
+    /* para que este centrado con respecto al header es con el margin */
+    /* arriba y abajo y desrecha e izquierda apara el margin  */
+    margin: 0 auto;
+   
+}
+
+.logo {
+    display: flex;
+
+}
+
+.logo img {
+    /* redondeamos la imagen  */
+    border-radius: 50%;
+}
+.link-img{
+    background-image: url(../../public/imagenes/cart.svg);
+}
+
+/* Menu */
+.content-car{
+    height: 25px;
+    width: 25px;
+   
+}
+.menu {
+    /* Los elemetos estara uno alado del otro */
+    display: flex;
+    /* quitamos las viñetas */
+    list-style: none;
+    /* formateamos el margin y el pading */
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    /* separacion de las letras navbar */
+    padding: 0 10px;
+}
+
+.menu a {
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 500px;
+    /* centra los textos de manera horizontal, le pone top textos del navbar */
+    line-height: 50px;
+    /* para que esten en mayusscula */
+    text-transform: uppercase;
+    position: relative;
+    text-decoration: none;
+}
+
+/* pseudo selector para poder linea abajo de la palabras del navbar */
+.menu a::after {
+    content: "";
+    background-color: var(--theme-color);
+    position: absolute;
+    left: 0;
+    top: calc(100% + 4px);
+    width: 100%;
+    height: 4px;
+
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+.menu a.selected::after,
+.menu a:hover::after {
+    opacity: 0.8;
+}
+
+/* para ponerle opacidadd al texto cuanso pasemos el cursor */
+.menu a:hover {
+    color: var(--theme-color);
+}
+
+.open-menu,
+.close-menu {
+    /* para ocultar el menu de hamburgesa  */
+    display: none;
+}
+/* linea 122 se agrega la clase del inputSearch  */
+.inputSearch {
+    width: 542px;
+    height: 35px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: none;
+    margin-top: 8px;
+}
+/* -------------------- */
+.inputLupa{
+    width: 20px;
+    height: 35px;
+    margin-top: 8px;
+}
+
+
+/*---------------------------------*/
+/* aqui le decimos si nuestro dispositivo tiene un ancho de 0px y ancho maximo de 950px se aplique estos estilos */
+@media (max-width: 1300px) {
+
+    /* Menu */
+    .menu {
+        /* aqui le decimos que los queremos en fila y en una columna */
+        flex-direction: column;
+        /* desacoplamos en todo el ancho y alto */
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* los alineamos en columna */
+        align-items: center;
+        background-color: var(--menu-mobile-background-color);
+        /* ponemos un alto */
+        height: 100%;
+        /* ponemos un scroll */
+        overflow-y: auto;
+        /* para que el menu de pantalla chica no se vea */
+        opacity: 0;
+
+        /* con pointer event cuando hagamos la pantalla pequeña evita que hacamos falso click  y con esto se elimina hasta que precionemos el menu*/
+        pointer-events: none;
+        /* poner transcicion */
+        transition: opacity 0.3s;
+    }
+
+    .menu li {
+        padding: 0;
+    }
+
+    .menu a {
+        /* color del texto */
+        color: var(--text-color-inverse);
+        line-height: 60px;
+    }
+
+    .open-menu,
+    .close-menu {
+        /* para mostrar el menu de hamburgesa  */
+        display: block;
+    }
+
+    .close-menu {
+        /* se va a alinear al diferente a los demas se aliena en la esquina superior derecha */
+        align-self: flex-end;
+        /* quitamos los estilos al boton */
+        border: none;
+        background: none;
+        cursor: pointer;
+        /* centramos la x */
+        padding: 20px 15px;
+    }
+
+    /* cuando el menuu este abierto el opacity va estar en 1 y ponter eventes lo ponemos de vuelta */
+    .menu_opened {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    /* para que no me seleccione el elemento si no solo con el tabulador  */
+    .open-menu:focus:not(:focus-visible),
+    .close-menu:focus:not(:focus-visible) {
+        outline: none;
+    }
+
+    .menu a::after {
+        content: "";
+        background-color: var(--secondary-color);
+        position: absolute;
+        left: 0;
+        top: calc(100% + 4px);
+        width: 100%;
+        height: 4px;
+
+        opacity: 0;
+        transition: opacity 3s;
+    }
+
+    .menu a.selected::after,
+    .menu a:hover::after {
+        opacity: 0.8;
+    }
+
+    /* para ponerle opacidadd al texto cuanso pasemos el cursor */
+    .menu a:hover {
+        color: var(--primary-color);
+    }
+
+    .menu a::after {
+        /* content: none; */
+    }
+
+    .menu a:hover,
+    .menu a.selected {
+        color: var(--primary-color);
+
+    }
+
+    .inputLupa{
+        width: 20px;
+        height: 35px;
+        margin-top: 8px;
+    }
+    
+}
