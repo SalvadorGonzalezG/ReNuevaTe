@@ -1,0 +1,537 @@
+body{
+    font-family: "ABeeZee", sans-serif;
+    font-style: normal;
+}
+/* Tarjetas de misión y visión */
+
+.mv--container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 100px; 
+    text-align: center;
+    
+}
+.card--mv {
+
+    display: flex;
+    background-color: rgb(23, 30, 26);
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 450px;
+    height: 320px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.card-text{
+    margin: 20px;
+    padding-top: 20px;
+    text-align:justify;
+    font-size: 20px;
+}
+
+.card-title{
+    font-size: 28px;
+}
+
+@media(max-width:8000px){
+    .mv--container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 100px; 
+        text-align: center;
+    }
+}
+
+@media(max-width:1200px){
+    .mv--container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 100px; 
+        text-align: center;
+}
+.card--mv {
+
+    display: flex;
+    background-color: rgb(23, 30, 26);
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 350px;
+    height: 340px;
+    text-align: center;
+    border-radius: 8px;
+}
+}
+/* MEDIAS QUERIES MISIÓN Y VISIÓN */
+
+@media(max-width:950px){
+    .mv--container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 7px; 
+        text-align: center;
+}
+.card--mv {
+
+    display: flex;
+    background-color: rgb(23, 30, 26);
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px;
+    height: 380px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+}
+@media(max-width:650px){
+    .mv--container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 7px; 
+        text-align: center;
+        align-items: center;
+}
+.card--mv {
+
+    display: flex;
+    background-color: rgb(23, 30, 26);
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 360px;
+    height: 310px;
+    text-align: center;
+    border-radius: 8px;
+}
+}
+
+@media(max-width:375px){
+    .mv--container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 7px; 
+        text-align: center;
+        align-items: center;
+}
+.card--mv {
+
+    display: flex;
+    background-color: rgb(23, 30, 26);
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 250px;
+    height: 500px;
+    text-align: center;
+    border-radius: 8px;
+}
+}
+/* MEDIAS QUERIES MISIÓN Y VISIÓN */
+
+/* Tarjetas de misión y visión */
+
+/* SOBRE NOSOTRES */
+
+.background--container{
+    display: flex;
+    width: 100%;
+    height: 300%;
+    background-color: #E2793C;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.nosotres--container{
+    display: flex;
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+.card-body{
+    display: flex;
+    margin: 100px 0 100px 50px;
+    font-size: 28px;
+}
+/*PARTE DANI*/
+.flip-card {
+    background-color: transparent;
+    width: 130px;
+    height: 130px;
+    perspective: 1000px;
+    display: box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 140px); 
+    grid-template-rows: repeat(2, 140px); 
+    gap: 0px;
+    justify-content: center;
+    top: 15px; /* Align to the top */
+    right: 0;
+    margin: 40px;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: 5000;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    bottom: 10px; 
+    width: 100%;
+    z-index: 10;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 3px solid #004465;
+    border-radius: 1rem;
+    font-size: 0.6em;
+}
+
+.flip-card-front {
+    background: linear-gradient(120deg, #9FB48E 60%, #9FB48E(255, 231, 222) 88%,
+            #9FB48E (255, 211, 195) 40%, #9FB48E(255, 127, 80, 0.603) 48%);
+    color: #ffffff;
+}
+
+.flip-card-front img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    opacity: 0.8;
+    /*max-height: 60%;
+    margin-bottom: 0%;*/
+}
+
+.flip-card-back {
+    background: linear-gradient(120deg, #E2793C (255, 174, 145) 30%, #E2793C 88%,
+            #E2793C 40%, #E2793C (255, 185, 160) 78%);
+    color: #171E1A;
+    transform: rotateY(180deg);
+}
+
+@media(max-width:8000px){
+    .flip-card {
+        background-color: transparent;
+        width: 130px;
+        height: 130px;
+        perspective: 1000px;
+        display: box;
+    }    
+}
+
+
+.equipo--container{
+    display: flex;
+    width: 100%;
+    height: 200%;
+    background-color: #E2793C;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+}
+
+@media(max-width:780px){
+    .flip-card {
+        background-color: transparent;
+        width: 130px;
+        height: 130px;
+        perspective: 1000px;
+        display: box;
+    }    
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 140px); 
+        grid-template-rows: repeat(4, 140px); 
+        gap: 0px;
+        justify-content: center;
+        top: 15px; /* Align to the top */
+        right: 0;
+        margin: 40px;
+    }
+
+    #jose {
+        display: grid;
+        grid-column: 2 ;
+    }
+}
+
+@media(max-width:475px){
+    .flip-card {
+        background-color: transparent;
+        width: 130px;
+        height: 130px;
+        perspective: 1000px;
+        display: box;
+    }    
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 140px); 
+        grid-template-rows: repeat(5, 140px); 
+        gap: 0px;
+        justify-content: center;
+        top: 15px; /* Align to the top */
+        right: 0;
+        margin: 40px;
+    }
+}
+
+
+
+/*PARTE DANI*/
+
+
+
+
+
+
+/*PARTE ARTURO*/
+
+.card span {
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.card .job {
+    font-weight: 325;
+    display: block;
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.card .circulo {
+    width: 70px;
+    height: 70px;
+    background: #718427;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.primeros--valores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 100px;
+}
+
+.segundos--valores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 100px;
+}
+/* Medias queries de valores */
+
+@media (max-width:8000px){
+
+    .card {
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border: solid 2px #E2793C;
+    border-radius: 8px;
+    padding-top: 1px;
+    margin: auto;
+    font-family: inherit;
+    box-shadow: 10px 5px 5px rgb(85, 86, 85);
+}
+}
+
+@media (max-width:1600px) {
+    .primeros--valores, .segundos--valores {
+        justify-content: space-between;
+        margin: 15px;
+    }
+}
+
+@media (max-width:1340px) {
+    .card{
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border: solid 2px #E2793C;
+    border-radius: 8px;
+    padding-top: 1px;
+    margin: auto;
+    font-family: inherit;
+    box-shadow: 10px 5px 5px rgb(85, 86, 85);
+    }
+    .primeros--valores, .segundos--valores {
+        justify-content: space-between;
+        margin: 10px;
+    }
+
+    .card .circulo {
+        width: 62px;
+        height: 62px;
+        background: #718427;
+        border-radius: 100%;
+        margin: auto;
+        margin-top: 10px;
+    }
+}
+@media (max-width:1024px) {
+    .card{
+    width: 220px;
+    height: 300px;
+    background-color: white;
+    border: solid 2px #E2793C;
+    border-radius: 8px;
+    padding-top: 1px;
+    margin: auto;
+    font-family: inherit;
+    box-shadow: 10px 5px 5px rgb(85, 86, 85);
+    }
+    .card span {
+        text-align: center;
+        display: block;
+        padding-top: 10px;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    .card .job {
+        font-weight: 325;
+        display: block;
+        text-align: center;
+        padding: 8px;
+        font-size: 15px;
+    }
+
+    .primeros--valores, .segundos--valores {
+        justify-content: space-between;
+        margin: 10px;
+    }
+
+    .card .circulo {
+        width: 55px;
+        height: 55px;
+        background: #718427;
+        border-radius: 100%;
+        margin: auto;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:768px) {
+    .card {
+        align-self: center;
+        width: 400px;
+        height: 250px;
+        background-color: white;
+        border: solid 2px #E2793C;
+        border-radius: 8px;
+        padding-top: 1px;
+        margin: 20px;
+        font-family: inherit;
+        box-shadow: 10px 5px 5px rgb(85, 86, 85);
+
+    }
+    .card span {
+        text-align: center;
+        display: block;
+        padding-top: 10px;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    .card .job {
+        font-weight: 325;
+        display: block;
+        text-align: center;
+        padding: 8px;
+        font-size: 15px;
+    }
+
+    .primeros--valores, .segundos--valores {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+}
+@media (max-width:550px) {
+    .card {
+        align-self: center;
+        width: 300px;
+        height: 250px;
+        background-color: white;
+        border: solid 2px #E2793C;
+        border-radius: 8px;
+        padding-top: 1px;
+        margin: 20px;
+        font-family: inherit;
+        box-shadow: 10px 5px 5px rgb(85, 86, 85);
+
+    }
+    .card span {
+        text-align: center;
+        display: block;
+        padding-top: 10px;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    .card .job {
+        font-weight: 325;
+        display: block;
+        text-align: center;
+        padding: 8px;
+        font-size: 15px;
+    }
+
+    .primeros--valores, .segundos--valores {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+}
+
+/* Medias queries de valores */
+
+/*PARTE ARTURO*/

@@ -1,0 +1,48 @@
+.form-container {
+  max-width: 400px;
+  /* Reduce el ancho máximo a 400px */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+
+}
+
+.btn {
+  background-color: #E2793C;
+  /* Otros estilos del botón (tamaño, fuente, etc.) */
+}
+
+.btn:hover {
+
+  background-color: #718427;
+}
+
+.form-control {
+  background-color: #F9F8DF;
+  border: 2px solid #718427;
+  /* Borde sólido de 2 píxeles en color azul */
+  border-radius: 5px;
+  /* Bordes redondeados */
+
+}
+
+.form-control:focus {
+  background-color: #F9F8DF;
+  /* Mantén el color de fondo al hacer clic */
+  border-color: #718427;
+}
+
+#titulo {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+}
+
+#datosForm {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
