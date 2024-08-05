@@ -19,38 +19,38 @@ const urlRoutes = {
     },
     "/ReNuevaTe/index.html": {
         template: "/ReNuevaTe/src/pages/inicio.html",
-        title: "About Us | " + urlPageTitle,
-        description: "This is the about page",
+        title: "Inicio | " + urlPageTitle,
+        description: "Inicio de Página",
     },
     "/about": {
         template: "/ReNuevaTe/src/pages/sobreNosotrxs.html",
-        title: "Contact Us | " + urlPageTitle,
-        description: "This is the contact page",
+        title: "Sobre Nosotres | " + urlPageTitle,
+        description: "Página de Sobre Nosotres",
     },
     "/catalogue": {
         template: "/ReNuevaTe/src/pages/catalogo.html",
-        title: "Contact Us | " + urlPageTitle,
-        description: "This is the contact page",
+        title: "Catálogo | " + urlPageTitle,
+        description: "Página de Catálogo",
     },
     "/login": {
         template: "/ReNuevaTe/src/pages/usuario.html",
-        title: "Contact Us | " + urlPageTitle,
-        description: "This is the contact page",
+        title: "Página Login | " + urlPageTitle,
+        description: "Página de Login",
     },
     "/shopping-cart": {
         template: "/ReNuevaTe/src/pages/carrito.html",
-        title: "Contact Us | " + urlPageTitle,
-        description: "This is the contact page",
+        title: "Carrito de Compras | " + urlPageTitle,
+        description: "Página Carrito de Compras",
     },
     "/user": {
         template: "/ReNuevaTe/src/pages/usuario.html",
-        title: "Contact Us | " + urlPageTitle,
-        description: "This is the contact page",
+        title: "Usuario | " + urlPageTitle,
+        description: "Página del Usuario",
     },
     "/contact-us": {
         template: "/ReNuevaTe/src/pages/contactanos.html",
-        title: "Contact Us | " + urlPageTitle,
-        description: "This is the contact page",
+        title: "Contáctanos | " + urlPageTitle,
+        description: "Página de Contáctanos",
     }
 
 };
