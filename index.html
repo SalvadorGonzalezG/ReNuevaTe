@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="./src/styles/main.css">
     <link rel="stylesheet" href="./src/styles/sobreNosotrxs.css">
     <link rel="stylesheet" href="./src/styles/contactanos.css">
+    <link rel="stylesheet" href="./src/styles/productos.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.cs@8.0.1/normalizer.min.css">
+    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,27 +53,29 @@
                 <li><a href="/catalogue">Catálogo</a></li>
                 <li><a href="/contact-us">Contactanos</a></li>
                 <!-- <li><a href="/login">Iniciar Sesión</a></li> -->
-
+                <li><a href="/products">productos</a></li>
                 <li><a href="/shopping-cart" class="log">
                         <img class="content-car" src="./public/imagenes/cart.svg" alt="Logo">
                     </a></li>
                 <li><a href="/user" class="log">
                         <img class="content-car" src="./public/imagenes/person-circle.svg" alt="Logo">
                     </a>
-
                 </li>
                 <!-- <li><a href="/contact-us">Iniciar Sesión</a></li> -->
             </ul>
         </nav>
     </header>
-    <div id="content"></div>
+    <div id="content">
+        <!-- Aqui se carga el contenido de forma dinamica de cada pagina-->
+    </div>
+    
 
     <!-- Vinculacion con JavaScript -->
     <script defer src="./src/scripst/scripts.js"></script>
     <script src="../ReNuevaTe/src/scripst/url-router.js"></script>
 
     <script src="./src/scripst/contactanos.js"> </script>
-
+    <script src="/ReNuevaTe/src/scripst/productos.js"> </script>
 </body>
 
 </html>

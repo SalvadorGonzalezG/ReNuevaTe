@@ -29,8 +29,8 @@ const urlRoutes = {
     },
     "/catalogue": {
         template: "/ReNuevaTe/src/pages/catalogo.html",
-        title: "Catálogo | " + urlPageTitle,
-        description: "Página de Catálogo",
+    title: "Catálogo | " + urlPageTitle,
+    description: "Página de Catálogo",
     },
     "/login": {
         template: "/ReNuevaTe/src/pages/usuario.html",
@@ -51,6 +51,11 @@ const urlRoutes = {
         template: "/ReNuevaTe/src/pages/contactanos.html",
         title: "Contáctanos | " + urlPageTitle,
         description: "Página de Contáctanos",
+    },
+    "/products": {
+        template: "/ReNuevaTe/src/pages/productos.html",
+        title: "productos | " + urlPageTitle,
+        description: "Página de productos",
     }
 
 };
@@ -83,6 +88,19 @@ const urlLocationHandler = async () => {
     document
         .querySelector('meta[name="description"]')
         .setAttribute("content", route.description);
+         // Cargar el archivo JS relacionado después de insertar el HTML
+    if (route.template === "/ReNuevaTe/src/pages/catalogo.html") {
+        console.log('Cargando productos.js');
+        // Asegurarse de que el script se carga solo una vez
+        if (!document.querySelector('script[src="productos.js"]')) {
+            const script = document.createElement('script');
+            script.src = 'productos.js';
+            script.defer = true; // Defer asegura que el script se ejecute después de que el DOM esté cargado
+            script.onload = () => console.log('productos.js cargado');
+            script.onerror = () => console.error('Error al cargar productos.js');
+            document.body.appendChild(script);
+        }
+    }
 };
 
 // agregue un detector de eventos a la ventana que vigila los cambios de URL
