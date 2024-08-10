@@ -4,7 +4,7 @@ const urlPageTitle = "JS Single Page Application Router";
 document.addEventListener("click", (e) => {
     const { target } = e;
     if (!target.matches("nav a")) {
-       return;
+        return;
     }
     e.preventDefault();
     urlRoute();
