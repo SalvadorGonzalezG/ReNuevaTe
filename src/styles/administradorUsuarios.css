@@ -51,7 +51,7 @@ input{
     
 }
 
-.datos{
+.datosId, .datosNombreU, .datosNombre, .datosCorreo, .datosRoll, .datosPublicaciones {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,4 +140,14 @@ align-items: flex-end;
     border-radius: 8px;
     border: none;
     height: 28px;
+}
+.botonEliminarUsuario{
+    background-color: #FF4C25;
+    border: none;
+    border-radius: 8px;
+}
+.botonGuardarUsuario{
+    background-color: #718427;
+    border: none;
+    border-radius: 8px;
 }
