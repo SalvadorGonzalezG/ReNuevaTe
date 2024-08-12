@@ -88,7 +88,7 @@ document.querySelector('.botonCrearUsuariosSubmit').addEventListener('click', fu
         ${nuevoId}
         </div>
     `;
-    const nuevoUsuarioDivNombreU = document.createElement('div');
+    let nuevoUsuarioDivNombreU = document.createElement('div');
     nuevoUsuarioDivNombreU.classList.add('datosNombreU')
     nuevoUsuarioDivNombreU.innerHTML = `
         <div>${nombre + nuevoId}<div>
@@ -144,15 +144,66 @@ document.querySelector('.botonCrearUsuariosSubmit').addEventListener('click', fu
     //Añadir el evento de eliminar al botol elimnar
     const botonEliminar = nuevoUsuarioPublicacion.querySelector('.botonEliminarUsuario');
         botonEliminar.addEventListener('click', function(){
-            nuevoUsuarioDivId.remove()
-            nuevoUsuarioDivNombreU.remove()
-            nuevoUsuarioNombre.remove()
-            nuevoUsuarioCorreo.remove()
-            nuevoUsuarioRoll.remove()
-            nuevoUsuarioPublicacion.remove()
+            nuevoUsuarioDivId.remove();
+            nuevoUsuarioDivNombreU.remove();
+            nuevoUsuarioNombre.remove();
+            nuevoUsuarioCorreo.remove();
+            nuevoUsuarioRoll.remove();
+            nuevoUsuarioPublicacion.remove();
 
-        })
+        });
+
+        // Añadir el evento de guardar al botón guardar dentro de la misma función
+    const botonGuardar = nuevoUsuarioPublicacion.querySelector('.botonGuardarUsuario');
+    botonGuardar.addEventListener('click', function() {
+        const nuevoNombre = document.getElementById('nombre').value;
+        const nuevoCorreo = document.getElementById('correo').value;
+        const nuevaContraseña = document.getElementById('contraseña').value;
+        const confirmaNuevaContraseña = document.getElementById('confirmaContraseña')
+
+        if (nuevoNombre && nuevoCorreo) {
+            //actualización del UsuarioDivNombreU
+            nuevoUsuarioDivNombreU.textContent = nuevoNombre + nuevoId;
+            nuevoUsuarioNombre.textContent = nuevoNombre;
+            nuevoUsuarioCorreo.textContent = nuevoCorreo;
+
+            if (nuevaContraseña === confirmaNuevaContraseña) {
+                console.log(`Contraseña actualizada para el usuario con ID: ${nuevoId}`);
+            }
+
+            // Limpiar el formulario después de guardar
+            document.querySelector('.contenedorFormularioLabel').reset();
+        } else {
+            alert('Por favor, completa todos los campos para actualizar');
+        }
+    });
+
 
     // Limpiamos el formulario una vez que se creó el usuario
     document.querySelector('.contenedorFormularioLabel').reset();
+});
+
+    // Event Listenner para el boton "Editar Usuario"
+    // Manejamos la acción del botón "Editar Usuario"
+document.querySelector('.botonEditarUsuario').addEventListener('click', function() {
+    const checkboxes = document.querySelectorAll('.contenedorDatos .datosId input[type="checkbox"]');
+    let usuarioSeleccionado = null;
+
+    checkboxes.forEach((checkbox) => {
+        if (checkbox.checked) {
+            const contenedorUsuario = checkbox.closest('.contenedorDatos');
+            const nombreDiv = contenedorUsuario.querySelector('.datosNombre');
+            const correoDiv = contenedorUsuario.querySelector('.datosCorreo');
+
+            // Rellenar el formulario con los datos del usuario
+            document.getElementById('nombre').value = nombreDiv.textContent.trim();
+            document.getElementById('correo').value = correoDiv.textContent.trim();
+
+            usuarioSeleccionado = contenedorUsuario;
+        }
+    });
+
+    if (!usuarioSeleccionado) {
+        alert('Seleccione un usuario para editar.');
+    }
 });
