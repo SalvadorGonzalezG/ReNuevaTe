@@ -133,7 +133,6 @@ function filterProducts(products) {
 fetch('/ReNuevaTe/data/products.json')
     .then(response => response.json())
     .then(data => {
-        console.log(data);
         createCards(data);
         populateFilters(data);
 
