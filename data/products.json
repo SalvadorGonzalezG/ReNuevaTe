@@ -1,0 +1,135 @@
+[
+    {
+        "marca": "NYSE",
+        "precio": "$974.73",
+        "color": "#C8A2C8",
+        "id": "01",
+        "image": "/ReNuevaTe/public/imagenes/1.jpg"
+    },
+    {
+        "marca": "NYSE",
+        "precio": "$235.9",
+        "color": "gold",
+        "id": "02",
+        "image": "/ReNuevaTe/public/imagenes/5.jpg"
+    },
+    {
+        "marca": "PUMA",
+        "precio": "$160.99",
+        "color": "navy",
+        "id": "03",
+        "image": "/ReNuevaTe/public/imagenes/9.jpg"
+    },
+    {
+        "marca": "NIKE",
+        "precio": "$2000.00",
+        "color": "#EED9C4",
+        "id": "04",
+        "image": "/ReNuevaTe/public/imagenes/13.jpg"
+    },
+    {
+        "marca": "NASDAQ",
+        "precio": "$610.36",
+        "color": "black",
+        "id": "05",
+        "image": "/ReNuevaTe/public/imagenes/17.jpg"
+    },
+    {
+        "marca": "NYSE",
+        "precio": "$300.00",
+        "color": "#59392B",
+        "id": "06",
+        "image": "/ReNuevaTe/public/imagenes/21.jpg"
+    },
+    {
+        "marca": "NYSE",
+        "precio": "$43.1",
+        "color": "black",
+        "id": "07",
+        "image": "/ReNuevaTe/public/imagenes/25.jpg"
+    },
+    {
+        "marca": "NIKE",
+        "precio": "$2000.00",
+        "color": "green",
+        "id": "08",
+        "image": "/ReNuevaTe/public/imagenes/29.jpg"
+    },
+    {
+        "marca": "NASDAQ",
+        "precio": "$27.68",
+        "color": "#EED9C4",
+        "id": "09",
+        "image": "/ReNuevaTe/public/imagenes/33.jpg"
+    },
+    {
+        "marca": "NYSE",
+        "precio": "$431.87",
+        "color": "black",
+        "id": "10",
+        "image": "/ReNuevaTe/public/imagenes/37.jpg"
+    },
+    {
+        "marca": "NIKE",
+        "precio": "$333.72",
+        "color": "navy",
+        "id": "11",
+        "image": "/ReNuevaTe/public/imagenes/41.jpg"
+    },
+    {
+        "marca": "NASDAQ",
+        "precio": "$112.12",
+        "color": "#63C5DA",
+        "id": "12",
+        "image": "/ReNuevaTe/public/imagenes/47.jpg"
+    },
+    {
+        "marca": "NYSE",
+        "precio": "$441.77",
+        "color": "#FC9483",
+        "id": "13",
+        "image": "/ReNuevaTe/public/imagenes/49.jpg"
+    },
+    {
+        "marca": "PUMA",
+        "precio": "$112.67",
+        "color": "brown",
+        "id": "14",
+        "image": "/ReNuevaTe/public/imagenes/53.jpg"
+    },
+    {
+        "marca": "NASDAQ",
+        "precio": "$321.27",
+        "color": "navy",
+        "id": "15",
+        "image": "/ReNuevaTe/public/imagenes/57.jpg"
+    },
+    {
+        "marca": "NYSE",
+        "precio": "$222.13",
+        "color": "#00FFFF",
+        "id": "16",
+        "image": "/ReNuevaTe/public/imagenes/61.jpg"
+    },
+    {
+        "marca": "NASDAQ",
+        "precio": "$980.54",
+        "color": "gray",
+        "id": "17",
+        "image": "/ReNuevaTe/public/imagenes/65.jpg"
+    },
+    {
+        "marca": "PUMA",
+        "precio": "$1000.00",
+        "color": "navy",
+        "id": "18",
+        "image": "/ReNuevaTe/public/imagenes/69.jpg"
+    },
+    {
+        "marca": "NIKE",
+        "precio": "$171.11",
+        "color": "gray",
+        "id": "19",
+        "image": "/ReNuevaTe/public/imagenes/73.jpg"
+    }
+]
