@@ -1,4 +1,4 @@
-const urlPageTitle = "JS Single Page Application Router";
+const urlPageTitle = "ReNuevate";
 
 // crear un documento, hacer clic que solo mira los enlaces de navegación
 document.addEventListener("click", (e) => {
@@ -42,7 +42,6 @@ const urlRoutes = {
         template: "/ReNuevaTe/src/pages/detalleproducto.html",
         title: `Detalle del Producto | ${urlPageTitle}`,
         description: `Página de detalle del producto con ID ${id}`,
-        
         scripts: ["/ReNuevaTe/src/scripst/detail.js"], // Scripts específicos para la página de detalle
         styles: ["/ReNuevaTe/src/styles/detalleproducto.css"] // Estilos específicos para la página de detalle
     }),
@@ -50,6 +49,8 @@ const urlRoutes = {
         template: "/ReNuevaTe/src/pages/usuario.html",
         title: "Página Login | " + urlPageTitle,
         description: "Página de Login",
+        scripts: ["/ReNuevaTe/src/scripst/usuarios.js"],
+        styles: ["/ReNuevaTe/src/styles/usuarios.css"]
     },
     "/shopping-cart": {
         template: "/ReNuevaTe/src/pages/carrito.html",
@@ -60,7 +61,7 @@ const urlRoutes = {
         template: "/ReNuevaTe/src/pages/usuario.html",
         title: "Usuario | " + urlPageTitle,
         description: "Página del Usuario",
-    },
+        },
     "/contact-us": {
         template: "/ReNuevaTe/src/pages/contactanos.html",
         title: "Contáctanos | " + urlPageTitle,
