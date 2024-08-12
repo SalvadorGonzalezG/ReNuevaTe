@@ -1,0 +1,534 @@
+[
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$974.73",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/1.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/2.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/3.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/4.jpg"
+        },
+        "id": "01",
+        "color": "#C8A2C8"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$235.9",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/5.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/6.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/7.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/8.jpg"
+        },
+        "id": "02",
+        "color": "gold"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$160.99",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/9.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/10.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/11.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/12.jpg"
+        },
+        "id": "03",
+        "color": "navy"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$2000.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/13.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/14.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/15.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/16.jpg"
+        },
+        "id": "04",
+        "color": "#EED9C4"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$610.36",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/17.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/18.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/19.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/20.jpg"
+        },
+        "id": "05",
+        "color": "black"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$300.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/21.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/22.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/23.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/24.jpg"
+        },
+        "id": "06",
+        "color": "#59392B"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$43.1",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/25.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/26.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/27.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/28.jpg"
+        },
+        "id": "07",
+        "color": "black"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$2000.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/29.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/30.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/31.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/32.jpg"
+        },
+        "id": "08",
+        "color": "green"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$27.68",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/33.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/34.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/35.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/36.jpg"
+        },
+        "id": "09",
+        "color": "#EED9C4"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$431.87",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/37.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/38.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/39.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/40.jpg"
+        },
+        "id": "10",
+        "color": "black"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$333.72",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/41.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/43.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/44.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/45.jpg"
+        },
+        "id": "11",
+        "color": "navy"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$112.12",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/47.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/48.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/48.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/47.jpg"
+        },
+        "id": "12",
+        "color": "#63C5DA"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$441.77",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/49.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/50.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/51.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/52.jpg"
+        },
+        "id": "13",
+        "color": "#FC9483"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$112.67",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/53.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/54.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/55.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/56.jpg"
+        },
+        "id": "14",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$321.27",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/57.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/58.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/59.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/60.jpg"
+        },
+        "id": "15",
+        "color": "navy"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$222.13",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/61.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/62.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/63.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/64.jpg"
+        },
+        "id": "16",
+        "color": "#00FFFF"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$980.54",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/65.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/66.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/67.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/68.jpg"
+        },
+        "id": "17",
+        "color": "gray"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$1000.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/69.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/70.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/71.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/72.jpg"
+        },
+        "id": "18",
+        "color": "navy"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$171.11",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/73.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/74.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/75.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/76.jpg"
+        },
+        "id": "19",
+        "color": "gray"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/77.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/78.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/79.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/80.jpg"
+        },
+        "id": "20",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/81.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/82.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/83.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/84.jpg"
+        },
+        "id": "21",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/85.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/86.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/87.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/88.jpg"
+        },
+        "id": "22",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/89.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/90.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/91.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/92.jpg"
+        },
+        "id": "23",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/93.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/94.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/95.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/93.jpg"
+        },
+        "id": "24",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/94.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/95.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/95.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/94.jpg"
+        },
+        "id": "25",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes",
+            "image2": "/ReNuevaTe/public/imagenes",
+            "image3": "/ReNuevaTe/public/imagenes",
+            "image4": "/ReNuevaTe/public/imagenes"
+        },
+        "id": "26",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes",
+            "image2": "/ReNuevaTe/public/imagenes",
+            "image3": "/ReNuevaTe/public/imagenes",
+            "image4": "/ReNuevaTe/public/imagenes"
+        },
+        "id": "01J4NT1HPEHGGGNYPHDZ0E0DVG",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes",
+            "image2": "/ReNuevaTe/public/imagenes",
+            "image3": "/ReNuevaTe/public/imagenes",
+            "image4": "/ReNuevaTe/public/imagenes"
+        },
+        "id": "01J4NT1HPEHGGGNYPHDZ0E0DVG",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes",
+            "image2": "/ReNuevaTe/public/imagenes",
+            "image3": "/ReNuevaTe/public/imagenes",
+            "image4": "/ReNuevaTe/public/imagenes"
+        },
+        "id": "01J4NT1HPEHGGGNYPHDZ0E0DVG",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes",
+            "image2": "/ReNuevaTe/public/imagenes",
+            "image3": "/ReNuevaTe/public/imagenes",
+            "image4": "/ReNuevaTe/public/imagenes"
+        },
+        "id": "01J4NT1HPEHGGGNYPHDZ0E0DVG",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes",
+            "image2": "/ReNuevaTe/public/imagenes",
+            "image3": "/ReNuevaTe/public/imagenes",
+            "image4": "/ReNuevaTe/public/imagenes"
+        },
+        "id": "01J4NT1HPN3VMTGYM1WN00TE67",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes",
+            "image2": "/ReNuevaTe/public/imagenes",
+            "image3": "/ReNuevaTe/public/imagenes",
+            "image4": "/ReNuevaTe/public/imagenes"
+        },
+        "id": "01J4NT1HPF2K4H0TA9B10Z57T2",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes",
+            "image2": "/ReNuevaTe/public/imagenes",
+            "image3": "/ReNuevaTe/public/imagenes",
+            "image4": "/ReNuevaTe/public/imagenes"
+        },
+        "id": "01J4NT1HPEHGGGNYPHDZ0E0DVG",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes",
+            "image2": "/ReNuevaTe/public/imagenes",
+            "image3": "/ReNuevaTe/public/imagenes",
+            "image4": "/ReNuevaTe/public/imagenes"
+        },
+        "id": "01J4NT1HPEHGGGNYPHDZ0E0DVG",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes",
+            "image2": "/ReNuevaTe/public/imagenes",
+            "image3": "/ReNuevaTe/public/imagenes",
+            "image4": "/ReNuevaTe/public/imagenes"
+        },
+        "id": "01J4NT1HPEHGGGNYPHDZ0E0DVG",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes",
+            "image2": "/ReNuevaTe/public/imagenes",
+            "image3": "/ReNuevaTe/public/imagenes",
+            "image4": "/ReNuevaTe/public/imagenes"
+        },
+        "id": "01J4NT1HPEHGGGNYPHDZ0E0DVG",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes",
+            "image2": "/ReNuevaTe/public/imagenes",
+            "image3": "/ReNuevaTe/public/imagenes",
+            "image4": "/ReNuevaTe/public/imagenes"
+        },
+        "id": "01J4NT1HPEHGGGNYPHDZ0E0DVG",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes",
+            "image2": "/ReNuevaTe/public/imagenes",
+            "image3": "/ReNuevaTe/public/imagenes",
+            "image4": "/ReNuevaTe/public/imagenes"
+        },
+        "id": "01J4NT1HPEHGGGNYPHDZ0E0DVG",
+        "color": "brown"
+    }
+]
