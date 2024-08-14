@@ -1,10 +1,10 @@
 let idContador = 1;
 let Roll = "usuario";
 let publicacion = "0";
-document.addEventListener('DOMContentLoaded', () => {
-    fetch('../usuarios/usuarios.json')
+// document.addEventListener('DOMContentLoaded', () => {
+    fetch('/ReNuevaTe/data/usuarios.json')
         .then(response => {
-            if (!response.ok) {
+            if (!response.ok) {  s
                 throw new Error('Network response was not ok');
             }
             return response.json();
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         })
         .catch(error => console.error('Error al cargar el archivo JSON:', error));
-});
+// });
 
 // Manejamos la acción del boton crear usuario
 document.querySelector('.botonCrearUsuariosSubmit').addEventListener('click', function(event) {
