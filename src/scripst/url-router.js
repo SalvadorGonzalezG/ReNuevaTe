@@ -61,15 +61,22 @@ const urlRoutes = {
         template: "/ReNuevaTe/src/pages/usuario.html",
         title: "Usuario | " + urlPageTitle,
         description: "Página del Usuario",
-        },
+    },
     "/contact-us": {
         template: "/ReNuevaTe/src/pages/contactanos.html",
         title: "Contáctanos | " + urlPageTitle,
         description: "Página de Contáctanos",
         scripts: ["/ReNuevaTe/src/scripst/contactanos.js"],
         styles: ["/ReNuevaTe/src/styles/contactanos.css"]
-    }
-
+    },
+    
+    "/inicioDeSesion": {
+        template: "/ReNuevaTe/src/pages/inicioDeSesion.html",
+        title: "Inicio de Sesion | " + urlPageTitle,
+        description: "Página de Inicio de Sesion",
+        scripts: [],
+        styles: ["/ReNuevaTe/src/styles/inicioDeSesion.css"]
+    },
 };
 
 // Función para cargar y aplicar los estilos y scripts

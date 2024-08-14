@@ -1,0 +1,146 @@
+body {
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    height: 100Vh;
+}
+
+.divInicioSesion {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 70%;
+    /* border: solid black 2px; */
+}
+
+.divInicioSesion h1 {
+    text-align: center;
+    margin-top: 40px;
+    border-bottom: solid #9FB48E 1px;
+    font-size: 50px;
+}
+
+.divInicioSesion form {
+    text-align: center;
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* border: solid black 2px; */
+}
+
+.divInicioSesion div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: solid black 2px; */
+    width: 90%;
+}
+
+#divMantenerSesionAbierta {
+    flex-direction: row;
+}
+
+#labSesionAbierta {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.divInicioSesion label {
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#correoInicioSesion , #contraseñaInicioSesion {
+    height: 22px;
+    background-color: #F9F8DF;
+    border-radius: 20px;
+    box-shadow: 2px 3px rgb(205, 202, 202);
+}
+
+#botonInicioSesion {
+    width: 40%;
+    color: azure;
+    background-color: #9FB48E;
+    border-radius: 20px;
+    height: 30px;
+    font-size: 19px;
+    box-shadow: 3px 3px rgb(205, 202, 202);
+    transition: all 0.6s;
+    cursor: pointer;
+}
+
+#mantenerSesionAbierta {
+    cursor: pointer;
+}
+
+#botonInicioSesion:hover {
+    background-color: #E2793C ;
+    
+}
+
+.divInicioSesion a {
+    color: #718427;
+}
+
+@media (max-width:1000px) {
+    .divInicioSesion form {
+        width: 80%    
+}
+}
+
+@media (max-width:700px) {
+    .divInicioSesion form {
+        width: 90%    
+}
+}
+
+@media (max-width:515px) {
+    .divInicioSesion form {
+        width: 100%    
+}
+
+.divInicioSesion {
+    width: 90%;
+    /* border: solid black 2px; */
+}
+
+.divInicioSesion label {
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+}
+
+@media (max-width:374px) {
+    .divInicioSesion form {
+        width: 100%    
+}
+
+.divInicioSesion {
+    width: 98%;
+    /* border: solid black 2px; */
+}
+
+.divInicioSesion label {
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+
+}
