@@ -69,8 +69,6 @@ const urlRoutes = {
         scripts: ["/ReNuevaTe/src/scripst/contactanos.js"],
         styles: ["/ReNuevaTe/src/styles/contactanos.css"]
     },
-<<<<<<< Updated upstream
-    
     "/inicioDeSesion": {
         template: "/ReNuevaTe/src/pages/inicioDeSesion.html",
         title: "Inicio de Sesion | " + urlPageTitle,
@@ -78,7 +76,6 @@ const urlRoutes = {
         scripts: [],
         styles: ["/ReNuevaTe/src/styles/inicioDeSesion.css"]
     },
-=======
     "/category": {
         template: "/ReNuevaTe/src/pages/categorias.html",
         title: "Categorias | " + urlPageTitle,
@@ -86,8 +83,6 @@ const urlRoutes = {
         scripts: ["/ReNuevaTe/src/scripst/categorias.js"],
         styles: ["/ReNuevaTe/src/styles/categorias.css"]
     }
-
->>>>>>> Stashed changes
 };
 
 // Función para cargar y aplicar los estilos y scripts
