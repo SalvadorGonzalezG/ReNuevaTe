@@ -73,7 +73,7 @@ const urlRoutes = {
         template: "/ReNuevaTe/src/pages/inicioDeSesion.html",
         title: "Inicio de Sesion | " + urlPageTitle,
         description: "Página de Inicio de Sesion",
-        scripts: [],
+        scripts: ["/ReNuevaTe/src/scripst/inicio_de_sesión.js"],
         styles: ["/ReNuevaTe/src/styles/inicioDeSesion.css"]
     },
     "/category": {
