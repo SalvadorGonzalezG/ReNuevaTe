@@ -53,13 +53,16 @@ function createDetail(product) {
     color.classList.add('flex1');
     color.innerHTML = `<span style="background-color: ${product.color}";></span>`;
   
-    //Agregar botones
+    //Agregar botones detail-button
+    
     const buttonCar = document.createElement('button');
+    buttonCar.classList.add('detail-button');
     buttonCar.innerText = "Agregar al Carrito";
     buttonCar.onclick = function () {
       alert('Botón "Agregar al Carrito" fue clickeado');
     };
     const buttonShop = document.createElement('button');
+    buttonShop.classList.add('detail-button');
     buttonShop.innerText = "Comprar ahora";
     buttonShop.onclick = function () {
       alert('Botón "Comprar ahora" fue clickeado');
@@ -89,9 +92,7 @@ function createDetail(product) {
   fetch('/ReNuevaTe/data/productDetail.json')
     .then(response => response.json())
     .then(data => {
-      console.log(data);
       const productId = getProductIdFromUrl();
-      console.log(productId);
       const product = data.find(p => p.id === productId);
   
       if (product) {

@@ -31,13 +31,13 @@ const urlRoutes = {
         scripts: [],
         styles: ["/ReNuevaTe/src/styles/sobreNosotrxs.css"]
     },
-    "/catalogue": {
+    "/catalogue": (id) => ({
         template: "/ReNuevaTe/src/pages/catalogo.html",
-        title: "Catálogo | " + urlPageTitle,
-        description: "Página de Catálogo",
+        title: `Catalogo | ${urlPageTitle}`,
+        description: `Página de catalogo con ID ${id}`,
         scripts: ["/ReNuevaTe/src/scripst/card.js"], // Scripts específicos para la página de inicio
         styles: ["/ReNuevaTe/src/styles/card.css"] // Estilos específicos para la página de inicio
-    },
+    }),
     "/detail": (id) => ({
         template: "/ReNuevaTe/src/pages/detalleproducto.html",
         title: `Detalle del Producto | ${urlPageTitle}`,
@@ -69,6 +69,7 @@ const urlRoutes = {
         scripts: ["/ReNuevaTe/src/scripst/contactanos.js"],
         styles: ["/ReNuevaTe/src/styles/contactanos.css"]
     },
+<<<<<<< Updated upstream
     
     "/inicioDeSesion": {
         template: "/ReNuevaTe/src/pages/inicioDeSesion.html",
@@ -77,6 +78,16 @@ const urlRoutes = {
         scripts: [],
         styles: ["/ReNuevaTe/src/styles/inicioDeSesion.css"]
     },
+=======
+    "/category": {
+        template: "/ReNuevaTe/src/pages/categorias.html",
+        title: "Categorias | " + urlPageTitle,
+        description: "Página de Contáctanos",
+        scripts: ["/ReNuevaTe/src/scripst/categorias.js"],
+        styles: ["/ReNuevaTe/src/styles/categorias.css"]
+    }
+
+>>>>>>> Stashed changes
 };
 
 // Función para cargar y aplicar los estilos y scripts
@@ -123,12 +134,16 @@ const urlLocationHandler = async () => {
 
     // Obtener el ID de la URL si existe
     const idMatch = path.match(/\/detail\/(\d+)/);
+    const idMatchCategory = path.match(/\/catalogue\/(\w+)/);
     let route;
 
     if (idMatch) {
         const id = idMatch[1];
         route = urlRoutes["/detail"](id); // Llama a la función de la ruta con el ID
-    } else {
+    } else if (idMatchCategory) {
+        const id = idMatchCategory[1];
+        route = urlRoutes["/catalogue"](id); // Llama a la función de la ruta con el ID
+    }else{
         route = urlRoutes[path] || urlRoutes[404];
     }
 

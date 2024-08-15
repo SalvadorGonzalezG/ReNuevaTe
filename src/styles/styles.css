@@ -231,3 +231,158 @@
     }
     
 }
+
+/* ------------ */
+/* Se usó un 87% del almacenamiento … Si te quedas sin almacenamiento, no podrás crear, editar ni subir archivos. Obtén 100 GB de almacenamiento por $34.00 $9.00 al mes durante 3 meses. */
+
+
+/* .contenedorFooter {
+    background-color: #004465;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    /*border: solid black 2px; 
+}
+
+.contenedorPieDePagina {
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logoPieDePagina {
+    width: 125px;
+    height: 130px;
+    border-radius: 50%;
+    /* margin-bottom: 50px; 
+}
+
+.contenedorComentariosContactanosBoton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    height: 80%;
+    align-items: center;
+}
+
+.contenedorBotonFooter {
+    width: 100%;
+}
+
+.suscribeteBotonFooter {
+    background-color: #718427;
+    color: azure;
+    height: 25px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 2px #275369;
+    cursor: pointer;
+}
+
+.suscribeteBotonFooter:hover {
+    background-color: #E2793C;
+    transition: 0.7s;
+}
+
+.contenedorComentariosContactanos {
+    background-color: #F9F8DF;
+    border: black solid 1px;
+    width: 75%;
+}
+
+.contactanosFooter,
+.comentariosFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.enlacesPieDePagina {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#enlacesFooter {
+    color: azure;
+}
+
+@media (max-width:1023px) {
+    .enlacesPieDePagina {
+        width: 25%;
+    }
+}
+
+@media (max-width:770px) {
+    .contenedorPieDePagina {
+        flex-direction: column;
+    }
+
+    .contenedorFooter {
+        background-color: #004465;
+        width: 100%;
+        height: 600px;
+        position: absolute;
+        bottom: 0;
+        /*border: solid black 2px; 
+    }
+
+    .enlacesPieDePagina {
+        width: 60%;
+    }
+    .contenedorComentariosContactanosBoton {
+        width: 80%;
+}
+
+.suscribeteBotonFooter {
+    width: 90%;
+}
+
+.contenedorComentariosContactanos {
+    width: 85%;
+}
+#logoPieDePagina {
+    padding: 10px;
+}
+}
+
+@media (max-width:499px) {
+    .contenedorPieDePagina {
+        flex-direction: column;
+    }
+
+    .contenedorFooter {
+        background-color: #004465;
+        width: 100%;
+        height: 600px;
+        position: absolute;
+        bottom: 0;
+        /*border: solid black 2px; 
+    }
+
+    .enlacesPieDePagina {
+        width: 80%;
+    }
+    .contenedorComentariosContactanosBoton {
+        width: 80%;
+}
+
+.suscribeteBotonFooter {
+    width: 90%;
+}
+
+.contenedorComentariosContactanos {
+    width: 85%;
+}
+
+#logoPieDePagina {
+    padding: 10px;
+}
+} */

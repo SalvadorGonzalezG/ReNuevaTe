@@ -89,6 +89,11 @@ function populateFilters(products) {
     });
 }
 
+function noCoincidencias() {
+    const container = document.getElementById('card-container');
+    container.innerHTML = `<h1>No se encontraron productos</>`
+}
+
 // Función para filtrar productos
 function filterProducts(products) {
     const priceFilter = document.getElementById('price-filter').value;
@@ -121,7 +126,6 @@ function filterProducts(products) {
             }
         });
     }
-
     // Filtrar por color
     if (colorFilter) {
         filteredProducts = filteredProducts.filter(product => product.color === colorFilter);
@@ -129,12 +133,41 @@ function filterProducts(products) {
     // Crear tarjetas con los productos filtrados
     createCards(filteredProducts);
 }
+
+//Capturamos el id de la URL
+function getCategoryIdFromUrl() {
+    // Obtener la ruta completa de la URL
+    const path = window.location.pathname;
+
+    // Usar una expresión regular para extraer el ID de la ruta
+    const idMatch = path.match(/\/catalogue\/(\d+)/);
+
+    // Devolver el ID si existe, o null si no se encuentra
+    return idMatch ? idMatch[1] : null;
+}
+
+
 // Cargar datos del JSON y configurar filtros
 fetch('/ReNuevaTe/data/products.json')
     .then(response => response.json())
     .then(data => {
-        createCards(data);
-        populateFilters(data);
+        const categoryId = getCategoryIdFromUrl();
+        const productCategory = data.filter(p => p.idCategorias === categoryId);
+        
+        if (categoryId) {
+            if (productCategory.length == 0) {
+                noCoincidencias();
+
+            } else {
+                createCards(productCategory);
+            }
+
+        } else {
+            createCards(data);
+        }
+
+
+        populateFilters(productCategory);
 
         document.getElementById('price-filter').addEventListener('change', () => filterProducts(data));
         document.getElementById('brand-filter').addEventListener('change', () => filterProducts(data));
