@@ -18,14 +18,12 @@ body{
     color: var(--text-color);
     /* poner margen para que las paginas esten abajo del navbar */
     padding-top: 70px;
+    padding-bottom: 215px;
+    min-height: 100Vh;
+    position: relative;
     
 }
 
-a{
-    text-decoration: none;
-    color: var(--text-color);
-
-}
 
 /* body {
     
@@ -33,8 +31,12 @@ a{
     font-style: normal;
     margin: 0;
     padding: 0;
-    min-height: 100Vh;
-    position: relative;
-    padding-bottom: 215px;
     align-items: center;
-} */
+}  */
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+
+}
+

@@ -236,13 +236,13 @@
 /* Se usó un 87% del almacenamiento … Si te quedas sin almacenamiento, no podrás crear, editar ni subir archivos. Obtén 100 GB de almacenamiento por $34.00 $9.00 al mes durante 3 meses. */
 
 
-/* .contenedorFooter {
+ .contenedorFooter {
     background-color: #004465;
     width: 100%;
     height: 200px;
     position: absolute;
     bottom: 0;
-    /*border: solid black 2px; 
+    /*border: solid black 2px; */
 }
 
 .contenedorPieDePagina {
@@ -259,7 +259,7 @@
     width: 125px;
     height: 130px;
     border-radius: 50%;
-    /* margin-bottom: 50px; 
+    /* margin-bottom: 50px; */
 }
 
 .contenedorComentariosContactanosBoton {
@@ -331,7 +331,7 @@
         height: 600px;
         position: absolute;
         bottom: 0;
-        /*border: solid black 2px; 
+        /*border: solid black 2px; */
     }
 
     .enlacesPieDePagina {
@@ -364,7 +364,7 @@
         height: 600px;
         position: absolute;
         bottom: 0;
-        /*border: solid black 2px; 
+        /*border: solid black 2px; */
     }
 
     .enlacesPieDePagina {
@@ -385,4 +385,4 @@
 #logoPieDePagina {
     padding: 10px;
 }
-} */
+} 
