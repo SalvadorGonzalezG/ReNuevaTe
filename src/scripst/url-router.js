@@ -24,6 +24,13 @@ const urlRoutes = {
         scripts: ["../ReNuevaTe/src/scripst/url-router.js"],
         styles: ["./src/styles/styles.css", "./src/styles/main.css"]
     },
+    "/inicio": {
+        template: "/ReNuevaTe/src/pages/sobreNosotrxs.html",
+        title: "Sobre Nosotres | " + urlPageTitle,
+        description: "Página de Sobre Nosotres",
+        scripts: [],
+        styles: ["/ReNuevaTe/src/styles/inicio.css"]
+    },
     "/about": {
         template: "/ReNuevaTe/src/pages/sobreNosotrxs.html",
         title: "Sobre Nosotres | " + urlPageTitle,
