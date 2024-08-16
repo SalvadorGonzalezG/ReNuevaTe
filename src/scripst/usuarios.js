@@ -1,10 +1,11 @@
-let idContador = 1;
-let Roll = "usuario";
-let publicacion = "0";
+(function() {
+    let idContador = 1;
+    let Roll = "usuario";
+    let publicacion = "0";
 // document.addEventListener('DOMContentLoaded', () => {
     fetch('/ReNuevaTe/data/usuarios.json')
         .then(response => {
-            if (!response.ok) {  s
+            if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
             return response.json();
@@ -207,3 +208,4 @@ document.querySelector('.botonEditarUsuario').addEventListener('click', function
         alert('Seleccione un usuario para editar.');
     }
 });
+})();
