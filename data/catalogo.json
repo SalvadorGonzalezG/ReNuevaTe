@@ -1,0 +1,58 @@
+[
+    {
+        "id": "01",
+        "category_name": "Tallas Extras",
+        "image": "/ReNuevaTe/public/imagenes/tallasExtras.png"
+    },
+    {
+        "id": "02",
+        "category_name": "Pantalones",
+        "image": "/ReNuevaTe/public/imagenes/pantalones.jpg"
+    },
+    {
+        "id": "03",
+        "category_name": "Shorts & Bermudas",
+        "image": "/ReNuevaTe/public/imagenes/short.jpg"
+    },
+    {
+        "id": "04",
+        "category_name": "Ropa Deportiva",
+        "image": "/ReNuevaTe/public/imagenes/ropaDeportiva.jpg"
+    },
+    {
+        "id": "05",
+        "category_name": "Playeras",
+        "image": "/ReNuevaTe/public/imagenes/playeras.JPG"
+    },
+    {
+        "id": "06",
+        "category_name": "Vestidos",
+        "image": "/ReNuevaTe/public/imagenes/vestidos.JPG"
+    },
+    {
+        "id": "07",
+        "category_name": "Camisas",
+        "image": "/ReNuevaTe/public/imagenes/camisas.WEBP"
+    },
+    {
+        "id": "08",
+        "category_name": "Faldas",
+        "image": "/ReNuevaTe/public/imagenes/faldas.WEBP"
+    },
+    {
+        "id": "10",
+        "category_name": "Sudaderas",
+        "image": "/ReNuevaTe/public/imagenes/sudaderas.WEBP"
+    },
+    {
+        "id": "11",
+        "category_name": "Chamarras",
+        "image": "/ReNuevaTe/public/imagenes/chamarras.JPG"
+    },
+    {
+        "id": "12",
+        "category_name": "Abrigos",
+        "image": "/ReNuevaTe/public/imagenes/abrigos.jpg"
+    }
+
+]

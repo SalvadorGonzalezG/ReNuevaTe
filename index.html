@@ -9,9 +9,9 @@
 
     <link rel="stylesheet" href="./src/styles/styles.css">
     <link rel="stylesheet" href="./src/styles/main.css">
-    <link rel="stylesheet" href="./src/styles/sobreNosotrxs.css">
-    <link rel="stylesheet" href="./src/styles/contactanos.css">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.cs@8.0.1/normalizer.min.css">
+    <link rel="stylesheet" href="./src/pages/agregarProductos.html">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,34 +44,70 @@
                 <button class="close-menu"><img src="./public/imagenes/close-icon.svg" alt=""></button>
 
                 <li><input type="text" class="inputSearch" placeholder="Buscar"></li>
-                <li><img class="inputLupa" src="./public/imagenes/lupa.svg" alt=""></li>
+                <li><img class="inputLupa" src=".cd/public/imagenes/lupa.svg" alt=""></li>
 
+                <!-- <li><a href="/">Inicio</a></li> -->
                 <li><a href="/ReNuevaTe/index.html">Inicio</a></li>
-                <li><a href="/about">Sobre Nosotres</a></li>
-                <li><a href="/catalogue">Catálogo</a></li>
-                <li><a href="/contact-us">Contactanos</a></li>
-                <!-- <li><a href="/login">Iniciar Sesión</a></li> -->
+                <!-- <li><a href="/inicio">Pagina</a></li> -->
 
+                 <!-- <li><a href="/inicio">Inicio</a></li> -->
+                <li><a href="/about">Sobre Nosotres</a></li>
+                <li><a href="/category">Catálogo</a></li>
+                <!-- <li><a href="/contact-us">Contactanos</a></li> -->
+                <li><a href="/login">Administrador</a></li>
+                <li><a href="/inicioDeSesion">Iniciar Sesión</a></li>
                 <li><a href="/shopping-cart" class="log">
                         <img class="content-car" src="./public/imagenes/cart.svg" alt="Logo">
                     </a></li>
                 <li><a href="/user" class="log">
                         <img class="content-car" src="./public/imagenes/person-circle.svg" alt="Logo">
                     </a>
-
                 </li>
-                <!-- <li><a href="/contact-us">Iniciar Sesión</a></li> -->
             </ul>
         </nav>
     </header>
     <div id="content"></div>
 
+    <!-- codigo footer -->
+    <footer class="contenedorFooter">
+        <div class="contenedorPieDePagina">
+            <img id="logoPieDePagina" src="./public/imagenes/logo.png" alt="Logo de Ropa ReNueva">
+            <div class="contenedorComentariosContactanosBoton">
+
+                <button class="suscribeteBotonFooter"><b>Suscríbete</b></button>
+
+                <div class="contenedorComentariosContactanos">
+                    <div class="contactanosFooter">
+                        <img src="./public/imagenes/envelope (1).svg" alt="Logo de carta">
+                        <h3 style="padding-left: 12px ;">Contactanos</h3>
+                    </div>
+                    <div class="comentariosFooter">
+                        <img src="./public/imagenes/chat-fill.svg" alt="Logo de globo de texto">
+                        <h3 style="padding-left: 12px ;">Comentarios</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="enlacesPieDePagina">
+                <div class="contenedorEnlaces">
+                    <h3><a href="/about" id="enlacesFooter">Sobre Nosotres</a></h3>
+                    <h3><a href="" id="enlacesFooter">Catálogo</a></h3>
+                    <h3><a href="" id="enlacesFooter">Inicio</a></h3>
+                </div>
+                <div class="contenedorEnlaces">
+                    <h3><a href="" id="enlacesFooter">Iniciar Sesión</a></h3>
+                    <h3><a href="" id="enlacesFooter">Mi carrito</a></h3>
+                    <h3><a href="" id="enlacesFooter">Mi perfil</a></h3>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+    </footer>
+
     <!-- Vinculacion con JavaScript -->
     <script defer src="./src/scripst/scripts.js"></script>
     <script src="../ReNuevaTe/src/scripst/url-router.js"></script>
-
-    <script src="./src/scripst/contactanos.js"> </script>
-
 </body>
 
 </html>

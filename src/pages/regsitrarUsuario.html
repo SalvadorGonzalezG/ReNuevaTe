@@ -1,0 +1,61 @@
+
+    <div class="Bienvenida-regis">
+        <h1>Regístrate</h1>
+        <span>Bienvenidxs a Ropa Renueva. Ven y sé parte de la mejor e-commerce de venta de ropa de segunda mano. Arma tu armario apoyando al medio ambiente.</span>
+    </div>
+
+    <form class="form">
+        <div class="Registro">
+            <label for="Nombre" >Nombre:</label>
+            <input type="text" class="form-control" id="InputNombre" required="Nombre" placeholder="Ingrese su nombre y apellidos">
+        </div>
+        <div class="Registro">
+            <label for="Email">Correo electrónico:</label>
+            <input type="email" class="form-control" id="InputEmail1" required placeholder="Ingrese un correo válido @gmail.com, hotmail.com, @outlook.com " aria-describedby="emailHelp">
+        </div>
+        <div class="Registro">
+            <label for="phone">Teléfono: </label>
+            <input type="tel" class="form-control" id="InputTelefono" pattern="[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}" required placeholder="Ingrese los 10 números de su télefono" />
+        </div>
+        <div class="Registro">
+            <label for="Contraseña" >Contraseña:</label>
+            <input type="password" class="form-control" name="contraseña" id="InputContraseña" required placeholder="Ingrese una contraseña"> 
+        </div>
+        <div class="checklist-container">
+            <div class="password-checklist" id="passwordChecklist">
+                <h2>Requisitos de la contraseña:</h2>
+                <ul>
+                    <li><input type="checkbox" class="error" id="checkLength" disabled> Al menos 8 caracteres.</li>
+                    <li><input type="checkbox" class="error" id="checkUppercase" disabled> Al menos una letra mayúscula.</li>
+                    <li><input type="checkbox" class="error" id="checkLowercase" disabled> Al menos una letra minúscula.</li>
+                    <li><input type="checkbox" class="error" id="checkNumber" disabled> Al menos un número.</li>
+                    <li><input type="checkbox" class="error" id="checkSpecialChar" disabled> Al menos un carácter especial.</li>
+                </ul>
+            </div>
+            </div>
+            
+            
+        
+            <div class="Registro">
+            <label for="Contraseña" >Confirma tu Contraseña:</label>
+            <input type="password" class="form-control" name="confcontraseña" id="InputCContraseña" required placeholder="Confirme su contraseña"> 
+        </div>
+        <button type="button" class="btn-regsitro" id="button-cuenta">Crear una cuenta</button>
+        
+        <div class="checklist-container">
+            <div class="password-checklist" id="passwordChecklist">
+                <h2>Requisitos de la Contraseña:</h2>
+                <ul>
+                    <li><input type="checkbox" id="checkLength" disabled> Al menos 8 caracteres.</li>
+                    <li><input type="checkbox" id="checkUppercase" disabled> Al menos una letra mayúscula.</li>
+                    <li><input type="checkbox" id="checkLowercase" disabled> Al menos una letra minúscula.</li>
+                    <li><input type="checkbox" id="checkNumber" disabled> Al menos un número.</li>
+                    <li><input type="checkbox" id="checkSpecialChar" disabled> Al menos un carácter especial.</li>
+                </ul>
+            </div>
+    
+    </form>
+
+    <div id="alertContainer"></div>
+<script src="./js/registrate.js"></script>
+
