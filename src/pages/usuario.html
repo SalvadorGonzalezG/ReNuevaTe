@@ -1,1 +1,55 @@
-<h1>PAGINA DE USUARIOS</h1>
+    <!--Contenedor de titulo y icono-->
+    <div id="contenedorUruarios">
+        <h1 class="tituloAdministrador">Administrador de usuarios</h1>    
+        <img class="imgAdmin" src="/ReNuevaTe/public/imagenes/usuarioAdmin.png" alt="">
+    </div>
+    <!--Contenedor del input y el boton de busqueda-->
+    <div class="contenedor">
+        <div class="buscadorUsuarios">
+            <input id="buscadorUsuario" type="text" placeholder="buscar Usuario">
+            <button id="botonBuscarUsuario">Buscar</button>
+        </div>
+    </div>
+
+    <!--contenedor de datos-->
+    <div class="contenedorDatos">
+        
+    </div>
+<br>
+    <!--Aqui quiero crear un .foreach donde consuma cada elemento de usuarios.json-->
+
+    <!--Contenecor de formulario y boton editar -->
+    <div class="formularioDivsFormBoton">
+        <div class="formularioBoton">
+            <form action="" class="contenedorFormularioLabel">
+                <div class="datosFormulario">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre">
+                    
+                </div>
+                <div class="datosFormulario">
+                    <label for="">Correo</label>
+                    <input type="text" id="correo">
+                </div>
+                <div class="datosFormulario">
+                    <label for="">Contraseña</label>
+                    <input type="text" id="contraseña">
+                </div>
+                    <div class="datosFormulario">
+                        <label for="">Confirma la contraseña</label>
+                        <input type="text" id="confirmaContraseña">
+                    </div>
+            </form>
+
+            <div class="textoFinal">
+                <p class="textoFinalUsuario">El nuevo USUARIO es: </p>
+            </div>
+            <div class="botonCrearUsuarios">
+            <button class="botonCrearUsuariosSubmit" type="submit">Crear Usuario</button>
+            </div>
+        </div>
+
+        <div class="divEditarUsuario">
+            <button class="botonEditarUsuario">Editar Usuario</button>
+        </div>
+    </div>

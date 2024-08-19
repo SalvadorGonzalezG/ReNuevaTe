@@ -1,0 +1,91 @@
+[
+    {
+        "id": 1,
+        "nombre_de_usuario": "usuario1",
+        "nombre": "Nombre1",
+        "correo": "usuario1@example.com",
+        "roll": "admin",
+        "publicaciones": ""  
+
+    },
+    {
+        "id": 2,
+        "nombre_de_usuario": "usuario2",
+        "nombre": "Nombre 2",
+        "correo": "usuario2@example.com",
+        "roll": "user",
+        "publicaciones": "5"    
+    },
+    {
+        "id": 3,
+        "nombre_de_usuario": "usuario3",
+        "nombre": "Nombre 3",
+        "correo": "usuario3@example.com",
+        "roll": "user",
+        "publicaciones": "5"  
+    },
+    {
+        "id": 3,
+        "nombre_de_usuario": "usuario3",
+        "nombre": "Nombre 3",
+        "correo": "usuario3@example.com",
+        "roll": "user",
+        "publicaciones": "5"  
+    },
+    {
+        "id": 3,
+        "nombre_de_usuario": "usuario3",
+        "nombre": "Nombre 3",
+        "correo": "usuario3@example.com",
+        "roll": "user",
+        "publicaciones": "5"  
+    },
+    {
+        "id": 3,
+        "nombre_de_usuario": "usuario3",
+        "nombre": "Nombre 3",
+        "correo": "usuario3@example.com",
+        "roll": "user",
+        "publicaciones": "5"
+    },
+    {
+        "id": 3,
+        "nombre_de_usuario": "usuario3",
+        "nombre": "Nombre 3",
+        "correo": "usuario3@example.com",
+        "roll": "user",
+        "publicaciones": "5"  
+    },
+    {
+        "id": 3,
+        "nombre_de_usuario": "usuario3",
+        "nombre": "Nombre 3",
+        "correo": "usuario3@example.com",
+        "roll": "user",
+        "publicaciones": "5"  
+    },
+    {
+        "id": "5",
+        "nombre_de_usuario": "Raul",
+        "nombre": "Raul",
+        "correo": "raul@mail.com",
+        "roll": "user",
+        "publicaciones": ""
+    },
+    {
+        "id": 3,
+        "nombre_de_usuario": "usuario3",
+        "nombre": "Nombre 3",
+        "correo": "usuario3@example.com",
+        "roll": "user",
+        "publicaciones": "5"  
+    },
+    {
+        "id": 3,
+        "nombre_de_usuario": "usuario3",
+        "nombre": "Nombre 3",
+        "correo": "usuario3@example.com",
+        "roll": "user",
+        "publicaciones": "5"  
+    }
+]

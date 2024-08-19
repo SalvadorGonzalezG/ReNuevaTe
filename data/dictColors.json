@@ -1,0 +1,44 @@
+
+[
+    {
+        "name_esp" : "Azul",
+        "name_eng" : "aliceblue",
+        "hexa"     : "#f0f8ff"
+    },
+    {
+        "name_esp" : "Cafe",
+        "name_eng" : "brown",
+        "hexa"     : "#a52a2a"
+    },
+    {
+        "name_esp" : "Negro",
+        "name_eng" : "black",
+        "hexa"     : "#000000"
+    },
+    {
+        "name_esp" : "Gris",
+        "name_eng" : "gray",
+        "hexa"     : "#808080"
+    },
+    {
+        "name_esp" : "Verde",
+        "name_eng" : "green",
+        "hexa"     : "#008000"
+    },
+    {
+        "name_esp" : "Dorado",
+        "name_eng" : "gold",
+        "hexa"     : "#ffd700"
+    },
+    {
+        "name_esp" : "Naranja",
+        "name_eng" : "orange",
+        "hexa"     : "#ffa500"
+    },
+    {
+        "name_esp" : "Rosa",
+        "name_eng" : "pink",
+        "hexa"     : "#ffc0cb"
+    }
+
+]
