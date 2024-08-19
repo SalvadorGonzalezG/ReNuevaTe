@@ -25,7 +25,7 @@ const urlRoutes = {
         title: "Inicio | " + urlPageTitle,
         description: "Inicio de Página",
         scripts: ["../ReNuevaTe/src/scripst/url-router.js"],
-        styles: ["./src/styles/styles.css", "./src/styles/main.css"]
+        styles: ["./src/styles/styles.css", "./src/styles/main.css", "/ReNuevaTe/src/styles/inicio.css"]
     },
     "/inicio": {
         template: "/ReNuevaTe/src/pages/inicio.html",
