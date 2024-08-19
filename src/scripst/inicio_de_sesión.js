@@ -34,7 +34,15 @@ document.getElementById('botonInicioSesion').addEventListener('click', function(
     const contraseña = document.getElementById('contraseñaInicioSesion').value;
     
     if(correo === "arturo.ramirez@gmail.com" && contraseña === "Arturo49"){
+        // function irAlInicio() {
+        //     // Construir la URL con el parámetro del ID
+            const url = `/inicio`;
+            // Cambiar la URL sin recargar la página
+            window.history.pushState({}, "", `/inicio`);
+            urlLocationHandler();
+
         alert("bienvenido iniciaste sesión")
+
     }else{
         alert("No se pudo iniciar tu correo o pasword es incorrecto");
     }

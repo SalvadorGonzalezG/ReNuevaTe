@@ -10,6 +10,9 @@ document.addEventListener("click", (e) => {
     urlRoute();
 });
 
+
+
+
 // crear un objeto que asigne la URL a la plantilla, inicio, sobre nosostros, iniciar sesion, carrito, perfil
 const urlRoutes = {
     404: {
@@ -25,7 +28,7 @@ const urlRoutes = {
         styles: ["./src/styles/styles.css", "./src/styles/main.css"]
     },
     "/inicio": {
-        template: "/ReNuevaTe/src/pages/sobreNosotrxs.html",
+        template: "/ReNuevaTe/src/pages/inicio.html",
         title: "Sobre Nosotres | " + urlPageTitle,
         description: "Página de Sobre Nosotres",
         scripts: [],
