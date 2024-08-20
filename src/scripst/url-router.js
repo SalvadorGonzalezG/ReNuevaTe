@@ -10,8 +10,14 @@ document.addEventListener("click", (e) => {
     urlRoute();
 });
 
-
-
+document.addEventListener("click", (e) => {
+    const { target } = e;
+    if (!target.matches("footer a")) {
+        return;
+    }
+    e.preventDefault();
+    urlRoute();
+});
 
 // crear un objeto que asigne la URL a la plantilla, inicio, sobre nosostros, iniciar sesion, carrito, perfil
 const urlRoutes = {
@@ -29,8 +35,8 @@ const urlRoutes = {
     },
     "/inicio": {
         template: "/ReNuevaTe/src/pages/inicio.html",
-        title: "Sobre Nosotres | " + urlPageTitle,
-        description: "Página de Sobre Nosotres",
+        title: "Inicio | " + urlPageTitle,
+        description: "Página de Inicio",
         scripts: [],
         styles: ["/ReNuevaTe/src/styles/inicio.css"]
     },
