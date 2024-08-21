@@ -1,150 +1,182 @@
+/* styles.css */
 body {
-    font-family: "ABeeZee", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: Arial, sans-serif;
+    background: #f6f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
-    height: 100Vh;
 }
 
-.divInicioSesion {
+.container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 768px;
+    min-height: 480px;
+    transition: transform 0.6s ease-in-out;
+}
+
+.form-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    transition: all 0.6s ease-in-out;
+}
+
+.sign-up-container {
+    left: 0;
+    transform: translateX(100%);
+    opacity: 0;
+    z-index: 1;
+}
+
+.sign-in-container {
+    left: 0;
+    transform: translateX(0);
+    opacity: 1;
+    z-index: 2;
+}
+
+.container.right-panel-active .sign-up-container {
+    transform: translateX(0);
+    opacity: 1;
+    z-index: 5;
+}
+
+.container.right-panel-active .sign-in-container {
+    transform: translateX(-100%);
+    opacity: 0;
+    z-index: 1;
+}
+
+.overlay-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: transform 0.6s ease-in-out;
+    z-index: 100;
+}
+
+.overlay {
+    background-color: #718427;
+    color: #ffffff;
+    position: absolute;
+    left: -100%;
+    height: 100%;
+    width: 200%;
+    transform: translateX(0);
+    transition: transform 0.6s ease-in-out;
+}
+
+.container.right-panel-active .overlay {
+    transform: translateX(50%);
+}
+
+.overlay-panel {
     position: absolute;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 70%;
-    height: 70%;
-    /* border: solid black 2px; */
-}
-
-.divInicioSesion h1 {
-    text-align: center;
-    margin-top: 40px;
-    border-bottom: solid #9FB48E 1px;
-    font-size: 50px;
-}
-
-.divInicioSesion form {
-    text-align: center;
-    width: 60%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    /* border: solid black 2px; */
-}
-
-.divInicioSesion div {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    /* border: solid black 2px; */
-    width: 90%;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    transition: transform 0.6s ease-in-out;
 }
 
-#divMantenerSesionAbierta {
-    flex-direction: row;
+.overlay-left {
+    transform: translateX(-20%);
 }
 
-#labSesionAbierta {
-    margin: 0;
-    margin-left: 10px;
+.container.right-panel-active .overlay-left {
+    transform: translateX(0);
 }
 
-.divInicioSesion label {
-    text-align: left;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    font-size: 20px;
+.overlay-right {
+    right: 0;
+    transform: translateX(0);
 }
 
-#correoInicioSesion , #contraseñaInicioSesion {
-    height: 22px;
-    background-color: #F9F8DF;
-    border-radius: 20px;
-    box-shadow: 2px 3px rgb(205, 202, 202);
+.container.right-panel-active .overlay-right {
+    transform: translateX(20%);
 }
 
-#botonInicioSesion {
-    width: 40%;
-    color: azure;
+/* Estilo uniforme para todos los botones */
+.btn, .btn-primary, .btn.ghost {
+    border-radius: 8px;
+    border: 1px solid #E2793C;
+    background-color: #E2793C;
+    color: #ffffff;
+    font-size: 14px; /* Ajuste del tamaño de la fuente para mayor consistencia */
+    font-weight: bold;
+    padding: 12px 45px; /* Mismo padding que el botón de 'Ingresar' */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra de caja por defecto */
+    width: 100%; /* Asegura que todos los botones llenen el ancho disponible */
+}
+
+.btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #E2793C;
+    border-color: #E2793C;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn.ghost {
+    background-color: transparent;
+    border-color: #ffffff;
+}
+
+.btn.ghost:hover {
     background-color: #9FB48E;
-    border-radius: 20px;
-    height: 30px;
-    font-size: 19px;
-    box-shadow: 3px 3px rgb(205, 202, 202);
-    transition: all 0.6s;
-    cursor: pointer;
+    border-color: #E2793C;
+    color: #E2793C;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-#mantenerSesionAbierta {
-    cursor: pointer;
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+
+h2, .overlay-panel h2 {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 48px;
 }
 
-#botonInicioSesion:hover {
-    background-color: #E2793C ;
-    
+p, input::placeholder {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 18px;
 }
 
-.divInicioSesion a {
-    color: #718427;
+/* Estilo para los textos específicos */
+.overlay-panel p {
+    font-size: 18px;
+    font-family: 'ABeeZee', sans-serif;
 }
 
-@media (max-width:1000px) {
-    .divInicioSesion form {
-        width: 80%    
-}
-}
-
-@media (max-width:700px) {
-    .divInicioSesion form {
-        width: 90%    
-}
-}
-
-@media (max-width:515px) {
-    .divInicioSesion form {
-        width: 100%    
-}
-
-.divInicioSesion {
-    width: 90%;
-    /* border: solid black 2px; */
-}
-
-.divInicioSesion label {
-    text-align: center;
-    margin-left: 0;
-    margin-bottom: 20px;
-    font-size: 20px;
-}
-
-}
-
-@media (max-width:374px) {
-    .divInicioSesion form {
-        width: 100%    
-}
-
-.divInicioSesion {
-    width: 98%;
-    /* border: solid black 2px; */
-}
-
-.divInicioSesion label {
-    text-align: center;
-    margin-left: 0;
-    margin-bottom: 20px;
-    font-size: 19px;
-}
-
-}
-
-#botonInicioSesion:disabled{
-    opacity: 50%;
+/* Placeholder estilo */
+input::placeholder {
+    font-size: 18px;
+    font-family: 'ABeeZee', sans-serif;
+    color: #a0a0a0;
 }
