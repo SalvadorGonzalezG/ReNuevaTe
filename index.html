@@ -33,9 +33,8 @@
 <body>
     <header class="topheader">
         <nav class="topnav">
-            <a href="/ReNuevaTe/index.html" class="log">
-                <img height="50" width="50" src="./public/imagenes/LogoRopaReNueva.png" alt="Logo">
-            </a>
+            <a href="" class="log"  id="el-logo">
+                <img height="65" width="65" src="./public/imagenes/Logo-sin-fondo.png" alt="Logo"> </a>
             <button class="open-menu" aria-label="Cerrar Ménu"><img src="./public/imagenes/hamburger-icon.svg"
                     alt="cerrar menu"></button>
 
@@ -43,24 +42,31 @@
                 </a>
                 <button class="close-menu"><img src="./public/imagenes/close-icon.svg" alt=""></button>
 
-                <li><input type="text" class="inputSearch" placeholder="Buscar"></li>
-                <li><img class="inputLupa" src="./public/imagenes/lupa.svg" alt=""></li>
+                <!-- <li><input type="text" class="inputSearch" placeholder="Buscar"></li> -->
+                <!-- <li><img class="inputLupa" src="./public/imagenes/lupa-de-busqueda.png" alt=""></li> -->
+
+                <!-- <li> <input type="search" placeholder="Encuentra tu estilo o descubre tu esencia" id="Buscador" /></li> -->
+                <li>
+                    <div class="search-container">
+                        <img src="./public/imagenes/lupa.svg" alt="Icono de búsqueda" class="search-icon">
+                        <input type="search" placeholder="Encuentra tu estilo o descubre tu esencia" id="Buscador" />
+                    </div>
+                </li>
 
                 <li><a href="/ReNuevaTe/index.html">Inicio</a></li>
                 <!-- <li><a href="/inicio">Pagina</a></li> -->
                 <li><a href="/about">Sobre Nosotres</a></li>
                 <li><a href="/category">Catálogo</a></li>
                 <!-- <li><a href="/contact-us">Contactanos</a></li> -->
-                <!-- <li><a href="/login">Administrador</a></li> -->
+                  <!-- <li><a href="/login">Administrador</a></li> -->
                 <li><a href="/inicioDeSesion">Iniciar Sesión</a></li>
                 <li><a href="/shopping-cart" class="log">
-                        <img class="content-car" src="./public/imagenes/cart.svg" alt="Logo">
+                        <img class="content-car" src="./public/imagenes/bolsa.svg" alt="Logo">
                     </a></li>
-                <!-- <li><a href="/user" class="log">
+                <!--  <li><a href="/user" class="log">
                         <img class="content-car" src="./public/imagenes/person-circle.svg" alt="Logo">
                     </a>
-                </li>
-                    </li> -->
+                </li> -->
             </ul>
         </nav>
     </header>
@@ -117,6 +123,7 @@
     </footer>
 
     <!-- Vinculacion con JavaScript -->
+     
     <script defer src="./src/scripst/scripts.js"></script>
     <script src="../ReNuevaTe/src/scripst/url-router.js"></script>
 </body>
