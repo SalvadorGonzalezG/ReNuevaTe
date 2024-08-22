@@ -1,4 +1,3 @@
-
 .topheader {
     /* para dejar fija la nav bar */
     position: fixed;
@@ -247,20 +246,21 @@
  .contenedorFooter {
     background-color: #004465;
     width: 100%;
-    height: 150px;
+    /*height: 18%;*/
     position: absolute;
     bottom: 0;
     /*border: solid black 2px; */
 }
 
 .contenedorPieDePagina {
-    height: 100%;
+    /*height: 100%;*/
     box-sizing: border-box;
     text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-top: 10px;
 }
 
 #logoPieDePagina {
@@ -275,7 +275,7 @@
     flex-direction: column;
     justify-content: space-around;
     width: 30%;
-    height: 80%;
+    height: 23%;
     align-items: center;
 }
 
@@ -302,9 +302,16 @@
     background-color: #F9F8DF;
     border: black solid 1px;
     width: 75%;
+    /*margin-top: 15px;*/
 }
 
-.contactanosFooter,
+.contactanosFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+   
+}
 .comentariosFooter {
     display: flex;
     flex-direction: row;
@@ -318,9 +325,23 @@
     justify-content: space-between;
 }
 
-#enlacesFooter {
-    color: azure;
+.enlacesPieDePagina {
+    display: flex;
+    justify-content: space-between;
 }
+
+.contenedorEnlaces {
+    text-align: left;
+    width: 45%; 
+}
+
+#enlacesFooter {
+    text-decoration: none; 
+    color: azure;
+    display: block; 
+    font-size: 18px;
+}
+
 
 @media (max-width:1023px) {
     .enlacesPieDePagina {
@@ -329,37 +350,54 @@
 }
 
 @media (max-width:770px) {
-    .contenedorPieDePagina {
-        flex-direction: column;
-    }
-
     .contenedorFooter {
         background-color: #004465;
         width: 100%;
-        height: 600px;
+        height: auto;
         position: absolute;
         bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px;
         /*border: solid black 2px; */
     }
 
-    .enlacesPieDePagina {
-        width: 60%;
+    .contenedorPieDePagina {
+        /*background-color: #E2793C;*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
     }
-    .contenedorComentariosContactanosBoton {
-        width: 80%;
-}
 
-.suscribeteBotonFooter {
-    width: 90%;
-    height: 50px;
-}
+    .enlacesPieDePagina, 
+    .contenedorComentariosContactanosBoton, 
+    .suscribeteBotonFooter, 
+    .contenedorComentariosContactanos 
+     {
+        
+        width: 90%;
+        margin-bottom: 3px; /* Espacio entre los elementos */
+        text-align: center; /* Centra el texto dentro de cada div */
+    }
 
-.contenedorComentariosContactanos {
-    width: 85%;
-}
-#logoPieDePagina {
-    padding: 10px;
-}
+    #logoPieDePagina {
+        margin-top: auto; /* Empuja el logo hacia la parte inferior */
+        padding: 3px;
+        width: 80px;
+        height: 80px;
+    }
+    .contenedorEnlaces {
+        display: flex;
+        margin-left: 50px;
+        align-items:normal;
+        text-align: left;
+        width: 45%; 
+        flex-direction: column;
+    }
 }
 
 @media (max-width:499px) {
@@ -370,7 +408,7 @@
     .contenedorFooter {
         background-color: #004465;
         width: 100%;
-        height: 600px;
+        height: auto;
         position: absolute;
         bottom: 0;
         /*border: solid black 2px; */
@@ -378,9 +416,11 @@
 
     .enlacesPieDePagina {
         width: 80%;
+        margin-bottom: 0;
     }
     .contenedorComentariosContactanosBoton {
         width: 80%;
+        margin-bottom: 5px;
 }
 
 .suscribeteBotonFooter {
@@ -389,9 +429,12 @@
 
 .contenedorComentariosContactanos {
     width: 85%;
+    margin-bottom: 3px;
 }
 
 #logoPieDePagina {
-    padding: 10px;
+    padding: 3px;
+    height: 80px;
+width: 80px;
 }
 } 
