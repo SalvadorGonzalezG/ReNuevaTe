@@ -1,0 +1,48 @@
+
+body {
+    background-color: transparent;
+  }
+  #demo {
+    -webkit-box-shadow: 11px 11px 12px -3px #A1A1A1; 
+    box-shadow: 11px 11px 12px -3px #A1A1A1;
+    }
+    .description img {
+        height: 250px;
+        width: 100%;
+        border-radius: 20px;
+      }
+      .shoe-details {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+      }
+      .card-container-categorias {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        padding: 16px;
+        justify-content: center;
+        align-content: flex-start;
+        width: 80%;
+        margin-top: 15px;
+        margin-left: 10%;
+      }
+      .card {
+        transition: transform 0.3s ease;
+        width: 250px;
+        border-width: 0px;
+        position: relative;
+      }
+      .card:hover {
+        transform: scale(1.03);
+      }
+      .card-image {
+        background-color: transparent;
+        margin-top: 40px;
+        width: 100%;
+        height: 130px;
+        border-radius: 6px 6px 0 0;
+      }

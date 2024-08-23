@@ -13,16 +13,30 @@
 }
 
 body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "ABeeZee", sans-serif;
     background-color: var(--theme-color);
     color: var(--text-color);
     /* poner margen para que las paginas esten abajo del navbar */
     padding-top: 70px;
+    padding-bottom: 258px;
+    min-height: 100Vh;
+    position: relative;
     
 }
+
+
+/* body {
+    
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}  */
 
 a{
     text-decoration: none;
     color: var(--text-color);
 
 }
+

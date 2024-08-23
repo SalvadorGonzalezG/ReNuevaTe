@@ -9,9 +9,9 @@
 
     <link rel="stylesheet" href="./src/styles/styles.css">
     <link rel="stylesheet" href="./src/styles/main.css">
-    <link rel="stylesheet" href="./src/styles/sobreNosotrxs.css">
-    <link rel="stylesheet" href="./src/styles/contactanos.css">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.cs@8.0.1/normalizer.min.css">
+    <link rel="stylesheet" href="./src/pages/agregarProductos.html">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,9 +33,8 @@
 <body>
     <header class="topheader">
         <nav class="topnav">
-            <a href="" class="log">
-                <img height="50" width="50" src="./public/imagenes/logo2.png" alt="Logo">
-            </a>
+            <a href="" class="log"  id="el-logo">
+                <img height="65" width="65" src="./public/imagenes/Logo-sin-fondo.png" alt="Logo"> </a>
             <button class="open-menu" aria-label="Cerrar Ménu"><img src="./public/imagenes/hamburger-icon.svg"
                     alt="cerrar menu"></button>
 
@@ -43,35 +42,90 @@
                 </a>
                 <button class="close-menu"><img src="./public/imagenes/close-icon.svg" alt=""></button>
 
-                <li><input type="text" class="inputSearch" placeholder="Buscar"></li>
-                <li><img class="inputLupa" src="./public/imagenes/lupa.svg" alt=""></li>
+                <!-- <li><input type="text" class="inputSearch" placeholder="Buscar"></li> -->
+                <!-- <li><img class="inputLupa" src="./public/imagenes/lupa-de-busqueda.png" alt=""></li> -->
+
+                <!-- <li> <input type="search" placeholder="Encuentra tu estilo o descubre tu esencia" id="Buscador" /></li> -->
+                <li>
+                    <div class="search-container">
+                        <img src="./public/imagenes/lupa.svg" alt="Icono de búsqueda" class="search-icon">
+                        <input type="search" placeholder="Encuentra tu estilo o descubre tu esencia" id="Buscador" />
+                    </div>
+                </li>
 
                 <li><a href="/ReNuevaTe/index.html">Inicio</a></li>
+                <!-- <li><a href="/inicio">Pagina</a></li> -->
                 <li><a href="/about">Sobre Nosotres</a></li>
-                <li><a href="/catalogue">Catálogo</a></li>
-                <li><a href="/contact-us">Contactanos</a></li>
-                <!-- <li><a href="/login">Iniciar Sesión</a></li> -->
-
+                <li><a href="/category">Catálogo</a></li>
+                <!-- <li><a href="/contact-us">Contactanos</a></li> -->
+                  <!-- <li><a href="/login">Administrador</a></li> -->
+                <li><a href="/inicioDeSesion">Iniciar Sesión</a></li>
                 <li><a href="/shopping-cart" class="log">
-                        <img class="content-car" src="./public/imagenes/cart.svg" alt="Logo">
+                        <img class="content-car" src="./public/imagenes/bolsa.svg" alt="Logo">
                     </a></li>
-                <li><a href="/user" class="log">
+                <!--  <li><a href="/user" class="log">
                         <img class="content-car" src="./public/imagenes/person-circle.svg" alt="Logo">
                     </a>
-
-                </li>
-                <!-- <li><a href="/contact-us">Iniciar Sesión</a></li> -->
+                </li> -->
             </ul>
         </nav>
     </header>
-    <div id="content"></div>
+    <div id="content">
+
+    </div>
+
+    <!-- código footer -->
+    <footer class="contenedorFooter">
+        <div class="contenedorPieDePagina">
+            <img id="logoPieDePagina" src="./public/imagenes/LogoRopaReNuevaFooter.png" alt="Logo de Ropa ReNueva">
+            <div class="contenedorComentariosContactanosBoton">        
+            <!--<button  style="height: 35px; border-radius: 8px;" class="suscribeteBotonFooter"><b>Suscríbete</b></button>-->
+                <div style="border-radius: 8px;" class="contenedorComentariosContactanos">
+                    <div class="contactanosFooter">
+                        <img src="./public/imagenes/envelope (1).svg" alt="Logo de carta" style="padding-right: 5px">
+                        <h3 style="font-size: 18px" style="padding-left: 12px ; margin-top: 10%;">Contáctanos</h3>
+                    </div>
+                    <div class="comentariosFooter">
+                        <img src="./public/imagenes/chat-fill.svg" alt="Logo de globo de texto" style="padding-right: 5px">
+                        <h3 style="font-size: 18px" style="padding-left: 12px; padding-top: 5px;">Comentarios</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="enlacesPieDePagina">
+                <div class="contenedorEnlaces">
+                    <h3 style="font-size: 18px;"><a href="/about" id="enlacesFooter">Sobre Nosotres</a></h3>
+                    <h3 style="font-size: 18px"><a href="/category" id="enlacesFooter">Catálogo</a></h3>
+                    <h3 style="font-size: 18px"><a href="/inicio" id="enlacesFooter">Inicio</a></h3>
+                </div>
+                <div class="contenedorEnlaces">
+                    <h3 style="font-size: 18px"><a href="/inicioDeSesion" id="enlacesFooter">Iniciar Sesión</a></h3>
+                    <h3 style="font-size: 18px"><a href="/shopping-cart" id="enlacesFooter">Mi carrito</a></h3>
+                    <h3 style="font-size: 18px"><a href="/inicioDeSesion" id="enlacesFooter">Mi perfil</a></h3>
+                </div>
+            </div> -->
+            <div class="enlacesPieDePagina">
+                <div class="contenedorEnlaces">
+                    <h3><a href="/about" id="enlacesFooter">Sobre Nosotres</a></h3>
+                    <h3><a href="/category" id="enlacesFooter">Catálogo</a></h3>
+                    <h3><a href="/inicio" id="enlacesFooter">Inicio</a></h3>
+                </div>
+                <div class="contenedorEnlaces">
+                    <h3><a href="/inicioDeSesion" id="enlacesFooter">Iniciar Sesión</a></h3>
+                    <h3><a href="/shopping-cart" id="enlacesFooter">Mi carrito</a></h3>
+                    <h3><a href="/inicioDeSesion" id="enlacesFooter">Mi perfil</a></h3>
+                </div>
+            </div>
+            
+        </div>
+        </div>
+        </div>
+
+    </footer>
 
     <!-- Vinculacion con JavaScript -->
+     
     <script defer src="./src/scripst/scripts.js"></script>
     <script src="../ReNuevaTe/src/scripst/url-router.js"></script>
-
-    <script src="./src/scripst/contactanos.js"> </script>
-
 </body>
 
 </html>

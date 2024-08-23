@@ -1,0 +1,37 @@
+<div class="container" id="container">
+    <div class="form-container sign-up-container">
+        <form id="signUpForm">
+            <h2>Crear Cuenta</h2>
+            <input type="text" id="name" placeholder="Nombre completo" class="form-control" required>
+            <input type="email" id="email" placeholder="Correo" class="form-control" required>
+            <input type="tel" id="phone" placeholder="Número de teléfono" class="form-control" required pattern="\d{10,}" title="El número de teléfono debe tener al menos 10 dígitos">
+            <input type="password" id="password" placeholder="Contraseña" class="form-control" pattern=".{8,}" title="La contraseña debe tener al menos 8 caracteres" required>
+            <input type="password" id="confirmPassword" placeholder="Confirma contraseña" class="form-control" required>
+            <button type="submit" class="btn btn-primary">Crear</button>
+        </form>
+    </div>
+    
+    <div class="form-container sign-in-container">
+        <form id="signInForm">
+            <h2>Inicia Sesión</h2>
+            <input type="email" id="signInEmail" placeholder="Correo" class="form-control" required>
+            <input type="password" id="signInPassword" placeholder="Contraseña" class="form-control" required>
+            <a href="#" id="forgotPassword">¿Olvidaste tu contraseña?</a><br>
+            <button type="submit" class="btn btn-primary">Ingresar</button>
+        </form>
+    </div>
+    <div class="overlay-container">
+        <div class="overlay">
+            <div class="overlay-panel overlay-left">
+                <h2>¡Bienvenid@ de nuevo!</h2>
+                <p>Únete a nuestra comunidad para recibir promociones.</p>
+                <button class="btn btn-light" id="goToLogin">INICIA SESIÓN</button>
+            </div>
+            <div class="overlay-panel overlay-right">
+                <h2>¡Hola!</h2>
+                <p>¿No tienes una cuenta? Accede aquí para registrarte.</p>
+                <button class="btn btn-light" id="goToRegister">UNIRSE</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,1094 @@
+[
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$974.73",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/1.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/2.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/3.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/4.jpg"
+        },
+        "id": "01",
+        "color": "#C8A2C8"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$235.9",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/5.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/6.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/7.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/8.jpg"
+        },
+        "id": "02",
+        "color": "gold"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$160.99",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/9.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/10.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/11.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/12.jpg"
+        },
+        "id": "03",
+        "color": "navy"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$2000.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/13.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/14.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/15.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/16.jpg"
+        },
+        "id": "04",
+        "color": "#EED9C4"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$610.36",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/17.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/18.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/19.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/20.jpg"
+        },
+        "id": "05",
+        "color": "black"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$300.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/21.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/22.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/23.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/24.jpg"
+        },
+        "id": "06",
+        "color": "#59392B"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$43.1",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/25.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/26.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/27.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/28.jpg"
+        },
+        "id": "07",
+        "color": "black"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$2000.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/29.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/30.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/31.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/32.jpg"
+        },
+        "id": "08",
+        "color": "green"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$27.68",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/33.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/34.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/35.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/36.jpg"
+        },
+        "id": "09",
+        "color": "#EED9C4"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$431.87",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/37.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/38.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/39.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/40.jpg"
+        },
+        "id": "10",
+        "color": "black"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$333.72",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/41.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/43.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/44.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/45.jpg"
+        },
+        "id": "11",
+        "color": "navy"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$112.12",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/47.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/48.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/48.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/47.jpg"
+        },
+        "id": "12",
+        "color": "#63C5DA"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$441.77",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/49.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/50.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/51.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/52.jpg"
+        },
+        "id": "13",
+        "color": "#FC9483"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$112.67",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/53.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/54.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/55.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/56.jpg"
+        },
+        "id": "14",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$321.27",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/57.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/58.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/59.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/60.jpg"
+        },
+        "id": "15",
+        "color": "navy"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$222.13",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/61.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/62.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/63.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/64.jpg"
+        },
+        "id": "16",
+        "color": "#00FFFF"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$980.54",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/65.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/66.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/67.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/68.jpg"
+        },
+        "id": "17",
+        "color": "gray"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$1000.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/69.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/70.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/71.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/72.jpg"
+        },
+        "id": "18",
+        "color": "navy"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$171.11",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/73.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/74.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/75.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/76.jpg"
+        },
+        "id": "19",
+        "color": "gray"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/77.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/78.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/79.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/80.jpg"
+        },
+        "id": "20",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/81.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/82.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/83.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/84.jpg"
+        },
+        "id": "21",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/85.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/86.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/87.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/88.jpg"
+        },
+        "id": "22",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/89.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/90.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/91.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/92.jpg"
+        },
+        "id": "23",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/93.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/94.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/95.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/93.jpg"
+        },
+        "id": "24",
+        "color": "brown"
+    },
+    {
+        "name": "Lid - High Heat, Super Clear",
+        "price": "$34.34B",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/94.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/95.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/95.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/94.jpg"
+        },
+        "id": "25",
+        "color": "brown"
+    },
+    {
+        "name": "Chaqueta a la moda con bolsillo delantero",
+        "price": "$500.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/99.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/100.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/101.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/102.jpg"
+        },
+        "id": "26",
+        "color": "brown"
+    },
+    {
+        "name": "Denizen",
+        "price": "$600",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/103.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/104.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/105.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/106.jpg"
+        },
+        "id": "27",
+        "color": "brown"
+    },
+    {
+        "name": "Old Navy",
+        "price": "$500.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/107.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/108.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/109.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/110.jpg"
+        },
+        "id": "28",
+        "color": "black"
+    },
+    {
+        "name": "Playera AeroPostale",
+        "price": "$400.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/111.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/112.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/113.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/114.jpg"
+        },
+        "id": "29",
+        "color": "yellow"
+    },
+    {
+        "name": "AeroPostale",
+        "price": "$300.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/115.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/116.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/117.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/118.jpg"
+        },
+        "id": "23",
+        "color": "white"
+    },
+    {
+        "name": "Calvin Klein Jeans",
+        "price": "$400.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/119.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/120.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/121.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/122.jpg"
+        },
+        "id": "31",
+        "color": "black"
+    },
+    {
+        "name": "GUESS",
+        "price": "$700",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/123.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/124.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/125.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/126.jpg"
+        },
+        "id": "32",
+        "color": "black"
+    },
+    {
+        "name": "Balmain",
+        "price": "$200.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/127.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/128.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/129.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/130.jpg"
+        },
+        "id": "33",
+        "color": "brown"
+    },
+    {
+        "name": "Vestido Casual Weekend",
+        "price": "$150.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/131.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/132.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/133.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/134.jpg"
+        },
+        "id": "34",
+        "color": "black"
+    },
+    {
+        "name": "Vestido 3/4 Casual Contempor",
+        "price": "$300.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/135.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/136.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/137.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/138.jpg"
+        },
+        "id": "35",
+        "color": "navy"
+    },
+    {
+        "name": "Aereo nyc",
+        "price": "$400.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/139.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/140.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/141.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/142.jpg"
+        },
+        "id": "36",
+        "color": "black"
+    },
+    {
+        "name": "GAP",
+        "price": "$350.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/144.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/145.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/146.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/147.jpg"
+        },
+        "id": "37",
+        "color": "red"
+    },
+    {
+        "name": "Playera Adidas",
+        "price": "$550.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/148.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/149.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/150.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/151.jpg"
+        },
+        "id": "38",
+        "color": "white"
+    },
+    {
+        "name": "Playera Adidas",
+        "price": "$750.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/152.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/153.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/154.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/155.jpg"
+        },
+        "id": "39",
+        "color": "green"
+    },
+    {
+        "name": "Abrigo de plumas",
+        "price": "$600.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/156.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/157.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/158.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/159.jpg"
+        },
+        "id": "40",
+        "color": "beige"
+    },
+    {
+        "name": "Teddy con Estampado de Cuadros",
+        "price": "$430",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/160.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/161.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/162.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/163.jpg"
+        },
+        "id": "41",
+        "color": "brown"
+    },
+    {
+        "name": "Abrigo con Capucha Estilo Informal",
+        "price": "$428.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/164.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/165.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/166.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/167.jpg"
+        },
+        "id": "42",
+        "color": "brown"
+    },
+    {
+        "name": "Abrigo Estilo Informal",
+        "price": "$250",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/168.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/169.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/170.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/171.jpg"
+        },
+        "id": "43",
+        "color": "beige"
+    },
+    {
+        "name": "Shein Chaqueta de Lana Casual",
+        "price": "$600",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/172.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/173.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/174.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/175.jpg"
+        },
+        "id": "44",
+        "color": "black"
+    },
+    {
+        "name": "Cazadora gruesa Alcolchada",
+        "price": "$800",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/176.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/177.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/178.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/179.jpg"
+        },
+        "id": "45",
+        "color": "gray"
+    },
+    {
+        "name": "Lana Casual",
+        "price": "$350",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/180.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/181.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/182.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/183.jpg"
+        },
+        "id": "46",
+        "color": "brown"
+    },
+    {
+        "name": "Maninfinity Abrigo de Lana",
+        "price": "$",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/184.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/185.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/186.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/187.jpg"
+        },
+        "id": "47",
+        "color": "brown"
+    },
+    {
+        "name": "Dazy",
+        "price": "$952.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/188.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/189.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/190.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/191.jpg"
+        },
+        "id": "48",
+        "color": "beige"
+    },
+    {
+        "name": "Dazy Abrigo con capucha y cremallera",
+        "price": "$800.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/192.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/193.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/194.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/195.jpg"
+        },
+        "id": "49",
+        "color": "black"
+    },
+    {
+        "name": "Lune Abrigo",
+        "price": "$600.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/196.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/197.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/198.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/199.jpg"
+        },
+        "id": "50",
+        "color": "brown"
+    },
+    {
+        "name": "Frenchy",
+        "price": "$450",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/200.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/201.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/202.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/203.jpg"
+        },
+        "id": "51",
+        "color": "brown"
+    },
+    {
+        "name": "Essnce Cuello con Solapa",
+        "price": "$700",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/204.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/205.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/206.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/207.jpg"
+        },
+        "id": "52",
+        "color": "brown"
+    },
+    {
+        "name": "Camisa SHEIn",
+        "price": "$150.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/208.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/209.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/210.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/220.jpg"
+        },
+        "id": "53",
+        "color": "black"
+    },
+    {
+        "name": "Playera Atercipelada",
+        "price": "$100.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/212.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/213.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/214.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/213.jpg"
+        },
+        "id": "54",
+        "color": "black"
+    },
+    {
+        "name": "Playera shein",
+        "price": "$200.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/215.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/216.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/217.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/218.jpg"
+        },
+        "id": "55",
+        "color": "black"
+    },
+    {
+        "name": "Dazy Star",
+        "price": "$300.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/219.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/220.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/221.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/222.jpg"
+        },
+        "id": "56",
+        "color": "white"
+    },
+    {
+        "name": "Virginia",
+        "price": "$130",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/223.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/224.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/225.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/226.jpg"
+        },
+        "id": "57",
+        "color": "red"
+    },
+    {
+        "name": "Friends",
+        "price": "$150",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/227.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/228.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/229.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/230.jpg"
+        },
+        "id": "58",
+        "color": "pink"
+    },
+    {
+        "name": "Short Casual",
+        "price": "$303.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/231.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/232.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/233.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/234.jpg"
+        },
+        "id": "59",
+        "color": "brown"
+    },
+    {
+        "name": "Casual de verano",
+        "price": "$300.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/235.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/236.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/237.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/238.jpg"
+        },
+        "id": "60",
+        "color": "beige"
+    },
+    {
+        "name": "KASUA",
+        "price": "$180",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/239.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/240.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/241.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/242.jpg"
+        },
+        "id": "61",
+        "color": "white"
+    },
+    {
+        "name": "Bermuda Capri",
+        "price": "$377.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/243.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/244.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/245.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/246.jpg"
+        },
+        "id": "62",
+        "color": "brown"
+    },
+    {
+        "name": "Clasi Pantalones cortos",
+        "price": "$100.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/247.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/248.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/249.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/250.jpg"
+        },
+        "id": "63",
+        "color": "white"
+    },
+    {
+        "name": "Short Jeans Mezclilla",
+        "price": "$200.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/251.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/252.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/253.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/254.jpg"
+        },
+        "id": "64",
+        "color": "navy"
+    },
+    {
+        "name": "Linfun",
+        "price": "$151.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/255.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/256.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/257.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/258.jpg"
+        },
+        "id": "65",
+        "color": "black"
+    },
+    {
+        "name": "Linfun",
+        "price": "$100",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/259.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/260.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/261.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/262.jpg"
+        },
+        "id": "66",
+        "color": "orange"
+    },
+    {
+        "name": "Slayr",
+        "price": "$281.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/263.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/264.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/265.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/266.jpg"
+        },
+        "id": "67",
+        "color": "brown"
+    },
+    {
+        "name": "OLSO",
+        "price": "$500.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/267.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/268.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/269.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/270.jpg"
+        },
+        "id": "68",
+        "color": "green"
+    },
+    {
+        "name": "Shein Conjunto Negro",
+        "price": "$600",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/271.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/272.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/273.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/274.jpg"
+        },
+        "id": "69",
+        "color": "black"
+    },
+    {
+        "name": "Manfinity Conjunto Deportivo",
+        "price": "$600.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/275.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/276.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/277.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/278.jpg"
+        },
+        "id": "70",
+        "color": "red"
+    },
+    {
+        "name": "Homme Conjunto Deportivo",
+        "price": "$450.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/279.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/280.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/281.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/282.jpg"
+        },
+        "id": "71",
+        "color": "brown"
+    },
+    {
+        "name": "Friends",
+        "price": "$150.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/283.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/284.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/285.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/286.jpg"
+        },
+        "id": "72",
+        "color": "navy"
+    },
+    {
+        "name": "Frenchy Falda",
+        "price": "$250.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/287.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/288.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/289.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/290.jpg"
+        },
+        "id": "73",
+        "color": "brown"
+    },
+    {
+        "name": "Prive Falda cruzada",
+        "price": "$300",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/291.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/292.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/293.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/294.jpg"
+        },
+        "id": "74",
+        "color": "black"
+    },
+    {
+        "name": "Dazy Falda Corta Piel",
+        "price": "$249.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/295.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/296.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/297.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/298.jpg"
+        },
+        "id": "75",
+        "color": "brown"
+    },
+    {
+        "name": "Marika",
+        "price": "$186.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/299.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/300.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/301.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/302.jpg"
+        },
+        "id": "76",
+        "color": "green"
+    },
+    {
+        "name": "Estampada",
+        "price": "$148.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/303.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/304.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/305.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/306.jpg"
+        },
+        "id": "77",
+        "color": "red"
+    },
+    {
+        "name": "Marika",
+        "price": "$250.00",
+        "detalle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae harum illum non optio, quam, voluptatem assumenda suscipit mollitia quod blanditiis ratione dolor praesentium inventore neque sapiente? Reprehenderit, sequi omnis.",
+        "talla": 1,
+        "pictures": {
+            "image1": "/ReNuevaTe/public/imagenes/307.jpg",
+            "image2": "/ReNuevaTe/public/imagenes/308.jpg",
+            "image3": "/ReNuevaTe/public/imagenes/309.jpg",
+            "image4": "/ReNuevaTe/public/imagenes/310.jpg"
+        },
+        "id": "78",
+        "color": "red"
+    }
+]

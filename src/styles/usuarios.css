@@ -1,0 +1,154 @@
+#contenedorUruarios{
+    background-color: #E2793C;
+    width: 500px;
+    height: auto;
+    text-align: center;
+}
+.tituloAdministrador{
+    color: rgb(6, 6, 6);
+    margin: 5px;
+}
+.imgAdmin{
+    width: 40px;
+    height: 40px;
+    
+}
+.contenedor {
+    display: flex;
+}
+
+.buscadorUsuarios {
+    margin-left: auto; /* Empuja el div hacia la derecha */
+    display: flex;
+    gap: 10px; /* Espacio entre el input y el botÃ³n */
+    align-items: center; /* Centra verticalmente los elementos dentro del buscador */
+    margin-right: 50px; /* Ajusta el margen a la derecha para que no estÃ© pegado al borde del contenedor */
+}
+#buscadorUsuario{
+    border-radius: 10px;
+    height: 28px;
+    border: none;
+    
+}
+input{
+    background-color: #F9F8DF;
+}
+#botonBuscarUsuario{
+    background-color: #718427;
+    border-radius: 8px;
+    border: none;
+    height: 28px;
+    margin-bottom: 20px;
+}
+
+/*Aplicamos grid para colocar los datos que van a ser requeridos*/
+.contenedorDatos{
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    background-color: #ccc;
+    height: auto;
+    padding: 5px;
+    
+}
+
+.datosId, .datosNombreU, .datosNombre, .datosCorreo, .datosRoll, .datosPublicaciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    border: 1px solid rgba(0, 0, 0, 0.8)
+}
+
+/*Formulario y boton editar usuario*/
+
+.contenedorDivsFormulario{
+
+    height: 150px;
+    background-color: #e7d8d8;
+
+}
+
+label{
+    margin-top: 0px;
+}
+.datosFormulario{
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    background-color: #ccc;
+    height: 100px;
+
+    padding: 10px;
+}
+.formularioBoton {
+
+}
+.datosFormulario input{
+    padding: 8px;
+    border: 8px #ccc;
+    margin: 8px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.contenedorFormularioLabel{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    background-color: #ccc;
+}
+.textoFinal{
+    margin-top: auto;
+    padding: 10px 0;
+    text-align: start;
+    background-color: #ccc;
+}
+.textoFinalUsuario{
+    margin-left: 75px;
+}
+.botonCrearUsuarios{
+    display: flex;
+    justify-content: center;    
+}
+.botonCrearUsuariosSubmit{
+    margin-top: 5px;
+    background-color: #718427;
+    border-radius: 8px;
+    border: none;
+    height: 28px;
+}
+
+.formularioDivsFormBoton{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 11px;
+    padding: 10px;
+}
+.divEditarUsuario{
+}
+.EditarUsuario{
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+}
+.nuevoUsuario{
+    margin: 0;
+}
+.botonEditarUsuario{
+    margin-top: 5px;
+    background-color: #718427;
+    border-radius: 8px;
+    border: none;
+    height: 28px;
+}
+.botonEliminarUsuario{
+    background-color: #FF4C25;
+    border: none;
+    border-radius: 8px;
+}
+.botonGuardarUsuario{
+    background-color: #718427;
+    border: none;
+    border-radius: 8px;
+}

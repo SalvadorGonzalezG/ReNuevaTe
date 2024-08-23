@@ -1,1 +1,32 @@
-<h1>PAGINA DEL CATÁLOGO</h1>
+<div class="filter-container">
+
+  <div class="filter-group">
+    <label for="price-filter">Precio:</label>
+    <select id="price-filter">
+      <option value="">Todos</option>
+      <option value="low">Menos de 500</option>
+      <option value="medium">500 a 1000</option>
+      <option value="high">Más de 1000</option>
+    </select>
+  </div>
+
+  <div class="filter-group">
+    <label for="brand-filter">Marca:</label>
+    <select id="brand-filter">
+      <option value="">Todas</option>
+    </select>
+  </div>
+
+  <div class="filter-group">
+    <label for="color-filter">Color:</label>
+    <select id="color-filter">
+      <option value="">Todos</option>
+    </select>
+  </div>
+</div>
+
+<div id="card-container" class="card-container"></div> <!-- Contenedor para las tarjetas -->
+
+<script src="./src/scripst/card.js"></script>
+
+
