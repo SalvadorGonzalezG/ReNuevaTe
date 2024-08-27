@@ -10,9 +10,59 @@
 <body>
     <div class="contenedorDetallesEnvio">
         <div class="flexDetallesEnvio">
-            Detalles de envio.
+            DETALLES DEL ENVIO
+        </div>
+        <div class="flexDetallesEnvio">
+            <img class="carritoEnvio" src="../../public/imagenes/envio.svg" alt="">
+            DIRECCIÓN DE ENVIO: 
         </div>
     </div>
-    
+    <!--Formulario de los detalles de envio-->
+    <div class="contenedorAmbosDetallesEnvio">
+        <div class="formularioDetallesEnvio izquierda">
+            <form action="" class="formularioDetallesEnvio">
+                <div class="mb-1">
+                    <label for="disabledTextInput" class="form-label">Calle y Numero:</label>
+                    <input type="text"  placeholder="calle y numero">
+                  </div>
+                  <div class="mb-1">
+                    <label for="disabledSelect" class="form-label">Colonia:</label>
+                    <input type="text" placeholder="Nombre de tu colonia">
+                  </div>
+                  <div class="mb-1">
+                    <label for="" class="form-label">Estado:</label>
+                    <input type="text" placeholder="Estado de la republica al que perteneces">
+                  </div>
+                  <div class="mb-1">
+                    <label for="" class="form-label">C.P:</label>
+                    <input type="text" placeholder="Codigo Postal">
+                  </div>
+                  <div class="mb-1">
+                    <label for="" class="form-label">Tel/Cel:</label>
+                    <input type="text" placeholder="Telefono o numero de celular">
+                  </div>
+                  <div class="mb-1">
+                    <label for="" class="form-label">Quien recibe:</label>
+                    <input type="text" placeholder="Debera presentar su Ine en la entrega">
+                  </div>
+            </form>
+        </div>
+        <div class="formularioDetallesEnvio derecha">
+            <h3>RESUMEN</h3>
+            <a href="" id="mostrarCupon">AGREGA UN CUPON</a>
+            <div class="contenedorInputCupon">
+            <input id="inputCupon" class="inputCupon" type="text" placeholder="Cupon">
+        </div>
+            <h4>Subtotal $</h4>
+            <h4>Envio $</h4>
+            <h4>I.V.A $</h4>
+                <hr>
+            <h4>Total $</h4>
+            <button class="botonDetallesEnvio">Siguiente</button>
+            <button class="botonDetallesEnvio">cancelar</button>
+        </div>
+    </div>
 </body>
+
+<script src="../scripst/detallesDeEnvio.js"></script>
 </html>
