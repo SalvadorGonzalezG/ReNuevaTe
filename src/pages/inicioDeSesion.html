@@ -1,37 +1,55 @@
-<div class="container" id="container">
-    <div class="form-container sign-up-container">
-        <form id="signUpForm">
-            <h2>Crear Cuenta</h2>
-            <input type="text" id="name" placeholder="Nombre completo" class="form-control" required>
-            <input type="email" id="email" placeholder="Correo" class="form-control" required>
-            <input type="tel" id="phone" placeholder="Número de teléfono" class="form-control" required pattern="\d{10,}" title="El número de teléfono debe tener al menos 10 dígitos">
-            <input type="password" id="password" placeholder="Contraseña" class="form-control" pattern=".{8,}" title="La contraseña debe tener al menos 8 caracteres" required>
-            <input type="password" id="confirmPassword" placeholder="Confirma contraseña" class="form-control" required>
-            <button type="submit" class="btn btn-primary">Crear</button>
-        </form>
-    </div>
-    
-    <div class="form-container sign-in-container">
-        <form id="signInForm">
-            <h2>Inicia Sesión</h2>
-            <input type="email" id="signInEmail" placeholder="Correo" class="form-control" required>
-            <input type="password" id="signInPassword" placeholder="Contraseña" class="form-control" required>
-            <a href="#" id="forgotPassword">¿Olvidaste tu contraseña?</a><br>
-            <button type="submit" class="btn btn-primary">Ingresar</button>
-        </form>
-    </div>
-    <div class="overlay-container">
-        <div class="overlay">
-            <div class="overlay-panel overlay-left">
-                <h2>¡Bienvenid@ de nuevo!</h2>
-                <p>Únete a nuestra comunidad para recibir promociones.</p>
-                <button class="btn btn-light" id="goToLogin">INICIA SESIÓN</button>
-            </div>
-            <div class="overlay-panel overlay-right">
-                <h2>¡Hola!</h2>
-                <p>¿No tienes una cuenta? Accede aquí para registrarte.</p>
-                <button class="btn btn-light" id="goToRegister">UNIRSE</button>
-            </div>
+<section class="bdy">
+    <div class="container" id="container">
+        <!-- Formulario para crear cuenta -->
+        <div class="formulario form-container1 sign-up-container" id>
+            <form id="formulario" class="formulario" action="POST">
+              <div class="title"><h3 class="titulo-seccion">Crear Cuenta</h3></div>
+
+                <input id="nombre" class="entrada my-1" name="nombre" type="text" onkeypress="return check(event)" placeholder="Nombre Apellido" required/>
+                <input id="correo" class="entrada my-1" name="correo" type="email" placeholder="Correo" required/>
+
+                <input id="tel" class="entrada my-1" name="numero" type="tel" placeholder="Número" required/>
+
+                <input id="contraseña" class="entrada my-1" name="contraseña" type="password" placeholder="Contraseña" required/>
+
+                <input id="contraseña2" class="entrada my-1" name="contraseña2" type="password" placeholder="Confirma contraseña" required/>
+
+                <!-- Boton -->
+                <button type="submit" class="boton">Crear</button>
+                <p class="warnings" id="warnings"></p>
+            </form>
         </div>
-    </div>
+        <!-- Formulario para iniciar sesión -->
+        <div class="formulario2 form-container2 sign-in-container">
+            <form id="formulario2" class="formulario2" action="GET">
+                <h3 class="titulo-seccion">Inicia Sesión</h3>
+
+                <input id="username" class="entrada my-2" name="user" type="user" placeholder="Correo" required/>
+
+                <input id="password" class="entrada my-2" name="password" type="password" placeholder="Contraseña" required/>
+
+                <a class="texto-general-link" href="#">¿Olvidaste tu contraseña?</a>
+                <button type="submit" class="boton">Ingresar</button>
+                <p class="error" id="error"></p>
+            </form>
+        </div>
+        
+        <!-- Overlay -->
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h3 class="titulo-seccion-2">Bienvenidx!</h3>
+                    <p class="texto-general-2">Únete a nuestra comunidad para recibir promociones.</p>
+                    <button type="button" class="boton-ghost" id="signIn">Inicia Sesión</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h3 class="titulo-seccion-2">¡Únete!</h3>
+                    <p class="texto-general-2">¿No tienes una cuenta? Accede aquí para registrarte.</p>
+                    <button type="button" class="boton-ghost" id="signUp">Unirse</button>
+                </div>
+            </div>
+      </div>
+  </div>
 </div>
+</div>
+</section>
