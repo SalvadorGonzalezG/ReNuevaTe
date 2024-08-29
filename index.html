@@ -28,28 +28,37 @@
         @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
     </style>
 
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
     <header class="topheader">
         <nav class="topnav">
-            <a href="" class="log" id="el-logo">
-                <img class="el-logo-nav" height="65" width="65" src="./public/imagenes/Logo-sin-fondo.png" alt="Logo">
-            </a>
-            <button class="open-menu" aria-label="Cerrar Ménu"><img src="./public/imagenes/hamburger-icon.svg"
-                    alt="cerrar menu"></button>
-
-            <ul class="menu">
-                <button class="close-menu"><img src="./public/imagenes/close-icon.svg" alt=""></button>
-                <li class="li-nav">
+            <a href="" class="log"  id="el-logo">
+                <img height="65" width="65" src="./public/imagenes/Logo-sin-fondo.png" alt="Logo"> </a>
+                
                     <div class="search-container">
                         <img src="./public/imagenes/lupa.svg" alt="Icono de búsqueda" class="search-icon">
                         <input type="search" placeholder="Encuentra tu estilo o descubre tu esencia" id="Buscador" />
                     </div>
+               
+            <button class="open-menu" aria-label="Cerrar Ménu"><img src="./public/imagenes/hamburger-icon.svg"
+                    alt="cerrar menu"></button>
+
+                   
+
+            <ul class="menu">
+                <button class="close-menu"><img src="./public/imagenes/close-icon.svg" alt=""></button>
+                
+                <li>
+                    <div class="search-container"  id="buscador2">
+                        <img src="./public/imagenes/lupa.svg" alt="Icono de búsqueda" class="search-icon">
+                        <input type="search" placeholder="   Encuentra tu estilo" id="Buscador" />
+                    </div>
                 </li>
                 <li class="li-nav"><a href="/ReNuevaTe/index.html">Inicio</a></li>
-                <li class="li-nav"><a href="/about">Sobre Nosotres</a></li>
+                <li class="li-nav"><a href="/paymenDetails">Sobre Nosotres</a></li>
                 <li class="li-nav"><a href="/category">Catálogo</a></li>
                 <li class="li-nav"><a href="/inicioDeSesion">Iniciar Sesión</a></li>
                 
@@ -69,6 +78,7 @@
                             <button id="vaciar_carrito" class="clean-btn">Vaciar Carrito</button>
                             <button class="clean-btn">Comprar Ahora</button>
                         </div>
+                      
                     
                 </li>
             </ul>
@@ -81,32 +91,19 @@
     <footer class="contenedorFooter">
         <div class="contenedorPieDePagina">
             <img id="logoPieDePagina" src="./public/imagenes/LogoRopaReNuevaFooter.png" alt="Logo de Ropa ReNueva">
-            <div class="contenedorComentariosContactanosBoton">
-                <!--<button  style="height: 35px; border-radius: 8px;" class="suscribeteBotonFooter"><b>Suscríbete</b></button>-->
+            <div class="contenedorComentariosContactanosBoton">        
+            <!--<button  style="height: 35px; border-radius: 8px;" class="suscribeteBotonFooter"><b>Suscríbete</b></button>-->
                 <div style="border-radius: 8px;" class="contenedorComentariosContactanos">
                     <div class="contactanosFooter">
                         <img src="./public/imagenes/envelope (1).svg" alt="Logo de carta" style="padding-right: 5px">
                         <h3 style="font-size: 18px" style="padding-left: 12px ; margin-top: 10%;">Contáctanos</h3>
                     </div>
                     <div class="comentariosFooter">
-                        <img src="./public/imagenes/chat-fill.svg" alt="Logo de globo de texto"
-                            style="padding-right: 5px">
+                        <img src="./public/imagenes/chat-fill.svg" alt="Logo de globo de texto" style="padding-right: 5px">
                         <h3 style="font-size: 18px" style="padding-left: 12px; padding-top: 5px;">Comentarios</h3>
                     </div>
                 </div>
             </div>
-            <!-- <div class="enlacesPieDePagina">
-                <div class="contenedorEnlaces">
-                    <h3 style="font-size: 18px;"><a href="/about" id="enlacesFooter">Sobre Nosotres</a></h3>
-                    <h3 style="font-size: 18px"><a href="/category" id="enlacesFooter">Catálogo</a></h3>
-                    <h3 style="font-size: 18px"><a href="/inicio" id="enlacesFooter">Inicio</a></h3>
-                </div>
-                <div class="contenedorEnlaces">
-                    <h3 style="font-size: 18px"><a href="/inicioDeSesion" id="enlacesFooter">Iniciar Sesión</a></h3>
-                    <h3 style="font-size: 18px"><a href="/shopping-cart" id="enlacesFooter">Mi carrito</a></h3>
-                    <h3 style="font-size: 18px"><a href="/inicioDeSesion" id="enlacesFooter">Mi perfil</a></h3>
-                </div>
-            </div> -->
             <div class="enlacesPieDePagina">
                 <div class="contenedorEnlaces">
                     <h3><a href="/about" id="enlacesFooter">Sobre Nosotres</a></h3>
@@ -119,7 +116,6 @@
                     <h3><a href="/inicioDeSesion" id="enlacesFooter">Mi perfil</a></h3>
                 </div>
             </div>
-
         </div>
         </div>
         </div>
@@ -127,7 +123,6 @@
     </footer>
 
     <!-- Vinculacion con JavaScript -->
-
     <script defer src="./src/scripst/scripts.js"></script>
     <script src="../ReNuevaTe/src/scripst/url-router.js"></script>
 </body>

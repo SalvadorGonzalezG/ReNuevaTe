@@ -435,9 +435,11 @@ width: 80px;
 #el-logo img {
     transform: scale(1.5); /* Ajusta el tamaño del logo */
     transform-origin: center; /* Escala desde el centro */
-    height: auto; /* Mantén la proporción */
-    max-height: 100%; /* Asegúrate de que el logo no exceda la altura del contenedor */
+    height: 45px; /* Mantén la proporción */
+    max-height: 100%;/* Asegúrate de que el logo no exceda la altura del contenedor */
+    width: 60px;
 }
+
 
 .topheader {
     position: fixed;
@@ -501,6 +503,7 @@ width: 80px;
    .search-container {
     position: relative;
     width: 500px; /* Ancho del contenedor */
+    height: 50px;
     margin-right: 90px;     
  }  
 .search-icon {
@@ -675,35 +678,48 @@ width: 80px;
 }
 
 
+/* Estilos para pantallas de hasta 1024px */
+@media (max-width: 1024px) {
+    .search-container {
+        width: 400px; /* Reduce el ancho del contenedor */
+        margin-right: 50px; /* Ajusta el margen derecho */
+    }
+    
+    .search-icon {
+        width: 22px; /* Ajusta el tamaño del icono */
+        height: 22px;
+    }
 
-/*Acomodar elementos en carrito
-.contenedor-cursos {
-    display: none;
-    text-align: center;
-    padding: 10px 0 0 0;
-    border-top: solid thin gray;
+    #Buscador {
+        padding: 5px 5px 5px 35px; /* Ajusta el padding para el nuevo tamaño del icono */
+    }
 }
 
-.shopping-cart:hover .buy-card > .contenedor-cursos  {
-    display: flex;
+
+/* Estilos para pantallas de hasta 600px */
+@media (max-width: 600px) {
+
+    ul.menu #buscador2 {
+        display: block;
+    }
+    
+    .search-container {
+        width: 300px; /* Reduce aún más el ancho del contenedor */
+        margin-right: 20px; /* Reduce el margen derecho */
+        display: none;
+    }
+    
+    .search-icon {
+        width: 20px; /* Ajusta el tamaño del icono */
+        height: 20px;
+    }
+
+    #Buscador {
+        padding: 5px 5px 5px 30px; /* Ajusta el padding para el nuevo tamaño del icono */
+    }
 }
 
-.contenedor-cursos img{
-    width: 100px;
-}
 
-.contenedor-cursos p {
-    width: 300px;
-    font-size: 1.3rem;
-}
 
-.contenedor-cursos :nth-child(4) {
-    padding-left: 40px;
-}
 
-.contenedor-cursos p:last-child span {
-    background-color: red;
-    border-radius: 50%;
-    padding: 5px 10px;
-    color: #fff;
-} */
+

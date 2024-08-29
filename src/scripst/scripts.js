@@ -10,8 +10,6 @@ openMenuBtn.addEventListener("click", toggleMenu);
 closeMenuBtn.addEventListener("click", toggleMenu);
 
 
-
-
 // -------Carrito de Compras-----------
 const carrito = document.getElementById("carrito"),
   listaCursos = document.getElementById("lista-cursos"),

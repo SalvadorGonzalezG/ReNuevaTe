@@ -53,6 +53,11 @@
         "id": "12",
         "category_name": "Abrigos",
         "image": "/ReNuevaTe/public/imagenes/abrigos.jpg"
+    },
+    {
+        "id": "13",
+        "category_name": "Jhoana",
+        "image": "/ReNuevaTe/public/imagenes/abrigos.jpg"
     }
 
 ]

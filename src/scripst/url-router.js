@@ -10,15 +10,6 @@ document.addEventListener("click", (e) => {
     urlRoute();
 });
 
-// document.addEventListener("click", (e) => {
-//     const { target } = e;
-//     if (!target.matches("footer a")) {
-//         return;
-//     }
-//     e.preventDefault();
-//     urlRoute();
-// });
-
 // crear un objeto que asigne la URL a la plantilla, inicio, sobre nosostros, iniciar sesion, carrito, perfil
 const urlRoutes = {
     404: {
@@ -105,7 +96,28 @@ const urlRoutes = {
         description: "Página Carrito de Compras",
         scripts: ["/ReNuevaTe/src/scripst/carroCompras.js"],
         styles: []
-    }
+    },
+     "/shippingDetails": {
+        template: "/ReNuevaTe/src/pages/detallesDeEnvio.html",
+        title: "Categorias | " + urlPageTitle,
+        description: "Página de Detalles de Envio",
+        scripts: ["/ReNuevaTe/src/scripst/detallesDeEnvio.js"],
+        styles: ["/ReNuevaTe/src/styles/detallesDeEnvio.css"]
+    },
+    "/paymenDetails": {
+       template: "/ReNuevaTe/src/pages/detEnvMetPag.html",
+       title: "Categorias | " + urlPageTitle,
+       description: "Página Metodos de Pago",
+       scripts: ["/ReNuevaTe/src/scripst/detEnvMetPag.js"],
+       styles: ["/ReNuevaTe/src/styles/detEnvMetPag.css", "/ReNuevaTe/src/styles/metodoDePago.css"]
+   },
+   "/paymentMethods": {
+      template: "/ReNuevaTe/src/pages/metodoDePago.html",
+      title: "Categorias | " + urlPageTitle,
+      description: "Página Metodos de Pago",
+      scripts: ["/ReNuevaTe/src/scripst/metodoDePago.js"],
+      styles: ["/ReNuevaTe/src/styles/metodoDePago.css"]
+  }
 };
 
 // Función para cargar y aplicar los estilos y scripts
