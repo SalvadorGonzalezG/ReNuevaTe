@@ -18,7 +18,7 @@
     width: 100%;
     box-shadow: 0 4px 5px var(--navbar-shallow-color);
      /* sirve para que un elemento de html se sobreponga sobre todos los demas elementos  */
-    z-index: 1;
+    z-index: 10;
    
 }
 
@@ -464,7 +464,7 @@ width: 80px;
     top: 0;
     width: 100%;
     box-shadow: 0 4px 5px var(--navbar-shallow-color);
-    z-index: 1;
+    z-index: 10;
 }
 
 .topnav {
@@ -500,7 +500,7 @@ width: 80px;
     top: 0;
     width: 100%;
     box-shadow: 0 4px 5px var(--navbar-shallow-color);
-    z-index: 1;
+    z-index: 10;
 }
 
 .topnav {
