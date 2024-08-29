@@ -11,25 +11,25 @@ body{
 }
 .izquierda{
     flex: 60%;
-    background-color: rgb(160, 187, 178);
+    /*background-color: rgb(160, 187, 178);*/
     width: auto;
     padding: 20px;
 }
 .derecha{
     flex: 40%;
-    background-color: rgb(220, 241, 245);
+    /*background-color: rgb(220, 241, 245);*/
     padding: 20px;
 }
 
 .contenedorMetodoDePago{
     display: flex;
     flex-wrap: wrap;
-    font-size: 30px;
+    font-size: 20px;
     text-align: start;
     flex-direction: column;
 }
 .flexDetallesPago{
-    background-color: beige;
+    /*background-color: beige;*/
     padding: 5px;
     flex: 50%;
 }
@@ -38,7 +38,7 @@ body{
     height: 30px;
 }
 .formularioDetallesPago{
-    background-color: rgb(165, 210, 210);
+    /*background-color: rgb(165, 210, 210);*/
 }
 .formularioDetallesPago .mb-1{
     margin-top: 10px;
@@ -55,6 +55,7 @@ body{
     width: 70%;
     /*flex-grow: 0;  Para que el input ocupe el resto del espacio disponible */
     border-radius: 10px;
+    background-color: #F9F8DF;
 }
 .botonDetallesEnvio{
     background-color: #E2793C;
@@ -71,12 +72,12 @@ body{
     .contenedorMetodoDePago{
         display: flex;
         flex-wrap: wrap;
-        font-size: 30px;
+        font-size: 20px;
         text-align: start;
         flex-direction: column;
     }
     .flexDetallesPago{
-        background-color: beige;
+        /*background-color: beige;*/
         padding: 1px;
         flex: 50%;
     }
@@ -85,7 +86,7 @@ body{
         height: 30px;
     }
     .formularioDetallesPago{
-        background-color: rgb(220, 241, 245);;
+       /* background-color: rgb(220, 241, 245);*/
     }
     .formularioDetallesPago .mb-1 {
     
@@ -101,6 +102,7 @@ body{
       }
       
       .formularioDetallesPago .mb-1 input {
+        background-color: #F9F8DF;
         flex-grow: 0; /* Para que el input ocupe el resto del espacio disponible */
         border-radius: 10px;
       }
