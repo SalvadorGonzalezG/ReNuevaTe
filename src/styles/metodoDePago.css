@@ -2,7 +2,7 @@ body{
     font-family: "ABeeZee", sans-serif;
     font-style: normal;
 }
-.contenedorAmbosDetallesEnvio{
+.contenedorAmbosDetallesPago{
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -21,63 +21,62 @@ body{
     padding: 20px;
 }
 
-.flexDetallesEnvio{
+.contenedorMetodoDePago{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: start;
+    flex-direction: column;
+}
+.flexDetallesPago{
     /*background-color: beige;*/
     padding: 5px;
     flex: 50%;
 }
-.carritoEnvio{
+.carritoPago{
     width: 30px;
     height: 30px;
 }
-.formularioDetallesEnvio{
+.formularioDetallesPago{
     /*background-color: rgb(165, 210, 210);*/
 }
-.formularioDetallesEnvio .mb-1 {
-
+.formularioDetallesPago .mb-1{
     margin-top: 10px;
     display: flex;
     justify-content:right;
     align-items:center;
-  }
-  
-  .formularioDetallesEnvio .mb-1 label {
+}
+.formularioDetallesPago .mb-1 label{
     width: 30%; /* Ajusta este valor según sea necesario */
     text-align: left;
     margin-right: 10px; /* Espacio entre el label y el input */
-  }
-  
-  .formularioDetallesEnvio .mb-1 input {
-    background-color: #F9F8DF;
+}
+.formularioDetallesPago .mb-1 input{
     width: 70%;
     /*flex-grow: 0;  Para que el input ocupe el resto del espacio disponible */
     border-radius: 10px;
-  }
-  .botonDetallesEnvio{
+    background-color: #F9F8DF;
+}
+.botonDetallesEnvio{
     background-color: #E2793C;
     color: white;
     border-radius: 20px;
     border: none;
-  }
-  .inputCupon{
+}
+.inputCupon{
     display: none;
-    border-radius: 10px;
-  }
-  .underline{
-    border-bottom: 2px solid black;
-    padding-bottom: 5px;
-  }
+    text-align: center;
+}
 
-  @media screen and (max-width: 765px){
-
-    .contenedorDetallesEnvio{
+@media screen and (max-width: 765px){
+    .contenedorMetodoDePago{
         display: flex;
         flex-wrap: wrap;
         font-size: 20px;
         text-align: start;
         flex-direction: column;
     }
-    .flexDetallesEnvio{
+    .flexDetallesPago{
         /*background-color: beige;*/
         padding: 1px;
         flex: 50%;
@@ -86,10 +85,10 @@ body{
         width: 30px;
         height: 30px;
     }
-    .formularioDetallesEnvio{
-        /*background-color: azure;*/
+    .formularioDetallesPago{
+       /* background-color: rgb(220, 241, 245);*/
     }
-    .formularioDetallesEnvio .mb-1 {
+    .formularioDetallesPago .mb-1 {
     
         margin-top: 10px;
         display: flex;
@@ -97,17 +96,17 @@ body{
         justify-content: center;
       }
       
-      .formularioDetallesEnvio .mb-1 label {
+      .formularioDetallesPago .mb-1 label {
         min-width: 120px; /* Ajusta este valor según sea necesario */
         margin-right: 5px; /* Espacio entre el label y el input */
       }
       
-      .formularioDetallesEnvio .mb-1 input {
+      .formularioDetallesPago .mb-1 input {
         background-color: #F9F8DF;
         flex-grow: 0; /* Para que el input ocupe el resto del espacio disponible */
         border-radius: 10px;
       }
-      .contenedorAmbosDetallesEnvio{
+      .contenedorAmbosDetallesPago{
         flex-direction: column;
       }
       .derecha{
@@ -124,7 +123,12 @@ body{
       .inputCupon{
         display: none;
         width: 30%;
+        border-radius: 15px;
       }
-      
-      /*Todo el formuladio y titutlo*/
-  }
+
+}
+
+
+
+
+
