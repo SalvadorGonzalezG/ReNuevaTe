@@ -3,15 +3,32 @@ const urlPageTitle = "ReNuevate";
 // crear un documento, hacer clic que solo mira los enlaces de navegación
 document.addEventListener("click", (e) => {
     const { target } = e;
-    if (!target.matches("nav a")) {
+    if (!target.matches("nav a") && !target.matches("footer a")) {
         return;
     }
     e.preventDefault();
     urlRoute();
 });
 
-
-
+<<<<<<< Updated upstream
+document.addEventListener("click", (e) => {
+    const { target } = e;
+    if (!target.matches("footer a")) {
+        return;
+    }
+    e.preventDefault();
+    urlRoute();
+});
+=======
+// document.addEventListener("click", (e) => {
+//     const { target } = e;
+//     if (!target.matches("footer a")) {
+//         return;
+//     }
+//     e.preventDefault();
+//     urlRoute();
+// });
+>>>>>>> Stashed changes
 
 // crear un objeto que asigne la URL a la plantilla, inicio, sobre nosostros, iniciar sesion, carrito, perfil
 const urlRoutes = {
@@ -24,14 +41,20 @@ const urlRoutes = {
         template: "/ReNuevaTe/src/pages/inicio.html",
         title: "Inicio | " + urlPageTitle,
         description: "Inicio de Página",
-        scripts: ["../ReNuevaTe/src/scripst/url-router.js"],
-        styles: ["./src/styles/styles.css", "./src/styles/main.css", "/ReNuevaTe/src/styles/inicio.css"]
+        scripts: ["/ReNuevaTe/src/scripst/inicio.js"],
+        styles: ["/ReNuevaTe/src/styles/inicio.css"]
     },
     "/inicio": {
         template: "/ReNuevaTe/src/pages/inicio.html",
+<<<<<<< Updated upstream
+        title: "Inicio | " + urlPageTitle,
+        description: "Página de Inicio",
+        scripts: [],
+=======
         title: "Sobre Nosotres | " + urlPageTitle,
         description: "Página de Sobre Nosotres",
-        scripts: [],
+        scripts: ["/ReNuevaTe/src/scripst/inicio.js"],
+>>>>>>> Stashed changes
         styles: ["/ReNuevaTe/src/styles/inicio.css"]
     },
     "/about": {
@@ -89,9 +112,16 @@ const urlRoutes = {
     "/category": {
         template: "/ReNuevaTe/src/pages/categorias.html",
         title: "Categorias | " + urlPageTitle,
-        description: "Página de Contáctanos",
+        description: "Página de Categorias",
         scripts: ["/ReNuevaTe/src/scripst/categorias.js"],
         styles: ["/ReNuevaTe/src/styles/categorias.css"]
+    },
+    "/shopping": {
+        template: "/ReNuevaTe/src/pages/carroCompras.html",
+        title: "Categorias | " + urlPageTitle,
+        description: "Página Carrito de Compras",
+        scripts: ["/ReNuevaTe/src/scripst/carroCompras.js"],
+        styles: []
     }
 };
 

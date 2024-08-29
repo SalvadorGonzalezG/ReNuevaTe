@@ -8,7 +8,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 100px; 
+    margin: 80px; 
     text-align: center;
     
 }
@@ -27,13 +27,21 @@ body{
 
 .card-text{
     margin: 20px;
-    padding-top: 20px;
     text-align:justify;
     font-size: 20px;
 }
 
 .card-title{
     font-size: 28px;
+    margin-top: 5%;
+}
+
+#transparencia {
+    padding-bottom: 40px;
+}
+
+#accesibilidad {
+    padding-bottom: 50px;
 }
 
 @media(max-width:8000px){
@@ -51,7 +59,7 @@ body{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        margin: 100px; 
+        margin: 5%; 
         text-align: center;
 }
 .card--mv {
@@ -61,10 +69,18 @@ body{
     color: white;
     flex-direction: row;
     justify-content: space-around;
-    width: 350px;
-    height: 340px;
+    margin: 5%;
+    width: auto;
+    height: 360px;
     text-align: center;
     border-radius: 8px;
+}
+.card-body{
+    margin: 20%;
+}
+
+.card-text{
+    margin-bottom: 5%;
 }
 }
 /* MEDIAS QUERIES MISIÓN Y VISIÓN */
@@ -73,8 +89,10 @@ body{
     .mv--container{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        margin: 7px; 
+        /*justify-content: space-around;*/
+        margin: 5%; 
+        width: auto;
+        height: auto;
         text-align: center;
 }
 .card--mv {
@@ -83,11 +101,21 @@ body{
     background-color: rgb(23, 30, 26);
     color: white;
     flex-direction: row;
-    justify-content: space-around;
-    width: 300px;
-    height: 380px;
+    /*justify-content: space-around;*/
+    padding: 5px;
+    width: 90%;
+    height: 70%;
     text-align: center;
     border-radius: 8px;
+}
+
+.card-body{
+    margin: 20%;
+}
+
+.card-text{
+    margin-bottom: 5%;
+    padding: 5px;
 }
 
 }
@@ -96,7 +124,7 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        margin: 7px; 
+        margin: 20%; 
         text-align: center;
         align-items: center;
 }
@@ -107,8 +135,8 @@ body{
     color: white;
     flex-direction: row;
     justify-content: space-around;
-    width: 360px;
-    height: 310px;
+    width: 380px;
+    height: 370px;
     text-align: center;
     border-radius: 8px;
 }
@@ -145,26 +173,26 @@ body{
 .background--container{
     display: flex;
     width: 100%;
-    height: 300%;
-    background-color: #E2793C;
-    justify-content: space-around;
+    height: 500px;
+    background-image: url(https://images.pexels.com/photos/15466813/pexels-photo-15466813/free-photo-of-linea-lavanderia-colada-ropa-sucia.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
 }
 
-.nosotres--container{
-    display: flex;
-    width: 400px;
-    height: 300px;
-    background-color: white;
-    margin: 20px 20px 20px 20px;
-    text-align: center;
-    border-radius: 8px;
+.card-nosotres {
+    color: white;
+    font-size: 70px; 
+    padding-bottom: 250px;
+    
 }
-
 
 .card-body{
     display: flex;
-    margin: 100px 0 100px 50px;
+    margin: 80px 0 100px 50px;
     font-size: 28px;
 }
 /*PARTE DANI*/
@@ -178,7 +206,7 @@ body{
 
 .container {
     display: grid;
-    grid-template-columns: repeat(5, 140px); 
+    grid-template-columns: repeat(4, 140px); 
     grid-template-rows: repeat(2, 140px); 
     gap: 0px;
     justify-content: center;
@@ -242,6 +270,10 @@ body{
     margin-bottom: 0%;*/
 }
 
+#arturo {
+    border-radius: 20px;
+}
+
 .flip-card-back {
     background: linear-gradient(120deg, #E2793C (255, 174, 145) 30%, #E2793C 88%,
             #E2793C 40%, #E2793C (255, 185, 160) 78%);
@@ -287,11 +319,6 @@ body{
         top: 15px; /* Align to the top */
         right: 0;
         margin: 40px;
-    }
-
-    #jose {
-        display: grid;
-        grid-column: 2 ;
     }
 }
 
@@ -469,8 +496,13 @@ body{
         margin: 20px;
         font-family: inherit;
         box-shadow: 10px 5px 5px rgb(85, 86, 85);
-
     }
+
+
+    #conciencia {
+        padding-bottom: 40px;
+    }
+
     .card span {
         text-align: center;
         display: block;
@@ -532,6 +564,28 @@ body{
 
 }
 
-/* Medias queries de valores */
+/* Medias queries de header sobre nosotres */
 
-/*PARTE ARTURO*/
+@media (max-width:1024px) {
+    .background--container{
+    /* width: 1020px; */
+    height: 500px;
+    }
+}
+
+@media (max-width:768px) {
+    .background--container{
+    /* width: 800px; */
+    height: 500px;
+    }
+}
+
+@media (max-width:425px) {
+    .background--container{
+    /* width: 500px; */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+}

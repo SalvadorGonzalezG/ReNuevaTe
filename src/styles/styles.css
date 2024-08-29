@@ -1,4 +1,15 @@
+<<<<<<< Updated upstream
 
+#buscador2{
+    display: none;
+}
+
+=======
+>>>>>>> Stashed changes
+.open-menu{
+    background: none;
+    border:0;
+}
 .topheader {
     /* para dejar fija la nav bar */
     position: fixed;
@@ -10,15 +21,27 @@
     width: 100%;
     box-shadow: 0 4px 5px var(--navbar-shallow-color);
      /* sirve para que un elemento de html se sobreponga sobre todos los demas elementos  */
-    z-index: 1;
+<<<<<<< Updated upstream
+    z-index: 10;
    
 }
 
+.content{
+    width: 100%;
+}
+
+=======
+    z-index: 1;
+}
+.content{
+    width: 100%;
+}
+>>>>>>> Stashed changes
 .topnav {
     /* los elementos estaran uno alado del otro */
     display: flex;
     /* los elemento esten separa de una esquina a otra esquina */
-    justify-content: space-between;
+    justify-content: space-around;
     /* para que no se pege a los bordes  */
     padding: 10px;
     /* ancho maximo  del navbar*/
@@ -26,26 +49,22 @@
     /* para que este centrado con respecto al header es con el margin */
     /* arriba y abajo y desrecha e izquierda apara el margin  */
     margin: 0 auto;
-   
 }
-
-.logo {
+/* .logo {
     display: flex;
+} */
+/* .logo img {
 
-}
-
-.logo img {
-    /* redondeamos la imagen  */
     border-radius: 50%;
-}
-.link-img{
+} */
+/* .link-img{
     background-image: url(../../public/imagenes/cart.svg);
-}
+} */
 
 /* Menu */
 .content-car{
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
    
 }
 .menu {
@@ -59,7 +78,7 @@
     padding: 0;
 }
 
-.menu li {
+.menu .li-nav {
     /* separacion de las letras navbar */
     padding: 0 10px;
 }
@@ -71,7 +90,7 @@
     /* centra los textos de manera horizontal, le pone top textos del navbar */
     line-height: 50px;
     /* para que esten en mayusscula */
-    text-transform: uppercase;
+    /* text-transform: uppercase;   */
     position: relative;
     text-decoration: none;
 }
@@ -115,17 +134,18 @@
     border: none;
     margin-top: 8px;
 }
-/* -------------------- */
-.inputLupa{
-    width: 20px;
-    height: 35px;
-    margin-top: 8px;
-}
 
 
-/*---------------------------------*/
+<<<<<<< Updated upstream
+
+
+
+=======
+>>>>>>> Stashed changes
 /* aqui le decimos si nuestro dispositivo tiene un ancho de 0px y ancho maximo de 950px se aplique estos estilos */
 @media (max-width: 1300px) {
+
+  
 
     /* Menu */
     .menu {
@@ -152,7 +172,7 @@
         transition: opacity 0.3s;
     }
 
-    .menu li {
+    .menu .li-nav {
         padding: 0;
     }
 
@@ -223,41 +243,43 @@
         color: var(--primary-color);
 
     }
-
-    .inputLupa{
-        width: 20px;
-        height: 35px;
-        margin-top: 8px;
-    }
-    
 }
+
+#content {
+    width: 100%;
+}
+<<<<<<< Updated upstream
 
 /* ------------ */
 /* Se usó un 87% del almacenamiento … Si te quedas sin almacenamiento, no podrás crear, editar ni subir archivos. Obtén 100 GB de almacenamiento por $34.00 $9.00 al mes durante 3 meses. */
+=======
+>>>>>>> Stashed changes
 
+/* -----Footer------- */
 
  .contenedorFooter {
     background-color: #004465;
     width: 100%;
-    height: 200px;
+    /*height: 18%;*/
     position: absolute;
     bottom: 0;
     /*border: solid black 2px; */
 }
 
 .contenedorPieDePagina {
-    height: 100%;
+    /*height: 100%;*/
     box-sizing: border-box;
     text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-top: 10px;
 }
 
 #logoPieDePagina {
-    width: 125px;
-    height: 130px;
+    width: 115px;
+    height: 120px;
     border-radius: 50%;
     /* margin-bottom: 50px; */
 }
@@ -267,7 +289,7 @@
     flex-direction: column;
     justify-content: space-around;
     width: 30%;
-    height: 80%;
+    height: 23%;
     align-items: center;
 }
 
@@ -294,9 +316,16 @@
     background-color: #F9F8DF;
     border: black solid 1px;
     width: 75%;
+    /*margin-top: 15px;*/
 }
 
-.contactanosFooter,
+.contactanosFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+   
+}
 .comentariosFooter {
     display: flex;
     flex-direction: row;
@@ -310,9 +339,23 @@
     justify-content: space-between;
 }
 
-#enlacesFooter {
-    color: azure;
+.enlacesPieDePagina {
+    display: flex;
+    justify-content: space-between;
 }
+
+.contenedorEnlaces {
+    text-align: left;
+    width: 45%; 
+}
+
+#enlacesFooter {
+    text-decoration: none; 
+    color: azure;
+    display: block; 
+    font-size: 18px;
+}
+
 
 @media (max-width:1023px) {
     .enlacesPieDePagina {
@@ -321,36 +364,54 @@
 }
 
 @media (max-width:770px) {
-    .contenedorPieDePagina {
-        flex-direction: column;
-    }
-
     .contenedorFooter {
         background-color: #004465;
         width: 100%;
-        height: 600px;
+        height: auto;
         position: absolute;
         bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px;
         /*border: solid black 2px; */
     }
 
-    .enlacesPieDePagina {
-        width: 60%;
+    .contenedorPieDePagina {
+        /*background-color: #E2793C;*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
     }
-    .contenedorComentariosContactanosBoton {
-        width: 80%;
-}
 
-.suscribeteBotonFooter {
-    width: 90%;
-}
+    .enlacesPieDePagina, 
+    .contenedorComentariosContactanosBoton, 
+    .suscribeteBotonFooter, 
+    .contenedorComentariosContactanos 
+     {
+        
+        width: 90%;
+        margin-bottom: 3px; /* Espacio entre los elementos */
+        text-align: center; /* Centra el texto dentro de cada div */
+    }
 
-.contenedorComentariosContactanos {
-    width: 85%;
-}
-#logoPieDePagina {
-    padding: 10px;
-}
+    #logoPieDePagina {
+        margin-top: auto; /* Empuja el logo hacia la parte inferior */
+        padding: 3px;
+        width: 80px;
+        height: 80px;
+    }
+    .contenedorEnlaces {
+        display: flex;
+        margin-left: 50px;
+        align-items:normal;
+        text-align: left;
+        width: 45%; 
+        flex-direction: column;
+    }
 }
 
 @media (max-width:499px) {
@@ -361,7 +422,7 @@
     .contenedorFooter {
         background-color: #004465;
         width: 100%;
-        height: 600px;
+        height: auto;
         position: absolute;
         bottom: 0;
         /*border: solid black 2px; */
@@ -369,9 +430,11 @@
 
     .enlacesPieDePagina {
         width: 80%;
+        margin-bottom: 0;
     }
     .contenedorComentariosContactanosBoton {
         width: 80%;
+        margin-bottom: 5px;
 }
 
 .suscribeteBotonFooter {
@@ -380,9 +443,357 @@
 
 .contenedorComentariosContactanos {
     width: 85%;
+    margin-bottom: 3px;
 }
 
 #logoPieDePagina {
-    padding: 10px;
+    padding: 3px;
+    height: 80px;
+width: 80px;
 }
 } 
+
+#el-logo {
+    margin-left: 10%; /* Ajusta el margen si es necesario */
+}
+
+<<<<<<< Updated upstream
+#el-logo img {
+=======
+#el-logo .el-logo-nav {
+>>>>>>> Stashed changes
+    transform: scale(1.5); /* Ajusta el tamaño del logo */
+    transform-origin: center; /* Escala desde el centro */
+    height: auto; /* Mantén la proporción */
+    max-height: 100%; /* Asegúrate de que el logo no exceda la altura del contenedor */
+}
+
+.topheader {
+    position: fixed;
+    background-color: var(--three-color);
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 5px var(--navbar-shallow-color);
+<<<<<<< Updated upstream
+    z-index: 10;
+=======
+    z-index: 1;
+>>>>>>> Stashed changes
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centra verticalmente el contenido */
+    padding: 0 10px;
+    height: 65px; /* Mantiene una altura fija para la navbar */
+}
+
+@media (max-width: 768px) {
+<<<<<<< Updated upstream
+    #el-logo img {
+=======
+    #el-logo .el-logo-nav{
+>>>>>>> Stashed changes
+        transform: scale(1.2); /* Ajusta el tamaño del logo en pantallas más pequeñas */
+    }
+}
+
+#el-logo {
+    margin-left: 10%; /* Ajusta el margen si es necesario */
+}
+
+<<<<<<< Updated upstream
+#el-logo img {
+=======
+#el-logo .el-logo-nav {
+>>>>>>> Stashed changes
+    transform: scale(1.5); /* Ajusta el tamaño del logo */
+    transform-origin: center; /* Escala desde el centro */
+    height: 45px; /* Mantén la proporción */
+    max-height: 100%;/* Asegúrate de que el logo no exceda la altura del contenedor */
+    width: 60px;
+}
+
+.topheader {
+    position: fixed;
+    background-color: var(--three-color);
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 5px var(--navbar-shallow-color);
+<<<<<<< Updated upstream
+    z-index: 10;
+=======
+    z-index: 1;
+>>>>>>> Stashed changes
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centra verticalmente el contenido */
+    padding: 0 10px;
+    height: 65px; /* Mantiene una altura fija para la navbar */
+}
+
+@media (max-width: 768px) {
+<<<<<<< Updated upstream
+    #el-logo img {
+        transform: scale(1.2); /* Ajusta el tamaño del logo en pantallas más pequeñas */
+    }
+}
+
+   .search-container {
+    position: relative;
+    width: 500px; /* Ancho del contenedor */
+    /* margin-right: 90px;  */
+    height: 50px;
+    margin-left: 20px;
+    
+ }  
+
+.search-icon {
+    position: absolute;
+    top: 45%;
+=======
+    #el-logo .el-logo-nav {
+        transform: scale(1.2); /* Ajusta el tamaño del logo en pantallas más pequeñas */
+    }
+}
+   .search-container {
+    position: relative;
+    width: 500px; /* Ancho del contenedor */
+    margin-right: 90px;     
+ }  
+.search-icon {
+    position: absolute;
+    top: 50%;
+>>>>>>> Stashed changes
+    left: 10px; /* Espaciado desde la izquierda */
+    transform: translateY(-50%);
+    width: 24px; /* Tamaño del icono */
+    height: 24px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+<<<<<<< Updated upstream
+}
+=======
+} 
+>>>>>>> Stashed changes
+
+#Buscador {
+    width: 100%; /* Ancho total del input igual al contenedor */
+    padding: 5px 5px 5px 40px; /* Aumenta el padding izquierdo para dejar espacio al icono */
+    border: transparent; 
+    border-bottom: solid 2px #e2e2e2;
+    outline: none;
+    background-color: transparent; /* Fondo transparente para que el icono se vea bien */
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+    margin-top: 5px;
+
+}
+<<<<<<< Updated upstream
+
+
+=======
+>>>>>>> Stashed changes
+/* Estilos para pantallas de hasta 1024px */
+@media (max-width: 1024px) {
+    .search-container {
+        width: 400px; /* Reduce el ancho del contenedor */
+        margin-right: 50px; /* Ajusta el margen derecho */
+    }
+    
+    .search-icon {
+        width: 22px; /* Ajusta el tamaño del icono */
+        height: 22px;
+    }
+
+    #Buscador {
+        padding: 5px 5px 5px 35px; /* Ajusta el padding para el nuevo tamaño del icono */
+    }
+}
+
+<<<<<<< Updated upstream
+
+/* Estilos para pantallas de hasta 600px */
+@media (max-width: 600px) {
+
+    ul.menu #buscador2 {
+        display: block;
+    }
+    
+    .search-container {
+        width: 300px; /* Reduce aún más el ancho del contenedor */
+        margin-right: 20px; /* Reduce el margen derecho */
+        display: none;
+=======
+/* Estilos para pantallas de hasta 600px */
+@media (max-width: 600px) {
+    .search-container {
+        width: 300px; /* Reduce aún más el ancho del contenedor */
+        margin-right: 20px; /* Reduce el margen derecho */
+>>>>>>> Stashed changes
+    }
+    
+    .search-icon {
+        width: 20px; /* Ajusta el tamaño del icono */
+        height: 20px;
+    }
+
+    #Buscador {
+        padding: 5px 5px 5px 30px; /* Ajusta el padding para el nuevo tamaño del icono */
+    }
+}
+<<<<<<< Updated upstream
+
+
+
+
+
+=======
+/* ------------carrito------------------ */
+
+.shopping-cart {
+    font-size: 15px; /* Modificado */
+    cursor: pointer;
+    padding-top: 8px;
+    font-weight: bold;
+}
+
+.bag {
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.container-cart-products {
+    display: none;
+}
+
+.clean-btn {
+    display: none;
+}
+
+.buy-card {
+    display: none;
+}
+
+.shopping-cart:hover > .buy-card {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    display: inline;
+}
+
+.shopping-cart:hover .container-cart-products {
+    font-size: 15px; /* Modificado */
+    display: flex;
+    flex-direction: row; /* Alinea los elementos en una columna */
+    /* justify-content: space-between; */
+    justify-content: flex-end;
+    margin: 0 10px 0 10px;
+    border-bottom: solid thin #e1e1e1;
+}
+
+.container-cart-products .l1 {
+    list-style: none;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.shopping-cart:hover .buy-card > .clean-btn {
+    display: block;
+    width: 90%;
+    padding: 0.5rem;
+    margin: 10px auto;
+    background-color: transparent;
+    border: solid thin #e1e1e1;
+    color: #494848;
+    cursor: pointer;
+    text-align: center; /* Centra el texto del botón  AQUI*/
+}
+
+.shopping-cart:hover .buy-card > .clean-btn:hover {
+    border: solid thin #494848;
+    transition: all .4s;
+}
+
+/* Acomodar los elementos de nuestro carrito de compras */
+.lista_de_cursos div {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between; /* Espacio entre los elementos */
+    padding: 10px 0;
+    border-top: solid thin gray;
+    text-align: center;
+   
+}
+
+.lista_de_cursos img {
+    width: 100px;
+}
+
+.lista_de_cursos p {
+    flex: 1; /* Asegura que cada párrafo ocupe su espacio proporcional */
+    font-size: 1rem;
+    padding-left: 10px;
+    margin: 0; /* Elimina márgenes que puedan afectar la alineación */
+}
+
+.lista_de_cursos p:first-child {
+    padding-left: 0; /* Evita espacio innecesario al primer párrafo */
+}
+
+.lista_de_cursos p:last-child span {
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: #fff;
+    display: inline-block;
+    text-align: center; /* Centra el contenido del span */
+}
+
+.shopping-cart:hover .lista_de_cursos {
+    max-height: 500px; /* Limita la altura máxima del contenedor */
+    overflow-y: auto; /* Agrega scroll vertical si hay demasiados cursos */
+}
+
+
+
+/*Acomodar elementos en carrito
+.contenedor-cursos {
+    display: none;
+    text-align: center;
+    padding: 10px 0 0 0;
+    border-top: solid thin gray;
+}
+
+.shopping-cart:hover .buy-card > .contenedor-cursos  {
+    display: flex;
+}
+
+.contenedor-cursos img{
+    width: 100px;
+}
+
+.contenedor-cursos p {
+    width: 300px;
+    font-size: 1.3rem;
+}
+
+.contenedor-cursos :nth-child(4) {
+    padding-left: 40px;
+}
+
+.contenedor-cursos p:last-child span {
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: #fff;
+} */
+>>>>>>> Stashed changes

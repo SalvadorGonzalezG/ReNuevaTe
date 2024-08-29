@@ -231,3 +231,87 @@
       margin: 15px 0;
   }
 }
+
+
+
+/* Fondo modal: negro con opacidad al 50% */
+.modal {
+  display: none; /* Por defecto, estará oculto */
+  position: fixed; /* Posición fija */
+  z-index: 1; /* Se situará por encima de otros elementos de la página*/
+  padding-top: 200px; /* El contenido estará situado a 200px de la parte superior */
+  left: 0;
+  top: 0;
+  width: 100%; /* Ancho completo */
+  height: 100%; /* Algura completa */
+  overflow: auto; /* Se activará el scroll si es necesario */
+  background-color: rgba(0,0,0,0.5); /* Color negro con opacidad del 50% */
+}
+
+/* Ventana o caja modal */
+.contenido-modal {
+  position: relative; /* Relativo con respecto al contenedor -modal- */
+  background-color: white;
+  margin: auto; /* Centrada */
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+  -webkit-animation-name: animarsuperior;
+  -webkit-animation-duration: 0.5s;
+  animation-name: animarsuperior;
+  color: #E2793C;
+  border-radius:  20px;
+  animation-duration: 0.5s
+  
+}
+
+/* Animación */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animarsuperior {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* Botón cerrar */
+.close {
+  position: absolute; /* Posiciona el botón en relación al contenedor .contenido-modal */
+  top: 10px; /* Ajusta según sea necesario */
+  right: 20px; /* Ajusta según sea necesario */
+  /* color: black; */
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+
+  width: 20px; /* Ancho del círculo */
+  height: 20px; /* Altura del círculo */
+  background-color: #E2793C; /* Color de fondo del círculo */
+  color: white; /* Color de la "X" */
+  border-radius: 50%; /* Hace el botón circular */
+  text-align: center; /* Centra la "X" horizontalmente */
+  line-height: 20px; /* Centra la "X" verticalmente */
+}
+
+/* Estilo al pasar el cursor sobre el botón cerrar */
+.close:hover,
+.close:focus {
+  background-color: #c06031; /* Oscurece un poco el color al pasar el cursor */
+}
+
+/* .close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+} */
+
+/* Clase para la imagen al lado del texto */
+.success-image {
+  width: 1em; /* Mismo tamaño que el texto */
+  height: 1em; /* Mantener proporciones */
+  vertical-align: middle; /* Alinear verticalmente con el texto */
+  margin-left: 8px; /* Espacio entre la palabra "Éxito" y la imagen */
+}

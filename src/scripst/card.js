@@ -10,9 +10,9 @@ function createCards(products) {
         card.id = 'demo';
         card.onclick = () => getDetailProduct(product.id);
 
-        const logoCart = document.createElement('div');
-        logoCart.classList.add('logo-cart');
-        logoCart.innerHTML = '<img class="i" width="25px" height="25px" src="/ReNuevaTe/public/imagenes/compras.png" alt="logo">';
+        // const logoCart = document.createElement('div');
+        // logoCart.classList.add('logo-cart');
+        // logoCart.innerHTML = '<img class="i" width="25px" height="25px" src="/ReNuevaTe/public/imagenes/compras.png" alt="logo">';
 
         const category = document.createElement('div');
         category.classList.add('category');
@@ -39,7 +39,7 @@ function createCards(products) {
         colorPrice.appendChild(colorOption);
         colorPrice.appendChild(price);
         // Agregar elementos a la tarjeta
-        card.appendChild(logoCart);
+        // card.appendChild(logoCart);
         // card.appendChild(cardImage);
         card.appendChild(category);
         card.appendChild(shoeDetails);

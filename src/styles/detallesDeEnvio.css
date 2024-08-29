@@ -1,0 +1,144 @@
+<<<<<<< Updated upstream
+body{
+    font-family: "ABeeZee", sans-serif;
+    font-style: normal;
+}
+.contenedorAmbosDetallesEnvio{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: start;
+}
+.izquierda{
+    flex: 60%;
+    /*background-color: rgb(160, 187, 178);*/
+    width: auto;
+    padding: 20px;
+}
+.derecha{
+    flex: 40%;
+    /*background-color: rgb(220, 241, 245);*/
+    padding: 20px;
+}
+
+.flexDetallesEnvio{
+    /*background-color: beige;*/
+    padding: 5px;
+    flex: 50%;
+}
+.carritoEnvio{
+    width: 30px;
+    height: 30px;
+}
+.formularioDetallesEnvio{
+    /*background-color: rgb(165, 210, 210);*/
+}
+.formularioDetallesEnvio .mb-1 {
+
+    margin-top: 10px;
+    display: flex;
+    justify-content:right;
+    align-items:center;
+  }
+  
+  .formularioDetallesEnvio .mb-1 label {
+    width: 30%; /* Ajusta este valor según sea necesario */
+    text-align: left;
+    margin-right: 10px; /* Espacio entre el label y el input */
+  }
+  
+  .formularioDetallesEnvio .mb-1 input {
+    background-color: #F9F8DF;
+    width: 70%;
+    /*flex-grow: 0;  Para que el input ocupe el resto del espacio disponible */
+    border-radius: 10px;
+  }
+  .botonDetallesEnvio{
+    background-color: #E2793C;
+    color: white;
+    border-radius: 20px;
+    border: none;
+  }
+  .inputCupon{
+    display: none;
+    border-radius: 10px;
+  }
+  .underline{
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+  }
+
+  @media screen and (max-width: 765px){
+
+    .contenedorDetallesEnvio{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 20px;
+        text-align: start;
+        flex-direction: column;
+    }
+    .flexDetallesEnvio{
+        /*background-color: beige;*/
+        padding: 1px;
+        flex: 50%;
+    }
+    .carritoEnvio{
+        width: 30px;
+        height: 30px;
+    }
+    .formularioDetallesEnvio{
+        /*background-color: azure;*/
+    }
+    .formularioDetallesEnvio .mb-1 {
+    
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .formularioDetallesEnvio .mb-1 label {
+        min-width: 120px; /* Ajusta este valor según sea necesario */
+        margin-right: 5px; /* Espacio entre el label y el input */
+      }
+      
+      .formularioDetallesEnvio .mb-1 input {
+        background-color: #F9F8DF;
+        flex-grow: 0; /* Para que el input ocupe el resto del espacio disponible */
+        border-radius: 10px;
+      }
+      .contenedorAmbosDetallesEnvio{
+        flex-direction: column;
+      }
+      .derecha{
+        flex: 100%;
+        padding: 5px;
+        text-align: center;
+      }
+      .contenedorInputCupon{
+        display: flex;
+        justify-content: center;
+        margin-top: 2px;
+        text-align: center;
+      }
+      .inputCupon{
+        display: none;
+        width: 30%;
+      }
+      
+      /*Todo el formuladio y titutlo*/
+  }
+=======
+.contenedorDetallesEnvio{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: start;
+}
+.flexDetallesEnvio{
+    background-color: beige;
+    padding: 10px;
+    flex: 50%;
+}
+>>>>>>> Stashed changes
