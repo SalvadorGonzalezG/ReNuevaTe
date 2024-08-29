@@ -117,7 +117,14 @@ const urlRoutes = {
       description: "Página Metodos de Pago",
       scripts: ["/ReNuevaTe/src/scripst/metodoDePago.js"],
       styles: ["/ReNuevaTe/src/pages/metodoDePago.html"]
-  }
+  },
+  "/comentarios": {
+    template: "ReNuevaTe/src/pages/comentarios.html",
+    title: "Comentarios | " + urlPageTitle,
+    description: "comentarios de pagina",
+    scripts: ["/ReNuevaTe/src/scripst/comentarios.js"],
+    styles: ["/ReNuevaTe/src/styles/comentarios.css"]
+}
 };
 
 // Función para cargar y aplicar los estilos y scripts

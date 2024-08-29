@@ -1,0 +1,162 @@
+body {
+    font-family: "ABeeZee", sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+
+/* Añadido margen inferior para evitar que la sección de comentarios se sobreponga al footer */
+.comments-section {
+    width: 90%;
+    max-width: 800px; /* Aumentado para aprovechar el espacio en pantallas más grandes */
+    margin: 20px auto 60px; /* Añadido margen inferior */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: "ABeeZee", sans-serif;
+}
+
+.comments-section h2 {
+    color: #004465;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem; /* Tamaño de fuente adaptable */
+    font-family: "ABeeZee", sans-serif;
+}
+
+.comments-section h2::before {
+    content: "commenta";
+    font-family: 'Material Icons';
+    margin-right: 10px;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.comment {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.user-avatar {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.comment-content {
+    background-color: #718427;
+    border-radius: 8px;
+    padding: 10px;
+    flex: 1;
+    max-width: 90%;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+.comment-content p {
+    margin: 0;
+    padding: 0;
+}
+
+.user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 1rem; /* Tamaño de fuente adaptable */
+}
+
+.rating {
+    color: #ffd700;
+}
+
+textarea, input, select {
+    width: 100%; /* Ajuste para mantener la anchura completa */
+    min-width: 300px; /* Ancho mínimo para evitar compresión excesiva */
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #718427;
+    box-sizing: border-box;
+    resize: none;
+    font-size: 1rem; /* Tamaño de fuente adaptable */
+}
+
+textarea {
+    height: 100px;
+    overflow-y: auto;
+}
+
+#envíar {
+    width: 100%; /* Ajuste para mantener la anchura completa */
+    min-width: 300px; /* Ancho mínimo para evitar compresión excesiva */
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #E2793C;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#envíar:hover {
+    background-color: #718427;
+}
+
+
+
+@media (max-width: 1024px) { /* Adaptación para tabletas */
+    .comments-section {
+        max-width: 90%;
+        margin-bottom: 60px; /* Añadido margen inferior en tabletas */
+    }
+
+    .comments-section h2 {
+        font-size: 1.25rem; /* Reducir tamaño de la fuente */
+    }
+
+    .comment-content {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 600px) { /* Adaptación para dispositivos móviles */
+    .comments-section {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 60px; /* Añadido margen inferior en móviles */
+    }
+
+    .comment {
+        flex-direction: column; /* Cambio a diseño de columna en móviles */
+    }
+
+    .user-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #envíar, textarea, input, select {
+        width: 100%; /* Ajuste para mantener la anchura completa */
+        min-width: 100%; /* Ancho mínimo para evitar compresión excesiva */
+        font-size: 0.9rem; /* Tamaño de fuente más pequeño en móviles */
+    }
+
+    .comments-section h2 {
+        font-size: 1.2rem; /* Reducir tamaño de la fuente */
+    }
+
+    .user-avatar {
+        font-size: 20px; /* Ajuste de tamaño para móviles */
+    }
+
+    .user-avatar .material-icons {
+        font-size: 36px; /* Ajuste de tamaño para móviles */
+    }
+}
