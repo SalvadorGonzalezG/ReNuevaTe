@@ -7,9 +7,6 @@ function toggleMenu() {
 }
 
 openMenuBtn.addEventListener("click", toggleMenu);
-<<<<<<< Updated upstream
-closeMenuBtn.addEventListener("click", toggleMenu);
-=======
 closeMenuBtn.addEventListener("click", toggleMenu);
 
 
@@ -113,4 +110,3 @@ function limpiarHTML() {
     contenedorCarrito.removeChild(contenedorCarrito.firstChild);
   }
 }
->>>>>>> Stashed changes

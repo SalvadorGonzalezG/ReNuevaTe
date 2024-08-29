@@ -10,16 +10,6 @@ document.addEventListener("click", (e) => {
     urlRoute();
 });
 
-<<<<<<< Updated upstream
-document.addEventListener("click", (e) => {
-    const { target } = e;
-    if (!target.matches("footer a")) {
-        return;
-    }
-    e.preventDefault();
-    urlRoute();
-});
-=======
 // document.addEventListener("click", (e) => {
 //     const { target } = e;
 //     if (!target.matches("footer a")) {
@@ -28,7 +18,6 @@ document.addEventListener("click", (e) => {
 //     e.preventDefault();
 //     urlRoute();
 // });
->>>>>>> Stashed changes
 
 // crear un objeto que asigne la URL a la plantilla, inicio, sobre nosostros, iniciar sesion, carrito, perfil
 const urlRoutes = {
@@ -46,15 +35,9 @@ const urlRoutes = {
     },
     "/inicio": {
         template: "/ReNuevaTe/src/pages/inicio.html",
-<<<<<<< Updated upstream
-        title: "Inicio | " + urlPageTitle,
-        description: "Página de Inicio",
-        scripts: [],
-=======
         title: "Sobre Nosotres | " + urlPageTitle,
         description: "Página de Sobre Nosotres",
         scripts: ["/ReNuevaTe/src/scripst/inicio.js"],
->>>>>>> Stashed changes
         styles: ["/ReNuevaTe/src/styles/inicio.css"]
     },
     "/about": {

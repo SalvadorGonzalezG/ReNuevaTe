@@ -383,3 +383,241 @@ li {
     transform: translate(-50%, -50%); 
     color: white; 
 }
+@keyframes slide {
+    0% { transform: translateX(0);}
+    10% { transform: translateX(0);}
+    15% { transform: translateX(-100%);}
+    30% { transform: translateX(-100%);}
+    35% { transform: translateX(-200%);}
+    50% { transform: translateX(-200%);}
+    55% { transform: translateX(-300%);}
+    70% { transform: translateX(-300%);}
+    75% { transform: translateX(-400%);}
+    90% { transform: translateX(-400%);}
+    95% { transform: translateX(-500%);}
+    100% { transform: translateX(-500%);}
+}
+
+@media only screen and (max-width: 1024px) {
+    .img-caption {
+        font-size: 4vw; /* Ajusta el tamaño del texto para pantallas de 1024px */
+        bottom: 4vw;
+        right: 3vw;
+    }
+    
+    .slide img {
+        height: 35vh; /* Ajusta la altura de la imagen */
+    }
+
+    .inicio-description img {
+        height: 220px; /* Ajusta la altura de la imagen */
+    }
+
+    .inicio-shoe-details {
+        font-size: 16px; /* Ajusta el tamaño del texto */
+    }
+
+    .card-products-featured {
+        gap: 30px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .img-caption {
+        font-size: 6vw; /* Ajusta el tamaño del texto para pantallas de 768px */
+        bottom: 6vw;
+        right: 5vw;
+    }
+    
+    .slide img {
+        height: 30vh; /* Ajusta la altura de la imagen */
+    }
+
+    .inicio-description img {
+        height: 200px; /* Ajusta la altura de la imagen */
+    }
+
+    .inicio-shoe-details {
+        font-size: 14px; /* Ajusta el tamaño del texto */
+    }
+
+    .card-products-featured {
+        gap: 20px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .inicio-card {
+        width: 220px; /* Ajusta el tamaño de las tarjetas */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .img-caption {
+        font-size: 8vw; /* Ajusta el tamaño del texto para pantallas de 600px */
+        bottom: 8vw;
+        right: 7vw;
+    }
+    
+    .slide img {
+        height: 25vh; /* Ajusta la altura de la imagen */
+    }
+
+    .inicio-description img {
+        height: 180px; /* Ajusta la altura de la imagen */
+    }
+
+    .inicio-shoe-details {
+        font-size: 12px; /* Ajusta el tamaño del texto */
+    }
+
+    .card-products-featured {
+        gap: 10px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .inicio-card {
+        width: 200px; /* Ajusta el tamaño de las tarjetas */
+    }
+
+    .container-productos, .container-verproductos {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .container-imagenVerProductos {
+        width: 100%;
+        margin: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.wrapper {
+    display: flex;
+    max-width: 1321px;
+    position: relative;
+
+    margin: auto;
+    overflow: hidden;
+}
+
+.wrapper2 i {
+    top: 50%;
+    height: 44px;
+    width: 44px;
+    color: #343F4F;
+    cursor: pointer;
+    font-size: 1.15rem;
+    position: absolute;
+    text-align: center;
+    line-height: 44px;
+    background: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+}
+
+.wrapper2 i:active {
+    transform: translateY(-50%) scale(0.9);
+}
+
+.wrapper2 i:hover {
+    background: #f2f2f2;
+}
+
+.wrapper2 i:first-child {
+    left: -22px;
+}
+
+.wrapper2 i:last-child {
+    right: -22px;
+}
+
+.wrapper2 .carousel {
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+.carousel2 {
+    display: flex;
+    transition: transform 0.3s ease;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    gap: 23px;
+}
+
+.carousel2::-webkit-scrollbar {
+    display: none;
+}
+
+.card2 {
+    flex: 0 0 auto;
+    width: 250px;
+    margin-right: 14px;
+}
+
+.carousel2.dragging {
+    cursor: grab;
+    scroll-behavior: auto;
+}
+
+.carousel2.dragging img {
+    pointer-events: none;
+}
+
+.carousel2 img {
+    height: 340px;
+    object-fit: cover;
+    user-select: none;
+    margin-left: 14px;
+}
+
+.carousel2 img:first-child {
+    margin-left: 0px;
+}
+
+.arrow2 {
+    
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 1.15rem;
+    color: #343F4F;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+}
+
+#left2 {
+    left: 5px;
+}
+
+#right2 {
+    right: 10px;
+}
+
+.arrow2:hover {
+    background: #f2f2f2;
+}
+
+.arrow2:active {
+    transform: translateY(-50%) scale(0.9);
+}

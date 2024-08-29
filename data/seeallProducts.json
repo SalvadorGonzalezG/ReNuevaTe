@@ -1,0 +1,586 @@
+[
+    {
+        "marca": "NIKE",
+        "precio": "$171.11",
+        "color": "gray",
+        "id": "19",
+        "image": "/ReNuevaTe/public/imagenes/73.jpg",
+        "idCategorias": "02"
+    },
+    {
+        "marca": "NIKE",
+        "precio": "$2000.00",
+        "color": "#EED9C4",
+        "id": "04",
+        "image": "/ReNuevaTe/public/imagenes/13.jpg",
+        "idCategorias": "02"
+    },
+    {
+        "marca": "NASDAQ",
+        "precio": "$610.36",
+        "color": "black",
+        "id": "05",
+        "image": "/ReNuevaTe/public/imagenes/17.jpg",
+        "idCategorias": "02"
+    },
+    {
+        "marca": "NYSE",
+        "precio": "$300.00",
+        "color": "#59392B",
+        "id": "06",
+        "image": "/ReNuevaTe/public/imagenes/21.jpg",
+        "idCategorias": "02"
+    },
+    {
+        "marca": "NYSE",
+        "precio": "$43.1",
+        "color": "black",
+        "id": "07",
+        "image": "/ReNuevaTe/public/imagenes/25.jpg",
+        "idCategorias": "02"
+    },
+    {
+        "marca": "NIKE",
+        "precio": "$171.11",
+        "color": "gray",
+        "id": "19",
+        "image": "/ReNuevaTe/public/imagenes/73.jpg",
+        "idCategorias": "02"
+    },
+    {
+        "marca": "NIKE",
+        "precio": "$2000.00",
+        "color": "green",
+        "id": "08",
+        "image": "/ReNuevaTe/public/imagenes/29.jpg",
+        "idCategorias": "06"
+    },
+    {
+        "marca": "NASDAQ",
+        "precio": "$27.68",
+        "color": "#EED9C4",
+        "id": "09",
+        "image": "/ReNuevaTe/public/imagenes/33.jpg",
+        "idCategorias": "06"
+    },
+    {
+        "marca": "NYSE",
+        "precio": "$431.87",
+        "color": "black",
+        "id": "10",
+        "image": "/ReNuevaTe/public/imagenes/37.jpg",
+        "idCategorias": "06"
+    },
+    {
+        "marca": "NIKE",
+        "precio": "$333.72",
+        "color": "navy",
+        "id": "11",
+        "image": "/ReNuevaTe/public/imagenes/41.jpg",
+        "idCategorias": "06"
+    },
+    {
+        "marca": "NASDAQ",
+        "precio": "$112.12",
+        "color": "#63C5DA",
+        "id": "12",
+        "image": "/ReNuevaTe/public/imagenes/47.jpg",
+        "idCategorias": "07"
+    },
+    {
+        "marca": "NYSE",
+        "precio": "$441.77",
+        "color": "#FC9483",
+        "id": "13",
+        "image": "/ReNuevaTe/public/imagenes/49.jpg",
+        "idCategorias": "07"
+    },
+    {
+        "marca": "PUMA",
+        "precio": "$112.67",
+        "color": "brown",
+        "id": "14",
+        "image": "/ReNuevaTe/public/imagenes/53.jpg",
+        "idCategorias": "07"
+    },
+    {
+        "marca": "NASDAQ",
+        "precio": "$321.27",
+        "color": "navy",
+        "id": "15",
+        "image": "/ReNuevaTe/public/imagenes/57.jpg",
+        "idCategorias": "07"
+    },
+    {
+        "marca": "NYSE",
+        "precio": "$974.73",
+        "color": "#C8A2C8",
+        "id": "01",
+        "image": "/ReNuevaTe/public/imagenes/1.jpg",
+        "idCategorias": "07"
+    },
+    {
+        "marca": "NYSE",
+        "precio": "$235.9",
+        "color": "gold",
+        "id": "02",
+        "image": "/ReNuevaTe/public/imagenes/5.jpg",
+        "idCategorias": "07"
+    },
+    {
+        "marca": "PUMA",
+        "precio": "$160.99",
+        "color": "navy",
+        "id": "03",
+        "image": "/ReNuevaTe/public/imagenes/9.jpg",
+        "idCategorias": "07"
+    },
+    {
+        "marca": "NYSE",
+        "precio": "$222.13",
+        "color": "#00FFFF",
+        "id": "16",
+        "image": "/ReNuevaTe/public/imagenes/61.jpg",
+        "idCategorias": "10"
+    },
+    {
+        "marca": "NASDAQ",
+        "precio": "$980.54",
+        "color": "gray",
+        "id": "17",
+        "image": "/ReNuevaTe/public/imagenes/65.jpg",
+        "idCategorias": "10"
+    },
+    {
+        "marca": "PUMA",
+        "precio": "$1000.00",
+        "color": "navy",
+        "id": "18",
+        "image": "/ReNuevaTe/public/imagenes/69.jpg",
+        "idCategorias": "10"
+    },
+    {
+        "marca": "chamarra",
+        "precio": "$500.00",
+        "color": "navy",
+        "id": "26",
+        "image": "/ReNuevaTe/public/imagenes/99.jpg",
+        "idCategorias": "11"
+    },
+    {
+        "marca": "Denizen",
+        "precio": "$600.00",
+        "color": "",
+        "id": "27",
+        "image": "/ReNuevaTe/public/imagenes/103.jpg",
+        "idCategorias": "11"
+    },
+    {
+        "marca": "Old Navy",
+        "precio": "$500.00",
+        "color": "black",
+        "id": "28",
+        "image": "/ReNuevaTe/public/imagenes/107.jpg",
+        "idCategorias": "11"
+    },
+    {
+        "marca": "AeroPostale",
+        "precio": "$400.00",
+        "color": "",
+        "id": "29",
+        "image": "/ReNuevaTe/public/imagenes/111.jpg",
+        "idCategorias": "05"
+    },
+    {
+        "marca": "AeroPostale",
+        "precio": "$300",
+        "color": "white",
+        "id": "30",
+        "image": "/ReNuevaTe/public/imagenes/115.jpg",
+        "idCategorias": "05"
+    },
+    {
+        "marca": "Calvin Klein Jeans",
+        "precio": "$400",
+        "color": "black",
+        "id": "31",
+        "image": "/ReNuevaTe/public/imagenes/119.jpg",
+        "idCategorias": ["05","09"]
+    },
+    {
+        "marca": "GUESS",
+        "precio": "$700",
+        "color": "black",
+        "id": "32",
+        "image": "/ReNuevaTe/public/imagenes/123.jpg",
+        "idCategorias": "05"
+    },
+    {
+        "marca": "Balmain",
+        "precio": "$200",
+        "color": "",
+        "id": "33",
+        "image": "/ReNuevaTe/public/imagenes/127.jpg",
+        "idCategorias": "06"
+    },
+    {
+        "marca": "Weekend",
+        "precio": "$150",
+        "color": "black",
+        "id": "34",
+        "image": "/ReNuevaTe/public/imagenes/131.jpg",
+        "idCategorias": "06"
+    },
+    {
+        "marca": "Contempo",
+        "precio": "$380",
+        "color": "navy",
+        "id": "35",
+        "image": "/ReNuevaTe/public/imagenes/135.jpg",
+        "idCategorias": "06"
+    },
+    {
+        "marca": "Aereo",
+        "precio": "$400",
+        "color": "black",
+        "id": "36",
+        "image": "/ReNuevaTe/public/imagenes/139.jpg",
+        "idCategorias": "05"
+    },
+    {
+        "marca": "GAP",
+        "precio": "$350",
+        "color": "red",
+        "id": "37",
+        "image": "/ReNuevaTe/public/imagenes/144.jpg",
+        "idCategorias": "05"
+    },
+    {
+        "marca": "Adidas",
+        "precio": "$550.00",
+        "color": "white",
+        "id": "38",
+        "image": "/ReNuevaTe/public/imagenes/148.jpg",
+        "idCategorias": "05"
+    },
+    {
+        "marca": "Adidas",
+        "precio": "$750.00",
+        "color": "green",
+        "id": "39",
+        "image": "/ReNuevaTe/public/imagenes/152.jpg",
+        "idCategorias": "05"
+    },
+    {
+        "marca": "Blauder",
+        "precio": "$600",
+        "color": "beige",
+        "id": "40",
+        "image": "/ReNuevaTe/public/imagenes/156.jpg",
+        "idCategorias": "12"
+    },
+    {
+        "marca": "Manfinity",
+        "precio": "$430",
+        "color": "gray",
+        "id": "41",
+        "image": "/ReNuevaTe/public/imagenes/160.jpg",
+        "idCategorias": "12"
+    },
+    {
+        "marca": "Manfinity",
+        "precio": "$428",
+        "color": "black",
+        "id": "42",
+        "image": "/ReNuevaTe/public/imagenes/164.jpg",
+        "idCategorias": "12"
+    },
+    {
+        "marca": "Manfinity",
+        "precio": "$250",
+        "color": "beige",
+        "id": "43",
+        "image": "/ReNuevaTe/public/imagenes/168.jpg",
+        "idCategorias": "12"
+    },
+    {
+        "marca": "SHEIN",
+        "precio": "$600",
+        "color": "",
+        "id": "44",
+        "image": "/ReNuevaTe/public/imagenes/172.jpg",
+        "idCategorias": "12"
+    },
+    {
+        "marca": "SHEIN",
+        "precio": "$800",
+        "color": "gray",
+        "id": "45",
+        "image": "/ReNuevaTe/public/imagenes/176.jpg",
+        "idCategorias": "12"
+    },
+    {
+        "marca": "Friends",
+        "precio": "$350",
+        "color": "black",
+        "id": "46",
+        "image": "/ReNuevaTe/public/imagenes/180.jpg",
+        "idCategorias": "12"
+    },
+    {
+        "marca": "Manfinity",
+        "precio": "$400.00",
+        "color": "brown",
+        "id": "47",
+        "image": "/ReNuevaTe/public/imagenes/184.jpg",
+        "idCategorias": "12"
+    },
+    {
+        "marca": "Dazy",
+        "precio": "$952",
+        "color": "beige",
+        "id": "48",
+        "image": "/ReNuevaTe/public/imagenes/188.jpg",
+        "idCategorias": "12"
+    },
+    {
+        "marca": "Dazy",
+        "precio": "$800",
+        "color": "black",
+        "id": "49",
+        "image": "/ReNuevaTe/public/imagenes/192.jpg",
+        "idCategorias": "12"
+    },
+    {
+        "marca": "Lune",
+        "precio": "$600",
+        "color": "brown",
+        "id": "50",
+        "image": "/ReNuevaTe/public/imagenes/196.jpg",
+        "idCategorias": "12"
+    },
+    {
+        "marca": "Frechy",
+        "precio": "$450",
+        "color": "gray",
+        "id": "51",
+        "image": "/ReNuevaTe/public/imagenes/200.jpg",
+        "idCategorias": "12"
+    },
+    {
+        "marca": "Essnce",
+        "precio": "$700",
+        "color": "brown",
+        "id": "52",
+        "image": "/ReNuevaTe/public/imagenes/204.jpg",
+        "idCategorias": "12"
+    },
+    {
+        "marca": "SHEIN",
+        "precio": "$150",
+        "color": "black",
+        "id": "53",
+        "image": "/ReNuevaTe/public/imagenes/208.jpg",
+        "idCategorias": "01"
+    },
+    {
+        "marca": "Bizwear",
+        "precio": "$100",
+        "color": "black",
+        "id": "54",
+        "image": "/ReNuevaTe/public/imagenes/212.jpg",
+        "idCategorias": "01"
+    },
+    {
+        "marca": "SHEIN",
+        "precio": "$200.00",
+        "color": "black",
+        "id": "55",
+        "image": "/ReNuevaTe/public/imagenes/215.jpg",
+        "idCategorias": "01"
+    },
+    {
+        "marca": "Bizwear",
+        "precio": "$250",
+        "color": "white",
+        "id": "56",
+        "image": "/ReNuevaTe/public/imagenes/219.jpg",
+        "idCategorias": "01"
+    },
+    {
+        "marca": "Virginia",
+        "precio": "$130",
+        "color": "red",
+        "id": "57",
+        "image": "/ReNuevaTe/public/imagenes/223.jpg",
+        "idCategorias": "01"
+    },
+    {
+        "marca": "Friends",
+        "precio": "$150",
+        "color": "pink",
+        "id": "58",
+        "image": "/ReNuevaTe/public/imagenes/227.jpg",
+        "idCategorias": "01"
+    },
+    {
+        "marca": "Homme",
+        "precio": "$303",
+        "color": "brown",
+        "id": "59",
+        "image": "/ReNuevaTe/public/imagenes/231.jpg",
+        "idCategorias": "03"
+    },
+    {
+        "marca": "Manfinity",
+        "precio": "$300",
+        "color": "beige",
+        "id": "60",
+        "image": "/ReNuevaTe/public/imagenes/235.jpg",
+        "idCategorias": "03"
+    },
+    {
+        "marca": "KASUA",
+        "precio": "$180",
+        "color": "white",
+        "id": "61",
+        "image": "/ReNuevaTe/public/imagenes/239.jpg",
+        "idCategorias": "03"
+    },
+    {
+        "marca": "Capri",
+        "precio": "$377",
+        "color": "brown",
+        "id": "62",
+        "image": "/ReNuevaTe/public/imagenes/243.jpg",
+        "idCategorias": "03"
+    },
+    {
+        "marca": "Clasi",
+        "precio": "$100",
+        "color": "white",
+        "id": "63",
+        "image": "/ReNuevaTe/public/imagenes/247.jpg",
+        "idCategorias": "03"
+    },
+    {
+        "marca": "Jeans",
+        "precio": "200",
+        "color": "navy",
+        "id": "64",
+        "image": "/ReNuevaTe/public/imagenes/251.jpg",
+        "idCategorias": "03"
+    },
+    {
+        "marca": "Linfun",
+        "precio": "$151",
+        "color": "black",
+        "id": "65",
+        "image": "/ReNuevaTe/public/imagenes/255.jpg",
+        "idCategorias": "04"
+    },
+    {
+        "marca": "Linfun",
+        "precio": "$100",
+        "color": "orange",
+        "id": "66",
+        "image": "/ReNuevaTe/public/imagenes/259.jpg",
+        "idCategorias": "04"
+    },
+    {
+        "marca": "Slayr",
+        "precio": "$281",
+        "color": "beige",
+        "id": "67",
+        "image": "/ReNuevaTe/public/imagenes/263.jpg",
+        "idCategorias": "04"
+    },
+    {
+        "marca": "OLSO",
+        "precio": "$500",
+        "color": "green",
+        "id": "68",
+        "image": "/ReNuevaTe/public/imagenes/267.jpg",
+        "idCategorias": "04"
+    },
+    {
+        "marca": "SHEIN",
+        "precio": "$600",
+        "color": "black",
+        "id": "69",
+        "image": "/ReNuevaTe/public/imagenes/271.jpg",
+        "idCategorias": "04"
+    },
+    {
+        "marca": "Manfinity",
+        "precio": "$600",
+        "color": "red",
+        "id": "70",
+        "image": "/ReNuevaTe/public/imagenes/275.jpg",
+        "idCategorias": "04"
+    },
+    {
+        "marca": "Homme",
+        "precio": "$450",
+        "color": "brown",
+        "id": "71",
+        "image": "/ReNuevaTe/public/imagenes/279.jpg",
+        "idCategorias": "04"
+    },
+    {
+        "marca": "Friends",
+        "precio": "$150",
+        "color": "navy",
+        "id": "72",
+        "image": "/ReNuevaTe/public/imagenes/283.jpg",
+        "idCategorias": "08"
+    },
+    {
+        "marca": "Frechy",
+        "precio": "$250",
+        "color": "brown",
+        "id": "73",
+        "image": "/ReNuevaTe/public/imagenes/287.jpg",
+        "idCategorias": "08"
+    },
+    {
+        "marca": "Prive",
+        "precio": "$300",
+        "color": "black",
+        "id": "74",
+        "image": "/ReNuevaTe/public/imagenes/291.jpg",
+        "idCategorias": "08"
+    },
+    {
+        "marca": "Dazy",
+        "precio": "249",
+        "color": "black",
+        "id": "75",
+        "image": "/ReNuevaTe/public/imagenes/295.jpg",
+        "idCategorias": "08"
+    },
+    {
+        "marca": "Marika",
+        "precio": "186",
+        "color": "green",
+        "id": "76",
+        "image": "/ReNuevaTe/public/imagenes/299.jpg",
+        "idCategorias": "08"
+    },
+    {
+        "marca": "Estampada",
+        "precio": "148",
+        "color": "red",
+        "id": "77",
+        "image": "/ReNuevaTe/public/imagenes/303.jpg",
+        "idCategorias": "08"
+    },
+    {
+        "marca": "Marika",
+        "precio": "250",
+        "color": "red",
+        "id": "78",
+        "image": "/ReNuevaTe/public/imagenes/307.jpg",
+        "idCategorias": "08"
+    }
+]

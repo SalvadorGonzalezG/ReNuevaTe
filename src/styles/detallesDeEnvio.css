@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 body{
     font-family: "ABeeZee", sans-serif;
     font-style: normal;
@@ -129,16 +128,3 @@ body{
       
       /*Todo el formuladio y titutlo*/
   }
-=======
-.contenedorDetallesEnvio{
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 30px;
-    text-align: start;
-}
-.flexDetallesEnvio{
-    background-color: beige;
-    padding: 10px;
-    flex: 50%;
-}
->>>>>>> Stashed changes

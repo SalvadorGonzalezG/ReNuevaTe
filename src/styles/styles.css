@@ -1,11 +1,8 @@
-<<<<<<< Updated upstream
 
 #buscador2{
     display: none;
 }
 
-=======
->>>>>>> Stashed changes
 .open-menu{
     background: none;
     border:0;
@@ -21,7 +18,6 @@
     width: 100%;
     box-shadow: 0 4px 5px var(--navbar-shallow-color);
      /* sirve para que un elemento de html se sobreponga sobre todos los demas elementos  */
-<<<<<<< Updated upstream
     z-index: 10;
    
 }
@@ -30,13 +26,6 @@
     width: 100%;
 }
 
-=======
-    z-index: 1;
-}
-.content{
-    width: 100%;
-}
->>>>>>> Stashed changes
 .topnav {
     /* los elementos estaran uno alado del otro */
     display: flex;
@@ -134,14 +123,6 @@
     border: none;
     margin-top: 8px;
 }
-
-
-<<<<<<< Updated upstream
-
-
-
-=======
->>>>>>> Stashed changes
 /* aqui le decimos si nuestro dispositivo tiene un ancho de 0px y ancho maximo de 950px se aplique estos estilos */
 @media (max-width: 1300px) {
 
@@ -248,12 +229,6 @@
 #content {
     width: 100%;
 }
-<<<<<<< Updated upstream
-
-/* ------------ */
-/* Se usó un 87% del almacenamiento … Si te quedas sin almacenamiento, no podrás crear, editar ni subir archivos. Obtén 100 GB de almacenamiento por $34.00 $9.00 al mes durante 3 meses. */
-=======
->>>>>>> Stashed changes
 
 /* -----Footer------- */
 
@@ -457,11 +432,7 @@ width: 80px;
     margin-left: 10%; /* Ajusta el margen si es necesario */
 }
 
-<<<<<<< Updated upstream
 #el-logo img {
-=======
-#el-logo .el-logo-nav {
->>>>>>> Stashed changes
     transform: scale(1.5); /* Ajusta el tamaño del logo */
     transform-origin: center; /* Escala desde el centro */
     height: auto; /* Mantén la proporción */
@@ -475,11 +446,7 @@ width: 80px;
     top: 0;
     width: 100%;
     box-shadow: 0 4px 5px var(--navbar-shallow-color);
-<<<<<<< Updated upstream
     z-index: 10;
-=======
-    z-index: 1;
->>>>>>> Stashed changes
 }
 
 .topnav {
@@ -491,11 +458,7 @@ width: 80px;
 }
 
 @media (max-width: 768px) {
-<<<<<<< Updated upstream
-    #el-logo img {
-=======
     #el-logo .el-logo-nav{
->>>>>>> Stashed changes
         transform: scale(1.2); /* Ajusta el tamaño del logo en pantallas más pequeñas */
     }
 }
@@ -504,11 +467,7 @@ width: 80px;
     margin-left: 10%; /* Ajusta el margen si es necesario */
 }
 
-<<<<<<< Updated upstream
-#el-logo img {
-=======
 #el-logo .el-logo-nav {
->>>>>>> Stashed changes
     transform: scale(1.5); /* Ajusta el tamaño del logo */
     transform-origin: center; /* Escala desde el centro */
     height: 45px; /* Mantén la proporción */
@@ -523,11 +482,7 @@ width: 80px;
     top: 0;
     width: 100%;
     box-shadow: 0 4px 5px var(--navbar-shallow-color);
-<<<<<<< Updated upstream
     z-index: 10;
-=======
-    z-index: 1;
->>>>>>> Stashed changes
 }
 
 .topnav {
@@ -539,25 +494,6 @@ width: 80px;
 }
 
 @media (max-width: 768px) {
-<<<<<<< Updated upstream
-    #el-logo img {
-        transform: scale(1.2); /* Ajusta el tamaño del logo en pantallas más pequeñas */
-    }
-}
-
-   .search-container {
-    position: relative;
-    width: 500px; /* Ancho del contenedor */
-    /* margin-right: 90px;  */
-    height: 50px;
-    margin-left: 20px;
-    
- }  
-
-.search-icon {
-    position: absolute;
-    top: 45%;
-=======
     #el-logo .el-logo-nav {
         transform: scale(1.2); /* Ajusta el tamaño del logo en pantallas más pequeñas */
     }
@@ -570,17 +506,12 @@ width: 80px;
 .search-icon {
     position: absolute;
     top: 50%;
->>>>>>> Stashed changes
     left: 10px; /* Espaciado desde la izquierda */
     transform: translateY(-50%);
     width: 24px; /* Tamaño del icono */
     height: 24px;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
-<<<<<<< Updated upstream
-}
-=======
 } 
->>>>>>> Stashed changes
 
 #Buscador {
     width: 100%; /* Ancho total del input igual al contenedor */
@@ -593,11 +524,6 @@ width: 80px;
     margin-top: 5px;
 
 }
-<<<<<<< Updated upstream
-
-
-=======
->>>>>>> Stashed changes
 /* Estilos para pantallas de hasta 1024px */
 @media (max-width: 1024px) {
     .search-container {
@@ -615,7 +541,6 @@ width: 80px;
     }
 }
 
-<<<<<<< Updated upstream
 
 /* Estilos para pantallas de hasta 600px */
 @media (max-width: 600px) {
@@ -628,13 +553,6 @@ width: 80px;
         width: 300px; /* Reduce aún más el ancho del contenedor */
         margin-right: 20px; /* Reduce el margen derecho */
         display: none;
-=======
-/* Estilos para pantallas de hasta 600px */
-@media (max-width: 600px) {
-    .search-container {
-        width: 300px; /* Reduce aún más el ancho del contenedor */
-        margin-right: 20px; /* Reduce el margen derecho */
->>>>>>> Stashed changes
     }
     
     .search-icon {
@@ -646,13 +564,6 @@ width: 80px;
         padding: 5px 5px 5px 30px; /* Ajusta el padding para el nuevo tamaño del icono */
     }
 }
-<<<<<<< Updated upstream
-
-
-
-
-
-=======
 /* ------------carrito------------------ */
 
 .shopping-cart {
@@ -796,4 +707,3 @@ width: 80px;
     padding: 5px 10px;
     color: #fff;
 } */
->>>>>>> Stashed changes

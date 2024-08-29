@@ -57,6 +57,7 @@ arrowIcons.forEach(icon => {
     });
 });
 
+
 // Cargar los datos desde el archivo JSON y generar las tarjetas
 fetch('/ReNuevaTe/data/productsFeatured.json')
     .then(response => response.json())
