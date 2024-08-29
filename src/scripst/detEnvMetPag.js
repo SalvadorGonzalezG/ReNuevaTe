@@ -2,7 +2,7 @@ document.getElementById("detallesLink").addEventListener("click", function(event
     event.preventDefault();
     let detallesDiv = document.getElementById("contenedorDetallesDeEnvioDet");
     if(detallesDiv.style.display === "block" || detallesDiv.style.display === "none"){
-        fetch('../pages/detallesDeEnvio.html')
+        fetch('/ReNuevaTe/src/pages/detallesDeEnvio.html')
         .then(response => response.text())
         .then(data => {
             detallesDiv.innerHTML = data;
@@ -27,7 +27,7 @@ document.getElementById("detallesLink").addEventListener("click", function(event
             // Maneja el click del botón 'Siguiente'
             document.getElementById('botonSiguiente').addEventListener("click", function(event) {
                 event.preventDefault();
-                fetch('../pages/metodoDePago.html')
+                fetch('/ReNuevaTe/src/pages/metodoDePago.html')
                 .then(response => response.text())
                 .then(data => {
                     detallesDiv.innerHTML = data;

@@ -109,14 +109,14 @@ const urlRoutes = {
        title: "Categorias | " + urlPageTitle,
        description: "Página Metodos de Pago",
        scripts: ["/ReNuevaTe/src/scripst/detEnvMetPag.js"],
-       styles: ["/ReNuevaTe/src/styles/detEnvMetPag.css", "/ReNuevaTe/src/styles/metodoDePago.css"]
+       styles: ["/ReNuevaTe/src/styles/detEnvMetPag.css", "/ReNuevaTe/src/styles/metodoDePago.css", "/ReNuevaTe/src/styles/detallesDeEnvio.css"]
    },
    "/paymentMethods": {
       template: "/ReNuevaTe/src/pages/metodoDePago.html",
       title: "Categorias | " + urlPageTitle,
       description: "Página Metodos de Pago",
       scripts: ["/ReNuevaTe/src/scripst/metodoDePago.js"],
-      styles: ["/ReNuevaTe/src/styles/metodoDePago.css"]
+      styles: ["/ReNuevaTe/src/pages/metodoDePago.html"]
   }
 };
 
